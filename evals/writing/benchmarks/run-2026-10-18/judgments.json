@@ -1,0 +1,5266 @@
+[
+  {
+    "name": "calibration-00",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "7f76xa-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 70,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Explains reinforcement learning, observations, actions, rewards, and long-term outcomes, but omits explicit environment setup, parameter tuning, and testing."
+      },
+      {
+        "id": "19jhvd-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 45,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains copyright-holder monitoring of torrent peers and ISP notifications, but omits traffic inspection and analysis and does not directly explain distinguishing authorized downloads."
+      },
+      {
+        "id": "48rwha-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 85,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers software recovery, hardware repair, imaging, and corrupted file systems, but omits explicit recovery limitations and backup advice."
+      },
+      {
+        "id": "48rwha-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 55,
+        "relevance": 90,
+        "correctness": false,
+        "reason": "Explains deleted-file recovery and overwriting, but omits hardware recovery and corrupted drives. Saying recovery works only if performed quickly is too absolute; recoverability depends on overwriting, not elapsed time alone."
+      },
+      {
+        "id": "5fzx74-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 65,
+        "relevance": 90,
+        "correctness": true,
+        "reason": "Provides a relevant explanation of behavioral signals behind checkbox verification, but omits additional risk signals and fallback image or text challenges."
+      }
+    ],
+    "elapsed_seconds": 16.551,
+    "usage": {
+      "input_tokens": 11862,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 576,
+      "reasoning_output_tokens": 214
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b9f431d90b63ff97d3d4da6c1f245bf31a16b91f5edcc60c7a659a4f4589c8a2",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "1dc85782ea8d4f90b85028f863b24d4ab98bf5cf9a0d273dff30cca099413ce1"
+  },
+  {
+    "name": "calibration-01",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "kyihe-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 96,
+        "correctness": true,
+        "reason": "Covers platform selection, domain registration, hosting, templates, customization, and publishing, with relevant testing and maintenance advice."
+      },
+      {
+        "id": "3ftjne-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 80,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains resistance to cloning through transaction-specific challenge-response, but omits the additional protection provided by a PIN."
+      },
+      {
+        "id": "4n8v3i-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 80,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains detection by checking whether an advertising element remains present, a valid mechanism, but omits other checks such as failed advertising-script requests."
+      },
+      {
+        "id": "2jznkm-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 98,
+        "correctness": false,
+        "reason": "Covers type sizes, representations, padding, and platform differences, but incorrectly states Unicode characters require two or more bytes; UTF-8 can encode a character in one byte."
+      },
+      {
+        "id": "5fzx74-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Directly explains risk assessment behind the checkbox and the additional image challenges presented when the assessment is uncertain."
+      }
+    ],
+    "elapsed_seconds": 9.494,
+    "usage": {
+      "input_tokens": 11915,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 433,
+      "reasoning_output_tokens": 83
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "453cd705306d86ee39b5392f7fe3028f38557cd57dcf2a6cb32fd37aee90954b",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "c72eeb6b3fad1f5780d047f9cf27a6b653ec9d1b2446248e1ccbd0f2af767efa"
+  },
+  {
+    "name": "calibration-02",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "1e1lyn-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 80,
+        "correctness": false,
+        "reason": "Covers code analysis, reverse engineering, and social engineering, but incorrectly says brute force can work only with unlimited login attempts; it can succeed within a limited number."
+      },
+      {
+        "id": "1gzcfn-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": false,
+        "reason": "Explains persistent RTC timekeeping, but incorrectly generalizes that phones use a separate small battery rather than typically powering the RTC from the main battery."
+      },
+      {
+        "id": "62r062-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 85,
+        "relevance": 90,
+        "correctness": true,
+        "reason": "Explains interpolation, added pixels, and possible fuzziness, but does not explicitly connect 1280×720 content to scaling onto a 1920×1080 display."
+      },
+      {
+        "id": "5kmt92-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 30,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Correctly identifies voltage as one indicator, but omits current measurement, temperature, battery age, usage history, and battery-management software."
+      },
+      {
+        "id": "2461yr-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 15,
+        "relevance": 75,
+        "correctness": false,
+        "reason": "Mentions IP-based location indirectly but omits GPS, Wi-Fi positioning, and cell towers. Its claim that a neighbor sharing their location establishes the user's location is unsupported and oversimplified; it also assumes a two-mile radius absent from the question."
+      }
+    ],
+    "elapsed_seconds": 13.261,
+    "usage": {
+      "input_tokens": 14864,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 493,
+      "reasoning_output_tokens": 103
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "2fcc448b0f169a25f59c8d932fd30560144c3dff37e37529dd0037b9218cc972",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "1edf86c1c9788c26b178f3aec3ec9cf025044ee35daec27ff2bdcc4335fc79c5"
+  },
+  {
+    "name": "calibration-03",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "zobe7-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 80,
+        "relevance": 90,
+        "correctness": true,
+        "reason": "Explains traffic flooding and DNS disruption, but omits AnonymousOwn3r's identity and individual responsibility. Botnet involvement and bandwidth utilization are explicitly speculative."
+      },
+      {
+        "id": "3zd7zs-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Clearly explains the difficulty, compilation, reverse engineering, and why decompilation generally cannot recover the original source exactly."
+      },
+      {
+        "id": "1xl8a5-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 85,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers high-resolution originals, printing expertise, and optimization, with useful additions about vectors and viewing distance. Omits ink and substrate quality."
+      },
+      {
+        "id": "2ox4o8-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 45,
+        "relevance": 95,
+        "correctness": false,
+        "reason": "Mentions virtual hosting but omits distributed mirrors and geographic traffic redirection. Cloud storage does not inherently survive a hosting-center shutdown, and restoring service is not necessarily just establishing another connection."
+      },
+      {
+        "id": "19jhvd-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 75,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers sources, traffic patterns, and DPI, and correctly distinguishes torrent use from infringement. Omits copyright-holder alerts and traffic shaping; source and protocol identification alone do not establish illegality."
+      }
+    ],
+    "elapsed_seconds": 18.97,
+    "usage": {
+      "input_tokens": 11611,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 595,
+      "reasoning_output_tokens": 216
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "47c635d647505468572b25be7e844d6e6d59f486a2b0ed8feb2948ab8b67e3ac",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "fdfd3b2adee33ac1e75922ee0b2d24bf95f19e835184c3fff648fc61fd05510d"
+  },
+  {
+    "name": "calibration-04",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "1swmt3-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains plaintext transmission, interception and tampering risks, and HTTPS protection for sensitive data."
+      },
+      {
+        "id": "4n8v3i-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains detection through blocked resources and hidden or zero-sized ad elements; omits timing-based detection."
+      },
+      {
+        "id": "1onfp1-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers temporary storage of active data and instructions, loading from slower storage, fast CPU access, and volatility."
+      },
+      {
+        "id": "zobe7-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 70,
+        "relevance": 85,
+        "correctness": false,
+        "reason": "Explains the claimed DDoS mechanism and individual attribution, but incorrectly attributes a stated SOPA protest motive. Omits the reference's affected email, phone, and DNS services and specific restoration details."
+      },
+      {
+        "id": "2461yr-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 75,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Identifies IP, GPS, and Wi-Fi location methods, but omits cell tower positioning and gives little explanation of how the methods work."
+      }
+    ],
+    "elapsed_seconds": 10.838,
+    "usage": {
+      "input_tokens": 11527,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 440,
+      "reasoning_output_tokens": 86
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5f308f5eea7d4f768c366c58f90586b993419d49cd277f8f9183763981f6e6b8",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "7fb63a9bbc123361608a44b273a7df6f94b2e69bde0a288dd00f9a1e3464ee3b"
+  },
+  {
+    "name": "calibration-05",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "1onfp1-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 65,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains RAM's fast temporary storage role, but omits program loading, CPU instruction/data access, and memory being freed after use."
+      },
+      {
+        "id": "62r062-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 90,
+        "correctness": true,
+        "reason": "Explains interpolation from 1280×720 to 1920×1080 and reduced sharpness relative to native content; some gaming and emerging-technology discussion is peripheral."
+      },
+      {
+        "id": "3zd7zs-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 80,
+        "relevance": 100,
+        "correctness": false,
+        "reason": "Explains decompilation and readability limitations, but 'impossible' is too absolute, and not all function and variable names are necessarily lost or arbitrarily assigned."
+      },
+      {
+        "id": "160k4f-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 85,
+        "relevance": 100,
+        "correctness": false,
+        "reason": "Covers recovery software, professional services, and avoiding overwrites, but wrongly describes software as scanning residual magnetic fields and conflates wiping with deletion. Properly overwritten data is not recoverable this way."
+      },
+      {
+        "id": "1e1lyn-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 95,
+        "correctness": false,
+        "reason": "Covers code analysis, reverse engineering, social engineering, and additional discovery methods, but incorrectly describes reverse engineering as recovering a compiled application's original source code."
+      }
+    ],
+    "elapsed_seconds": 13.933,
+    "usage": {
+      "input_tokens": 15262,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 530,
+      "reasoning_output_tokens": 144
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "6adb1d5047435c83bcf82d70714f1390a3e02db73ed14ce182fc938eb74069aa",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "5beb51f1a994d51e73ab1c0c7e219eb9a65ada1d224d10d74f3bb7a04f0b194e"
+  },
+  {
+    "name": "calibration-06",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "1swmt3-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 65,
+        "relevance": 75,
+        "correctness": false,
+        "reason": "Explains HTTPS encryption, but misleadingly calls HTTP interception difficult; an on-path attacker can readily read plaintext traffic. Omits tampering risk and an explicit recommendation to use HTTPS for sensitive data."
+      },
+      {
+        "id": "160k4f-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 20,
+        "relevance": 85,
+        "correctness": false,
+        "reason": "Blanket claim that recovery is no longer possible ignores incomplete wipes and recoverable, non-overwritten data. Gives no recovery methods and presents a questionable historical explanation involving an electron tunneling microscope."
+      },
+      {
+        "id": "2jznkm-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 45,
+        "relevance": 85,
+        "correctness": true,
+        "reason": "Explains byte interpretation, compiler allocation, and runtime type metadata, but omits concrete storage-size differences and how sizes or representations vary across computers and architectures."
+      },
+      {
+        "id": "2ox4o8-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers decentralized servers, redundancy, cloud hosting, and rapid relocation of the site's digital presence. Leaves the setup and traffic-redirection process implicit."
+      },
+      {
+        "id": "7f76xa-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 80,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Explains reinforcement learning, rewards, repeated training, perception, and valid alternative approaches. Gives less detail on defining controls and rewards, tuning learning parameters, and testing performance across scenarios."
+      }
+    ],
+    "elapsed_seconds": 13.838,
+    "usage": {
+      "input_tokens": 11593,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 499,
+      "reasoning_output_tokens": 105
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "579676dde183830a223bd87be51d9d5c76a2bac5b9606e36f78189e3ed6ba61a",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "52408ed03401806e88f234037b0e941904077be91a8d56d74cfe28d11fee45fb"
+  },
+  {
+    "name": "calibration-07",
+    "pass_id": 0,
+    "ratings": [
+      {
+        "id": "5kmt92-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 35,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Describes voltage-based estimation but omits current measurement, temperature, battery age, and usage history."
+      },
+      {
+        "id": "1xl8a5-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 40,
+        "relevance": 85,
+        "correctness": false,
+        "reason": "Correctly explains the importance of viewing distance, but falsely generalizes that billboards must consist of glued strips or tiles. Omits source-image quality and printing materials and techniques."
+      },
+      {
+        "id": "1gzcfn-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 25,
+        "relevance": 90,
+        "correctness": false,
+        "reason": "Cellular time synchronization is relevant without internet, but the answer omits the real-time clock and overstates that phones check their time whenever communicating with towers."
+      },
+      {
+        "id": "3ftjne-gpt4",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Explains unique transaction codes, resistance to cloning, and PIN authentication. Does not explicitly discuss signature verification; global acceptance is peripheral."
+      },
+      {
+        "id": "kyihe-human",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 50,
+        "relevance": 85,
+        "correctness": true,
+        "reason": "Provides a broadly valid self-hosting approach covering domains, a web server, and DNS, but omits creating and deploying page content and practical website-builder or CMS setup."
+      }
+    ],
+    "elapsed_seconds": 17.515,
+    "usage": {
+      "input_tokens": 11528,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 544,
+      "reasoning_output_tokens": 180
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "459ae21ea80173ec7f7b81f87860f852922062e079c6f50b53b1f85de2da1630",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "ed8ba7c0305b8d33f6fef181b5475fd959d5506ae4b9696a8c50f1e923a58828"
+  },
+  {
+    "name": "judge-p1-00",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-0452",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Parliament, both dates, and the distinction between initial discussion and formal policy."
+      },
+      {
+        "id": "wiki-0452",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts and the qualification that formal policy began only in 1965."
+      },
+      {
+        "id": "qa-1i1eih",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains missing context, the unidentified writing system, and why computation cannot establish a uniquely verifiable decipherment."
+      },
+      {
+        "id": "qa-1i1eih",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 98,
+        "correctness": true,
+        "reason": "Fully explains the evidentiary and verification obstacles; the final disclaimer is only tangential to the explanation."
+      },
+      {
+        "id": "B-0075",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies oxygen and gives its approximate proportion in dry air."
+      },
+      {
+        "id": "B-0075",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies oxygen, with an appropriate approximate volume percentage."
+      },
+      {
+        "id": "qa-1d81zc",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains relay routing, layered encryption, privacy protections, slower browsing, and important anonymity limitations."
+      },
+      {
+        "id": "qa-1d81zc",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers routing and encryption, browser protections, performance costs, risks, and the distinct handling of onion sites."
+      },
+      {
+        "id": "C-0071",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested regex test one-liner using an equivalent explicit digit range."
+      },
+      {
+        "id": "C-0071",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested one-liner exactly as in the reference."
+      }
+    ],
+    "elapsed_seconds": 14.84,
+    "usage": {
+      "input_tokens": 11993,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 679,
+      "reasoning_output_tokens": 87
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "ece441345d1fa91568c1bdb94c8cae4bc309a03954a043e038f00a1b68723b14",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "bdd21811c9809cf88ea895f289b2a425ef67e8c77f6d28ec204d0c31eeb06b27"
+  },
+  {
+    "name": "judge-p1-01",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "A-0007",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks for clarification of an ambiguous message."
+      },
+      {
+        "id": "A-0007",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification."
+      },
+      {
+        "id": "C-0116",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly explains strict equality, including type differences, object identity, and numeric special cases."
+      },
+      {
+        "id": "C-0116",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly answers yes and explains comparison without type conversion."
+      },
+      {
+        "id": "wiki-1105",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the video title and its coverage of marine deployment in Iraq."
+      },
+      {
+        "id": "wiki-1105",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive source information without additions."
+      },
+      {
+        "id": "wiki-0114",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the sequence, brief segment, artist, and fans' expectation of Thriller."
+      },
+      {
+        "id": "wiki-0114",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the brief performance of Beat It and its effect on fans' expectations."
+      },
+      {
+        "id": "qa-7z536z",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains cores, threads, and cache, with accurate additional context about boost speeds, architecture, and model differences."
+      },
+      {
+        "id": "qa-7z536z",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains why similar clock speeds need not mean similar performance and appropriately qualifies model-dependent differences."
+      }
+    ],
+    "elapsed_seconds": 12.553,
+    "usage": {
+      "input_tokens": 11122,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 644,
+      "reasoning_output_tokens": 86
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c73fd4252f1683dc2084e4b485d52cbc333c6b0bf580eb808d402b49b854f3f3",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "9d81122abce6f5140034d2890cbd4dbdf3b3880210c61e7478d677bb4e656e3a"
+  },
+  {
+    "name": "judge-p1-02",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "A-0001",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification when no request is supplied."
+      },
+      {
+        "id": "A-0001",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification when no request is supplied."
+      },
+      {
+        "id": "qa-mvdx3",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 85,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains root access and the main bootloader, Magisk patching, and flashing workflow, with appropriate model clarification and warnings; omits bootloader-mode and PC connection details."
+      },
+      {
+        "id": "qa-mvdx3",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 70,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Provides the general workflow and appropriate device-specific clarification and warnings, but omits Magisk, image-patching details, and bootloader-mode and PC connection steps."
+      },
+      {
+        "id": "wiki-1754",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the full name, birth date, nationality, and former football-player status."
+      },
+      {
+        "id": "wiki-1754",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the full name, birth date, nationality, and former football-player status."
+      },
+      {
+        "id": "wiki-1615",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves attribution, Shaka, timing, present-day location, and near-total killing of the native population; San is an equivalent designation here."
+      },
+      {
+        "id": "wiki-1615",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the historical attribution, ruler, period, location, and qualified claim about the native Bushmen population."
+      },
+      {
+        "id": "wiki-0524",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the railroad name, busiest-commuter-railroad distinction, and continued operation of two track sections in dark territory."
+      },
+      {
+        "id": "wiki-0524",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the railroad name, busiest-commuter-railroad distinction, and continued operation of two track sections in dark territory."
+      }
+    ],
+    "elapsed_seconds": 18.728,
+    "usage": {
+      "input_tokens": 11292,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 734,
+      "reasoning_output_tokens": 94
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "e3369a001e0dbf34451bfa2bddd2d2d4b3fffae27b84ffb1e8d7f5386b54b1ef",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "b97fc58d428b6eec216e12b3f7f3046a27af6371601f20b3e9000ad8e8f7c2cd"
+  },
+  {
+    "name": "judge-p1-03",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "qa-918s9s",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains how a persistent session flag survives while unsaved progress does not, with appropriate implementation caveats."
+      },
+      {
+        "id": "qa-918s9s",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains separate bookkeeping writes and unsaved progress, noting that implementation and causes of interruption vary."
+      },
+      {
+        "id": "wiki-1205",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the listed facilities and the ski resort’s non-ski amenities; courses is an appropriate paraphrase of golf fields."
+      },
+      {
+        "id": "wiki-1205",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all facilities, names, and the qualification about non-ski facilities."
+      },
+      {
+        "id": "wiki-0227",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the conflict, commanders, neutral status of Lübeck, battle-before-occupation sequence, and date."
+      },
+      {
+        "id": "wiki-0227",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive historical details and their relationships."
+      },
+      {
+        "id": "wiki-1242",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the buyer, seller and title, additional acreage, surrounding location, and date range."
+      },
+      {
+        "id": "wiki-1242",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts while moving the date range to the beginning."
+      },
+      {
+        "id": "wiki-1889",
+        "candidate": "X",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits that the conference had 11 teams."
+      },
+      {
+        "id": "wiki-1889",
+        "candidate": "Y",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits the conference’s total of 11 teams; the other tournament details survive."
+      }
+    ],
+    "elapsed_seconds": 14.605,
+    "usage": {
+      "input_tokens": 11620,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 681,
+      "reasoning_output_tokens": 93
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1f0ab46411b0a152fce4f2e0b3985759d33cd00364963b281a4e457cd17ac159",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "9f68e41e89137e7c041a156656af072702f1809fb48be1bfbcad535f1404ee14"
+  },
+  {
+    "name": "judge-p1-04",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "B-0022",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states 26 letters."
+      },
+      {
+        "id": "B-0022",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states 26 letters."
+      },
+      {
+        "id": "C-0015",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested POST command with the correct URL, JSON payload, and Content-Type header."
+      },
+      {
+        "id": "C-0015",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested POST command with the correct URL, JSON payload, and Content-Type header."
+      },
+      {
+        "id": "wiki-1633",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the pilots, ranks, date, first jet transport of air mail, and Army Air Corps demonstration purpose."
+      },
+      {
+        "id": "wiki-1633",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the participants, ranks, date, first air mail transport by jet, and demonstration purpose."
+      },
+      {
+        "id": "C-0005",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly selects all users columns where age exceeds 18."
+      },
+      {
+        "id": "C-0005",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly selects all users columns where age exceeds 18."
+      },
+      {
+        "id": "wiki-1311",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Timchal's first season as head coach, NCAA final appearance, and 14-3 record."
+      },
+      {
+        "id": "wiki-1311",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Timchal's first season as head coach, NCAA final appearance, and 14-3 record."
+      }
+    ],
+    "elapsed_seconds": 11.381,
+    "usage": {
+      "input_tokens": 10705,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 603,
+      "reasoning_output_tokens": 31
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3febd9cb08dd55355d4780ec01d4580edd1763928e595e211f61a8cfad3b2e25",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "5a5a43e357131c89d0015883cc60528978cf5e2b615f42ab202175e524555547"
+  },
+  {
+    "name": "judge-p1-05",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "B-0089",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies chlorophyll."
+      },
+      {
+        "id": "B-0089",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies chlorophyll."
+      },
+      {
+        "id": "B-0081",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives Ag as silver's chemical symbol."
+      },
+      {
+        "id": "B-0081",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives Ag as silver's chemical symbol."
+      },
+      {
+        "id": "wiki-0258",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the occasional confusion with Ramon Llull's named work."
+      },
+      {
+        "id": "wiki-0258",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the occasional confusion with Ramon Llull's named work."
+      },
+      {
+        "id": "A-0058",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification of the ambiguous input."
+      },
+      {
+        "id": "A-0058",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification of the ambiguous input."
+      },
+      {
+        "id": "wiki-1676",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both shared first-cousin relationships and each spouse's parental connection."
+      },
+      {
+        "id": "wiki-1676",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both shared first-cousin relationships and each spouse's parental connection."
+      }
+    ],
+    "elapsed_seconds": 10.703,
+    "usage": {
+      "input_tokens": 14250,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 519,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b7749e49be23a73d59c54a73f2bda240f1c5753d7f6cc68beacba81f26209947",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "eb972807fafc1a0bf394d96027fbf54b9a75c98b99a021697b5e7ced4932b185"
+  },
+  {
+    "name": "judge-p1-06",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1026",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the date, participants, full-scale invasion, five-day battle, and forced retreat into Syria."
+      },
+      {
+        "id": "wiki-1026",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains all substantive facts, including five days of fighting Lebanese troops before the forced retreat."
+      },
+      {
+        "id": "qa-4votga",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains tracking, documentation, version control, reviews, and regular coordination, plus interfaces and automation. Does not explicitly discuss agile methodologies or daily stand-ups."
+      },
+      {
+        "id": "qa-4votga",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers shared tools, planning, meetings, documentation, version control, and reviews with useful coordination mechanisms; agile methodologies and daily stand-ups are not explicit."
+      },
+      {
+        "id": "C-0038",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the correct command and accurately clarifies that it excludes untracked files."
+      },
+      {
+        "id": "C-0038",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the correct command with an accurate description of its scope."
+      },
+      {
+        "id": "wiki-1900",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the team, season, ongoing status, league, and both season counts and geographic scope."
+      },
+      {
+        "id": "wiki-1900",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains all substantive source facts while restructuring the sentence."
+      },
+      {
+        "id": "qa-4h3q63",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains the construction and packaging differences through controllers, parallel flash, thermal needs, and standard form factors."
+      },
+      {
+        "id": "qa-4h3q63",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains equal capacity despite differing supporting hardware, performance goals, packaging, and standardized dimensions."
+      }
+    ],
+    "elapsed_seconds": 16.429,
+    "usage": {
+      "input_tokens": 12212,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 705,
+      "reasoning_output_tokens": 86
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "89e63f6309303955d1874645bd85e9ac5b64ecd1f8ee5d5ac18d9e21a058f79c",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "3060aff268aa62e04a8676da61ce64ea1da131afa24fd9496dec007a1be1c08e"
+  },
+  {
+    "name": "judge-p1-07",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "qa-5k706m",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains behavioral risk assessment and additional challenges, with useful token-verification context; does not explicitly mention machine learning."
+      },
+      {
+        "id": "qa-5k706m",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Clearly explains behavioral and contextual signals, risk assessment, and fallback challenges; does not explicitly mention machine learning."
+      },
+      {
+        "id": "qa-7wa9ed",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers restricted access, encryption, legal agreements, and obfuscation limitations; omits watermarking and separate encryption-key storage."
+      },
+      {
+        "id": "qa-7wa9ed",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 85,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers the main access, infrastructure, distribution, and legal safeguards; omits watermarking, separate key storage, and explicit encryption-in-transit guidance."
+      },
+      {
+        "id": "wiki-0490",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both common names, scientific name, moth classification, and Asian origin."
+      },
+      {
+        "id": "wiki-0490",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive source facts without additions."
+      },
+      {
+        "id": "qa-88dfjq",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains chip density, compact packaging, manufacturing advances, and the different design priorities of desktop and phone RAM."
+      },
+      {
+        "id": "qa-88dfjq",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains why module dimensions do not determine capacity, including chip density, stacking, and removable-board overhead."
+      },
+      {
+        "id": "B-0073",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies Cairo as Egypt's capital."
+      },
+      {
+        "id": "B-0073",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies Cairo as Egypt's capital."
+      }
+    ],
+    "elapsed_seconds": 14.642,
+    "usage": {
+      "input_tokens": 15743,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 702,
+      "reasoning_output_tokens": 94
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b5fbea4addb0a6e4b656837197fdfc432c2c900cf14d57932550bc6250986f31",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "418c022012c86875821ddfa1235b694d95123de4739540571ae8e5da178ffba6"
+  },
+  {
+    "name": "judge-p1-08",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1541",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the border location, loss of access to much of the hinterland, and key role in the development."
+      },
+      {
+        "id": "wiki-1541",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Significant contribution preserves the key-factor meaning and all geographic qualifications."
+      },
+      {
+        "id": "A-0032",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests the missing material to fix."
+      },
+      {
+        "id": "A-0032",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks the user to provide what needs fixing."
+      },
+      {
+        "id": "wiki-0380",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the objective, five hourglasses, diverse scenarios, and restoration of time flow."
+      },
+      {
+        "id": "wiki-0380",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "The imperative conveys the same objective and preserves its quantity, scope, and purpose."
+      },
+      {
+        "id": "B-0106",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies the giraffe; the added male height range is reasonable."
+      },
+      {
+        "id": "B-0106",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies the giraffe; the added male height range is reasonable."
+      },
+      {
+        "id": "wiki-0236",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the timing, imprisonment by Vaati, transformation into the king, and soldiers' assigned search."
+      },
+      {
+        "id": "wiki-0236",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Assuming the king’s form faithfully conveys the transformation, with all other events and roles preserved."
+      }
+    ],
+    "elapsed_seconds": 13.818,
+    "usage": {
+      "input_tokens": 14462,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 572,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "506c965fb51d6a1df9ba0ae1343d865f9197d23e72e4e91183ed86ee85265e51",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "5732be3b9e66bc9f8cd2258b25a55ef6e84782ce0dd9deca01059cb7f8225d76"
+  },
+  {
+    "name": "judge-p1-09",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1742",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves birthplace, parents’ names, and both occupations."
+      },
+      {
+        "id": "wiki-1742",
+        "candidate": "Y",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits the explicit New York state designation from the birthplace."
+      },
+      {
+        "id": "wiki-0674",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the apparent relationship, both designations, automatic listing, and year."
+      },
+      {
+        "id": "wiki-0674",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "‘Automatically added’ preserves the meaning of ‘automatically listed’; all other facts remain."
+      },
+      {
+        "id": "A-0036",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks what the ambiguous ‘why’ refers to."
+      },
+      {
+        "id": "A-0036",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification about what needs explaining."
+      },
+      {
+        "id": "wiki-1028",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves cabinet membership, vehicle safety promotion, and enforcement of both categories of vehicle laws."
+      },
+      {
+        "id": "wiki-1028",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves cabinet membership, vehicle safety promotion, and enforcement of both categories of vehicle laws."
+      },
+      {
+        "id": "B-0101",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives 32°F with an appropriate pressure qualification."
+      },
+      {
+        "id": "B-0101",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives 32°F with an appropriate pressure qualification."
+      }
+    ],
+    "elapsed_seconds": 12.797,
+    "usage": {
+      "input_tokens": 10700,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 609,
+      "reasoning_output_tokens": 57
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4dc6eb8421edb2662c4b5817b233f68a25ce73348d58e76d04db38fcba101272",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "697088076f049d8fe9fe96b4d8301f6c7eec18b62b07a4d36f89bffdccbff0a1"
+  },
+  {
+    "name": "judge-p1-10",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "qa-5axpps",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains self-discharge, residual circuit power, heat, and battery problems, while distinguishing shutdown from screen-off operation."
+      },
+      {
+        "id": "qa-5axpps",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers self-discharge, residual power use, and battery or hardware faults, but omits temperature effects."
+      },
+      {
+        "id": "qa-5ili6b",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Clearly explains block allocation, noncontiguous growth, ownership tracking, and reuse of freed space."
+      },
+      {
+        "id": "qa-5ili6b",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains allocation of additional free blocks, tracking their order, and reclaiming space without overwriting other files."
+      },
+      {
+        "id": "B-0012",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies carbon dioxide."
+      },
+      {
+        "id": "B-0012",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies carbon dioxide."
+      },
+      {
+        "id": "wiki-1599",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the Ban's role as royal representative and commissioner, annual summons, and Zagreb location."
+      },
+      {
+        "id": "wiki-1599",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts, including frequency, location, and the Ban's representative role."
+      },
+      {
+        "id": "wiki-1040",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Michael's teenage start playing and writing songs with his brother Chris in Skarotum."
+      },
+      {
+        "id": "wiki-1040",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Michael's teenage start playing and writing songs with his brother Chris in Skarotum."
+      }
+    ],
+    "elapsed_seconds": 14.031,
+    "usage": {
+      "input_tokens": 11501,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 655,
+      "reasoning_output_tokens": 62
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a459bc120e9381cb32f4b511a7c5dc00601aa463dca80727b5eb002226835b2f",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "35e612b2ffdab8373afcbc76c0908f667b1b72ca248f378954d977ea77bcbb88"
+  },
+  {
+    "name": "judge-p1-11",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "A-0044",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriate acknowledgment of a brief affirmation."
+      },
+      {
+        "id": "A-0044",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Acknowledges the affirmation and appropriately invites a next request."
+      },
+      {
+        "id": "wiki-1116",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the weight, bread type, countries, lawful German manufacture, and British production restriction."
+      },
+      {
+        "id": "wiki-1116",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts and the contrast between permitted sale and prohibited British manufacture."
+      },
+      {
+        "id": "wiki-1838",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains the group’s names, abbreviation, classification, and attack targets; U.S. embassy is equivalent here."
+      },
+      {
+        "id": "wiki-1838",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all names, classification, targets, and location."
+      },
+      {
+        "id": "C-0073",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested JavaScript one-liner using Array.from(nodeList)."
+      },
+      {
+        "id": "C-0073",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested JavaScript one-liner using Array.from(nodeList)."
+      },
+      {
+        "id": "qa-5245sb",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Correctly distinguishes pixel count from density, gives accurate PPI values, and explains perceived sharpness through viewing distance."
+      },
+      {
+        "id": "qa-5245sb",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains equal resolution versus unequal density and why viewing distance can make both appear clear, with accurate PPI values."
+      }
+    ],
+    "elapsed_seconds": 11.787,
+    "usage": {
+      "input_tokens": 11207,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 574,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "d4ad5ca527ad7d8157804f648efcb65c265bbedbf1f9404566a4aba54001e0fc",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "ecb7f907fe3958f21640b90fce40ea50516cf6440946658ef575b1349ee8a8b2"
+  },
+  {
+    "name": "judge-p1-12",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1179",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the most recent starring role, both theatres, the co-production, and the title."
+      },
+      {
+        "id": "wiki-1179",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "“Last starred” preserves the most recent starring role, with all named entities and production details intact."
+      },
+      {
+        "id": "qa-4oudu7",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Explains automated detection and human review fully, with relevant details on reporting, matching, and a useful copyright distinction."
+      },
+      {
+        "id": "qa-4oudu7",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains the combination of automated detection, matching, reports, and human review that enables rapid removal."
+      },
+      {
+        "id": "A-0059",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": false,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Merely repeats the ambiguous input rather than asking what help is needed."
+      },
+      {
+        "id": "A-0059",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": false,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Merely repeats the ambiguous input rather than providing an appropriate clarification."
+      },
+      {
+        "id": "wiki-0155",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves most people's perception of harmless fun and the contrasting difficulty some have with Character Blogging."
+      },
+      {
+        "id": "wiki-0155",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains the majority perception and the contrasting reaction of some, without adding claims."
+      },
+      {
+        "id": "wiki-1893",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the first solo show's venue, location, year, subsequent exhibitions, and retrospective."
+      },
+      {
+        "id": "wiki-1893",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all venues, locations, the 1968 date, the sequence, and the retrospective distinction."
+      }
+    ],
+    "elapsed_seconds": 13.547,
+    "usage": {
+      "input_tokens": 14895,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 642,
+      "reasoning_output_tokens": 45
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "8ccb7ded965e75ee5cddf96fc569007f28ad2f820a2854e5c4bb4c2a9dafb48f",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "2e6f716a767c5a9d077c110477d807289f7b2864994decf89eb0086e4ff6c852"
+  },
+  {
+    "name": "judge-p1-13",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-0455",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both dates, cable ownership and routes, recurrence, and the retaliation involving two of five British cables."
+      },
+      {
+        "id": "wiki-0455",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts and qualifications."
+      },
+      {
+        "id": "C-0013",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly uses COUNT(*) to count all rows in orders; the alias is valid."
+      },
+      {
+        "id": "C-0013",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly uses COUNT(*) to count all rows in orders; the alias is valid."
+      },
+      {
+        "id": "qa-2uw4nn",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains positional powers of two with a correct worked example and a valid doubling shortcut."
+      },
+      {
+        "id": "qa-2uw4nn",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Provides the correct place-value method, worked example, shortcut, and relevant fractional extension."
+      },
+      {
+        "id": "wiki-1793",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves surprise, soldier deaths, and the subsequent taking cover and returning fire; survivors clarifies the implied actors."
+      },
+      {
+        "id": "wiki-1793",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the surprise ambush, multiple deaths, and survivors subsequently taking cover and returning fire."
+      },
+      {
+        "id": "wiki-0128",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the timeframe, institution, universal undergraduate scope, and test requirement for graduation."
+      },
+      {
+        "id": "wiki-0128",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts, including the timeframe and graduation requirement for all undergraduates."
+      }
+    ],
+    "elapsed_seconds": 12.062,
+    "usage": {
+      "input_tokens": 15201,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 587,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "cefb43e3952a9a95709a22fdc92de7a3dc59c0e5c4d9c40e50af307bd27870e7",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "bf7ea03ae4b36e0c94f61998d1acd5062925680a263d3d1b04a6a5ab275c583c"
+  },
+  {
+    "name": "judge-p1-14",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1794",
+        "candidate": "X",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits that the helicopters constituted a flight."
+      },
+      {
+        "id": "wiki-1794",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the conflict, role, naval supplies, and air support by a flight of the specified helicopters and squadron."
+      },
+      {
+        "id": "A-0005",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks for clarification of an ambiguous message."
+      },
+      {
+        "id": "A-0005",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks for clarification of an ambiguous message."
+      },
+      {
+        "id": "wiki-1121",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the timing, explosions, heavy enemy attack, US base, and both mortar calibers."
+      },
+      {
+        "id": "wiki-1121",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive details of the source."
+      },
+      {
+        "id": "C-0092",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested one-line sort using localeCompare on name."
+      },
+      {
+        "id": "C-0092",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested one-line sort using localeCompare on name."
+      },
+      {
+        "id": "A-0053",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": false,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Merely repeats the input without clarification or meaningful acknowledgment."
+      },
+      {
+        "id": "A-0053",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks what the user wants done with the ambiguous input."
+      }
+    ],
+    "elapsed_seconds": 11.435,
+    "usage": {
+      "input_tokens": 14378,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 578,
+      "reasoning_output_tokens": 34
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "73e97cb4a7b69b4cff2fe2265948723350f6d138e96ca4f3c4224f0ec92b5b32",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "efcc5031a6ee7a28dc5bee61c26dbf536aba947c823b48ad8de69f107732b21f"
+  },
+  {
+    "name": "judge-p1-15",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1498",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the repeated lying, its purpose, and Irene Delroy's role as the wife."
+      },
+      {
+        "id": "wiki-1498",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts and relationships."
+      },
+      {
+        "id": "wiki-1603",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the limited revenue, required reinvestment, subcontractor payments, and operating costs including hosting."
+      },
+      {
+        "id": "wiki-1603",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Faithfully preserves the revenue limitation, reinvestment requirement, and specified expenses."
+      },
+      {
+        "id": "wiki-1950",
+        "candidate": "X",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Drops the explicit restriction to state legislation, broadening the scope of Clymer's opposition."
+      },
+      {
+        "id": "wiki-1950",
+        "candidate": "Y",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Drops the explicit restriction to state legislation, broadening the scope of Clymer's opposition."
+      },
+      {
+        "id": "wiki-0434",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the reporting date, qualified government intention, and conflicting immunity reports."
+      },
+      {
+        "id": "wiki-0434",
+        "candidate": "Y",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Changes a possible desire to prosecute at that time into a possible prospective effort to prosecute."
+      },
+      {
+        "id": "wiki-0411",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Booth's fame from the melodrama and Tanner's identity as a fellow actress and New Rochelle neighbor."
+      },
+      {
+        "id": "wiki-0411",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the production title, Booth's fame, and Tanner's professional and neighbor relationships."
+      }
+    ],
+    "elapsed_seconds": 18.712,
+    "usage": {
+      "input_tokens": 10986,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 732,
+      "reasoning_output_tokens": 147
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3596efb918269e3de522f04bcb7d8f15245850a09c05663ea0a9c9ab718e6e38",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "b739eacc34c7220c2d0bfceb6328c63c05ddf514a4b040c3ee97c1ab9f249c75"
+  },
+  {
+    "name": "judge-p1-16",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1768",
+        "candidate": "X",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits the source's explicit statement that the boy is indoors."
+      },
+      {
+        "id": "wiki-1768",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts without unsupported additions."
+      },
+      {
+        "id": "C-0008",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested Java one-liner using String.join with a comma delimiter."
+      },
+      {
+        "id": "C-0008",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested Java one-liner using String.join with a comma delimiter."
+      },
+      {
+        "id": "qa-5v7kib",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Directly explains practical limits on developer-controlled bots' perception, reaction, tracking, and accuracy; appropriately interprets bots rather than focusing on cheating players."
+      },
+      {
+        "id": "qa-5v7kib",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers artificial aim limitations thoroughly and distinguishes AI opponents from players using aimbot software."
+      },
+      {
+        "id": "qa-2ow6gv",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Addresses the lockout premise directly and explains alternative attacks, including slow guessing and offline cracking; protective advice is a small addition."
+      },
+      {
+        "id": "qa-2ow6gv",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Explains why online brute force is impractical and distinguishes spraying, credential stuffing, and offline cracking; omits slow guessing but directly addresses account-based lockouts."
+      },
+      {
+        "id": "A-0048",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately acknowledges the user's thanks."
+      },
+      {
+        "id": "A-0048",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately acknowledges the user's thanks."
+      }
+    ],
+    "elapsed_seconds": 16.442,
+    "usage": {
+      "input_tokens": 15194,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 740,
+      "reasoning_output_tokens": 146
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "495cdcc3ccab20a27b23fff48e322f22d2a7a9c0cd4049a61868b3ce914d72d3",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "6288fe5cdd85413e57c40724295463c195d21c2953da650254e0ea20d334e1cd"
+  },
+  {
+    "name": "judge-p1-17",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "qa-8hbkdr",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Accurately explains physical storage technologies and bit/byte quantities, but does not explicitly explain how cell count and density determine capacity."
+      },
+      {
+        "id": "qa-8hbkdr",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains units, physical representations, and how storage-cell count and bits per cell determine capacity."
+      },
+      {
+        "id": "qa-7bq9ll",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Covers phishing, interception, and compromised devices alongside other valid routes; does not explicitly cover weak-password guessing or brute force. Prevention advice is a minor extension."
+      },
+      {
+        "id": "qa-7bq9ll",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Explains credential theft, interception, and device compromise accurately, but omits explicit weak-password guessing or brute force. Brief protection advice extends beyond the question."
+      },
+      {
+        "id": "wiki-0100",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves classical training, institution, and numerous stage appearances."
+      },
+      {
+        "id": "wiki-0100",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts; 'many' is equivalent to 'numerous'."
+      },
+      {
+        "id": "wiki-0936",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the program, year, station affiliation, prior roles, and chronology."
+      },
+      {
+        "id": "wiki-0936",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts and the sequence of roles."
+      },
+      {
+        "id": "wiki-1803",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all three uses, their order, and the named institution and occupants."
+      },
+      {
+        "id": "wiki-1803",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the chronology and all substantive details; 'official residence' faithfully restates 'official home'."
+      }
+    ],
+    "elapsed_seconds": 15.978,
+    "usage": {
+      "input_tokens": 15906,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 722,
+      "reasoning_output_tokens": 100
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5ccd0e3c67458ea8024402e61fa66420f371b39a0bbd767a8b4838714e774eff",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "4934e807d766140b2e28227eb3fe8f7f33dcaf10db2bb16b30cbb549ab651b07"
+  },
+  {
+    "name": "judge-p1-18",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-0130",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the usual touring sides’ university games and end-of-season festival cricket as other first-class matches."
+      },
+      {
+        "id": "wiki-0130",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts with equivalent wording."
+      },
+      {
+        "id": "wiki-1620",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves succession from his father, the exact title, and both men's nonuse of it."
+      },
+      {
+        "id": "wiki-1620",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all facts; 'him' clearly refers to his father."
+      },
+      {
+        "id": "wiki-1705",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains the full name, birth date, New Zealand identity, former professional status, sport, and playing decades."
+      },
+      {
+        "id": "wiki-1705",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains the full name, birth date, New Zealand identity, former professional status, sport, and playing decades."
+      },
+      {
+        "id": "B-0119",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives oxygen's chemical symbol as O."
+      },
+      {
+        "id": "B-0119",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives oxygen's chemical symbol as O."
+      },
+      {
+        "id": "B-0006",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states 0°C with an appropriate pressure qualification."
+      },
+      {
+        "id": "B-0006",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states 0°C with an appropriate pressure qualification."
+      }
+    ],
+    "elapsed_seconds": 11.705,
+    "usage": {
+      "input_tokens": 14433,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 562,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3b6bf6cc04a4858a3413667ad8e362332b3f7f687ea2f0b794374118c9d8d1e5",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "7457f8c6c2a6ac64babe258c5d850327148aefba73230dd2961bce33c568eb0b"
+  },
+  {
+    "name": "judge-p1-19",
+    "pass_id": 1,
+    "ratings": [
+      {
+        "id": "wiki-1264",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the year, sex change, and concurrent receipt of an astronomy PhD."
+      },
+      {
+        "id": "wiki-1264",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts and their timing."
+      },
+      {
+        "id": "wiki-0558",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the name, dates, nationality, roles, and relationship to King Frederick I of Sweden."
+      },
+      {
+        "id": "wiki-0558",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive biographical details."
+      },
+      {
+        "id": "qa-7b9mjf",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 96,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains authorization, license and integrity checks, and limitations; does not explicitly discuss anti-cheat software."
+      },
+      {
+        "id": "qa-7b9mjf",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 96,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers server authorization, keys, integrity checks, and local versus server verification; anti-cheat is not explicitly named."
+      },
+      {
+        "id": "wiki-1770",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the unknown exact age, lower bound, and supporting ash evidence from Three Kings volcano."
+      },
+      {
+        "id": "wiki-1770",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts, including the age qualification and geological explanation."
+      },
+      {
+        "id": "C-0044",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested JavaScript one-liner using JSON.parse and JSON.stringify."
+      },
+      {
+        "id": "C-0044",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested JavaScript one-liner using JSON.parse and JSON.stringify."
+      }
+    ],
+    "elapsed_seconds": 11.761,
+    "usage": {
+      "input_tokens": 11266,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 577,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "975355abbe92c56c997b98ac43e3324911fb9ffeef452b9c1b9568dd2a751de1",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "b65c6edcf2f39c870613ac97b76b4930c725eda316321de9142b9d18be05984b"
+  },
+  {
+    "name": "judge-p2-00",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "wiki-0411",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Booth’s fame, the melodrama’s title, and Cora Tanner’s profession and neighbor relationship."
+      },
+      {
+        "id": "wiki-0411",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts and named entities."
+      },
+      {
+        "id": "wiki-0100",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves classical training at Drama Centre London and appearances in numerous stage productions."
+      },
+      {
+        "id": "wiki-0100",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both the training details and numerous stage appearances."
+      },
+      {
+        "id": "wiki-1794",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the conflict, key supply role, and air support by a flight of Merlin MK1 helicopters from 814 Squadron."
+      },
+      {
+        "id": "wiki-1794",
+        "candidate": "Y",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits that the helicopters constituted a flight."
+      },
+      {
+        "id": "wiki-1205",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves many facilities, all named facilities, and the resort’s non-ski facilities."
+      },
+      {
+        "id": "wiki-1205",
+        "candidate": "Y",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the listed facilities but omits the source’s quantity qualification that there are many facilities."
+      },
+      {
+        "id": "B-0022",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states that the English alphabet has 26 letters."
+      },
+      {
+        "id": "B-0022",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states that the English alphabet has 26 letters."
+      }
+    ],
+    "elapsed_seconds": 13.997,
+    "usage": {
+      "input_tokens": 14678,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 651,
+      "reasoning_output_tokens": 88
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4f5d4227ec61920c338a754a7809313612402ff9e55deb3f31f6822f8f51c8d5",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "e90faf12952c796dee03af87519f8bf3816ecb76892d52adf5eb5194cd36c958"
+  },
+  {
+    "name": "judge-p2-01",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "B-0081",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies Ag as silver’s chemical symbol."
+      },
+      {
+        "id": "B-0081",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies Ag as silver’s chemical symbol."
+      },
+      {
+        "id": "wiki-1893",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the first solo show’s venue, city, year, and subsequent exhibitions and retrospective."
+      },
+      {
+        "id": "wiki-1893",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the first solo show’s venue, city, year, and subsequent exhibitions and retrospective."
+      },
+      {
+        "id": "qa-5245sb",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Accurately distinguishes pixel count from density, gives correct PPI values, and explains viewing distance and perceived clarity."
+      },
+      {
+        "id": "qa-5245sb",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Correctly explains equal pixel counts, different pixel densities, and viewing distance’s effect on perceived sharpness."
+      },
+      {
+        "id": "A-0059",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": false,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Merely repeats the ambiguous input instead of asking what help is needed."
+      },
+      {
+        "id": "A-0059",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": false,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Merely repeats the ambiguous input instead of asking what help is needed."
+      },
+      {
+        "id": "qa-7b9mjf",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers authorization, ownership, tickets, keys, integrity checks, and offline versus server verification; omits explicit anti-cheat involvement."
+      },
+      {
+        "id": "qa-7b9mjf",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains authorization, tickets, keys, integrity, and compatibility checks with appropriate caveats; omits explicit anti-cheat involvement."
+      }
+    ],
+    "elapsed_seconds": 12.441,
+    "usage": {
+      "input_tokens": 15148,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 600,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a6eb2413cb68c7c2ab0de97074f51af424f6cd9aef64584a8167990e3cc8a9f5",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "6101c74e8613cf9128ea49604318209dd347be94494b795bbf167e3807d35165"
+  },
+  {
+    "name": "judge-p2-02",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "wiki-1889",
+        "candidate": "X",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits that the conference had 11 teams."
+      },
+      {
+        "id": "wiki-1889",
+        "candidate": "Y",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Omits that the conference had 11 teams."
+      },
+      {
+        "id": "C-0073",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correct one-line conversion using Array.from(nodeList)."
+      },
+      {
+        "id": "C-0073",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correct one-line conversion using Array.from(nodeList)."
+      },
+      {
+        "id": "C-0013",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly counts all rows in orders using COUNT(*); the alias is valid."
+      },
+      {
+        "id": "C-0013",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly counts all rows in orders using COUNT(*); the alias is valid."
+      },
+      {
+        "id": "wiki-1040",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Michael's teenage start playing and writing songs with his brother Chris in Skarotum."
+      },
+      {
+        "id": "wiki-1040",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Michael's teenage start playing and writing songs with his brother Chris in Skarotum."
+      },
+      {
+        "id": "qa-2ow6gv",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 90,
+        "correctness": true,
+        "reason": "Explains why account lockouts constrain online brute force and distinguishes alternative attacks and offline cracking. Does not explicitly explain exhaustive automated guessing; protection advice is tangential."
+      },
+      {
+        "id": "qa-2ow6gv",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 95,
+        "correctness": true,
+        "reason": "Directly addresses lockouts, slow guessing, alternative attacks, and prerequisites for offline cracking. Omits an explicit definition of exhaustive automated brute force; protection advice is a minor digression."
+      }
+    ],
+    "elapsed_seconds": 15.019,
+    "usage": {
+      "input_tokens": 14704,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 649,
+      "reasoning_output_tokens": 53
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "07ac49f63073562da240fb2c0d4209710720442dad38bea7700aef4cdd3ade13",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "f0bd9a3c40e7f17d2ae14a68fcfbe2da890dddfd6092618cb87406149889711b"
+  },
+  {
+    "name": "judge-p2-03",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "qa-918s9s",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Clearly explains separately persisted flags versus unsaved progress, with appropriate implementation and crash caveats."
+      },
+      {
+        "id": "qa-918s9s",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains how a persistent session flag detects improper exits without preserving gameplay changes."
+      },
+      {
+        "id": "wiki-0524",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the railroad name, busiest status, two sections, and continued dark-territory operation."
+      },
+      {
+        "id": "wiki-0524",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts and qualifications."
+      },
+      {
+        "id": "wiki-0674",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves apparent relatedness, site name, both designations, automatic listing, and 2005 date."
+      },
+      {
+        "id": "wiki-0674",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts, including apparent relatedness and automatic National Register listing."
+      },
+      {
+        "id": "A-0032",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks for the missing material to fix."
+      },
+      {
+        "id": "A-0032",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification about what needs fixing."
+      },
+      {
+        "id": "B-0075",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies oxygen and its approximate atmospheric proportion."
+      },
+      {
+        "id": "B-0075",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies oxygen and its approximate proportion in dry air."
+      }
+    ],
+    "elapsed_seconds": 10.74,
+    "usage": {
+      "input_tokens": 11040,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 555,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "88d8ea350a18e6c02baea5a2c9382af97bbbfaea6c0b3fdd27ad09f9035a6994",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "773b7fd28216ab99bbf9258cf892338f2c6f7ba50ef28c2cabe84f93b1c33101"
+  },
+  {
+    "name": "judge-p2-04",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "wiki-0490",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both common names, scientific name, moth classification, and Asian origin."
+      },
+      {
+        "id": "wiki-0490",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts; capitalization and formatting changes do not alter meaning."
+      },
+      {
+        "id": "wiki-1793",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the surprise ambush, multiple deaths, and subsequent cover and return fire; survivors clarifies the implied actors."
+      },
+      {
+        "id": "wiki-1793",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the surprise, deaths, and sequence of taking cover and returning fire."
+      },
+      {
+        "id": "B-0119",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies oxygen's chemical symbol as O."
+      },
+      {
+        "id": "B-0119",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies oxygen's chemical symbol as O."
+      },
+      {
+        "id": "wiki-0936",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Hamm's prior station roles and appointment as Morning Live co-host in 2005."
+      },
+      {
+        "id": "wiki-0936",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all roles, the program name, timing, and station affiliation."
+      },
+      {
+        "id": "B-0106",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly names the giraffe and provides a reasonable adult male height range."
+      },
+      {
+        "id": "B-0106",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly names the giraffe and provides a reasonable adult male height range."
+      }
+    ],
+    "elapsed_seconds": 12.715,
+    "usage": {
+      "input_tokens": 10623,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 564,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3ff98e21c1cbe93254be467414881dd05f8ca616779e34237840bdb3c870b298",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "5ae0177c3bff7012810930c1c0ebd9e77a879673869f010c45b98216e4028d62"
+  },
+  {
+    "name": "judge-p2-05",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "A-0048",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately acknowledges the user's thanks."
+      },
+      {
+        "id": "A-0048",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately acknowledges the user's thanks."
+      },
+      {
+        "id": "C-0071",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested JavaScript regex test one-liner, matching the reference."
+      },
+      {
+        "id": "C-0071",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides an equivalent digit-only regex test with a concise explanation."
+      },
+      {
+        "id": "A-0001",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification for an empty prompt."
+      },
+      {
+        "id": "A-0001",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification for an empty prompt."
+      },
+      {
+        "id": "wiki-1179",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the most recent starring role, both named theatres, the co-production relationship, and the title."
+      },
+      {
+        "id": "wiki-1179",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive source facts without unsupported additions."
+      },
+      {
+        "id": "qa-1i1eih",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 98,
+        "correctness": true,
+        "reason": "Fully explains the missing context, unidentified writing system, and verification barriers that computing power cannot resolve; the closing disclaimer is slightly peripheral."
+      },
+      {
+        "id": "qa-1i1eih",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully addresses the contextual and linguistic uncertainties and clearly explains why pattern detection does not establish a verifiable decipherment."
+      }
+    ],
+    "elapsed_seconds": 14.049,
+    "usage": {
+      "input_tokens": 11174,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 628,
+      "reasoning_output_tokens": 69
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0c959c66dd9fce043fe34b40154d18df9b7e55039a78f025282a745b1f997ec1",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "6864fbae1cd0435a2e28e393b1a0fa6aed18138be8dd7eae2c3743042e62ddb8"
+  },
+  {
+    "name": "judge-p2-06",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "qa-5k706m",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains behavioral risk assessment, the checkbox’s role, and additional challenges for suspicious activity."
+      },
+      {
+        "id": "qa-5k706m",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains risk signals and fallback challenges, with relevant detail about server-verified tokens."
+      },
+      {
+        "id": "qa-8hbkdr",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers byte quantities, physical bit representations across storage technologies, and how capacity increases."
+      },
+      {
+        "id": "qa-8hbkdr",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Clearly explains units and physical storage mechanisms, but does not explicitly explain how cell count and density determine capacity."
+      },
+      {
+        "id": "C-0038",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the correct command and accurately clarifies that untracked files are excluded."
+      },
+      {
+        "id": "C-0038",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the correct command and accurately describes its scope."
+      },
+      {
+        "id": "wiki-1676",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both royal cousins and each spouse’s parental connection."
+      },
+      {
+        "id": "wiki-1676",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both royal cousins and each spouse’s parental connection."
+      },
+      {
+        "id": "wiki-1803",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all three uses, their chronological order, and the named institution."
+      },
+      {
+        "id": "wiki-1803",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all three uses, their chronological order, and the named institution."
+      }
+    ],
+    "elapsed_seconds": 13.036,
+    "usage": {
+      "input_tokens": 12021,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 635,
+      "reasoning_output_tokens": 64
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "ff903bd562e598c04079394944b03fa0b72559853e7849f2897b337b6b6d0092",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "361c3cf6d1a5a940dc0162111f340ceec20cb6914cce76810e3f89d967316c50"
+  },
+  {
+    "name": "judge-p2-07",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "wiki-1705",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the full name, birth date, nationality, former professional status, sport, and playing decades."
+      },
+      {
+        "id": "wiki-1705",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the full name, birth date, nationality, former professional status, sport, and playing decades."
+      },
+      {
+        "id": "wiki-0258",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the occasional confusion with Ramon Llull’s named work."
+      },
+      {
+        "id": "wiki-0258",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the occasional confusion with Ramon Llull’s named work."
+      },
+      {
+        "id": "wiki-0155",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves most people's perception of harmless fun and some people's difficulty accepting Character Blogging."
+      },
+      {
+        "id": "wiki-0155",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves most people's perception of harmless fun and some people's difficulty accepting Character Blogging."
+      },
+      {
+        "id": "wiki-1116",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the weight, bread type, lawful German manufacture, permitted UK sale, and British production prohibition."
+      },
+      {
+        "id": "wiki-1116",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the weight, bread type, lawful German manufacture, permitted UK sale, and British production prohibition."
+      },
+      {
+        "id": "wiki-1950",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Clymer’s election date and office and adamant opposition to legislation supporting the state Republican Party’s war effort; the state legislative context remains clear."
+      },
+      {
+        "id": "wiki-1950",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Clymer’s election date and office and adamant opposition to legislation supporting the state Republican Party’s war effort; the state legislative context remains clear."
+      }
+    ],
+    "elapsed_seconds": 16.015,
+    "usage": {
+      "input_tokens": 14843,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 727,
+      "reasoning_output_tokens": 110
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "82ce88e6593f4e817720a5f4ca22689819e771abfce7d398ceb4fb4f722b7730",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "5bd7909b41ff12ae2e4b4d4809e6e4ebeca8c9aa00f7cf722f77da69ed27b3c2"
+  },
+  {
+    "name": "judge-p2-08",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "wiki-0130",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves touring sides’ usual university games and end-of-season festival cricket as other first-class matches."
+      },
+      {
+        "id": "wiki-0130",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both categories of matches and the qualification that the touring sides’ university games were usual."
+      },
+      {
+        "id": "wiki-1026",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the date, participants, full-scale invasion, five-day battle with Lebanese troops, and retreat into Syria."
+      },
+      {
+        "id": "wiki-1026",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains all substantive facts while correcting grammar and punctuation."
+      },
+      {
+        "id": "wiki-1121",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the one-minute timing, local explosions, US base, heavy enemy attack, and both mortar calibers."
+      },
+      {
+        "id": "wiki-1121",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the timing, location, target, attack intensity, and both enemy mortar calibers."
+      },
+      {
+        "id": "qa-7bq9ll",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 93,
+        "relevance": 90,
+        "correctness": true,
+        "reason": "Covers phishing, interception, compromised devices, and credential attacks, with additional valid routes. Weak-password guessing and unsecured Wi-Fi are not explicitly identified; prevention advice is slightly tangential."
+      },
+      {
+        "id": "qa-7bq9ll",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 93,
+        "relevance": 90,
+        "correctness": true,
+        "reason": "Explains the main access routes accurately, including phishing, interception, and device compromise. Does not explicitly discuss brute-force password attacks or unsecured Wi-Fi; adds brief prevention advice."
+      },
+      {
+        "id": "B-0006",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states 0°C with an appropriate pressure qualification."
+      },
+      {
+        "id": "B-0006",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly states 0°C with an appropriate pressure qualification."
+      }
+    ],
+    "elapsed_seconds": 17.521,
+    "usage": {
+      "input_tokens": 11301,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 725,
+      "reasoning_output_tokens": 97
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "03b03a57e04bd23d10f982da0e7cc4e7899ad03f90af0026ace53071163c7dc0",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "96b88dd96d3eefbd1aa2d827d100a34fcbf5a593268ee84c58e1dac13b6635a9"
+  },
+  {
+    "name": "judge-p2-09",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "A-0044",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately acknowledges the message and invites a next request."
+      },
+      {
+        "id": "A-0044",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides an appropriate concise acknowledgment."
+      },
+      {
+        "id": "qa-5ili6b",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains allocation, growth into nonadjacent free blocks, reclamation on shrinking, and tracking ownership to prevent overlap."
+      },
+      {
+        "id": "qa-5ili6b",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains block allocation and reuse, with a concrete example showing how growth avoids occupied space."
+      },
+      {
+        "id": "qa-mvdx3",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 50,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Gives the general bootloader and modified-image approach and appropriately requests device details, but omits Magisk, image patching, and connection or flashing steps."
+      },
+      {
+        "id": "qa-mvdx3",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 75,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers unlocking, Magisk patching, and flashing with appropriate device-specific caveats; omits bootloader-mode and ADB/Fastboot details and alternative rooting methods."
+      },
+      {
+        "id": "wiki-1541",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the location, separation from much of the hinterland, and significant causal role."
+      },
+      {
+        "id": "wiki-1541",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts and qualifications."
+      },
+      {
+        "id": "wiki-0114",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the sequence, brief performance of Michael Jackson’s Beat It, and fans’ resulting expectation of Thriller."
+      },
+      {
+        "id": "wiki-0114",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the brief song segment, attribution, sequence, and resulting fan belief."
+      }
+    ],
+    "elapsed_seconds": 15.097,
+    "usage": {
+      "input_tokens": 11764,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 670,
+      "reasoning_output_tokens": 62
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4202cd64e94a95c3f0cc8f9f1f6d7266c667ea4423fa3b74027ac9ea28a3281b",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "2c5b301a4aeb50c850ca9a87c1c00d87b519b2a626397ef541116d80d96990d3"
+  },
+  {
+    "name": "judge-p2-10",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "qa-4oudu7",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains automated detection and human review, with relevant detail about matching, reporting, and rapid detection."
+      },
+      {
+        "id": "qa-4oudu7",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers automated detection and human reviewers, and appropriately distinguishes copyright matching from policy enforcement."
+      },
+      {
+        "id": "A-0005",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks for clarification of an otherwise unclear message."
+      },
+      {
+        "id": "A-0005",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks for clarification of an otherwise unclear message."
+      },
+      {
+        "id": "wiki-1498",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the habitual lying, its purpose, and Irene Delroy's role as the wife."
+      },
+      {
+        "id": "wiki-1498",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Faithfully paraphrases the repeated lying to conceal escapades and preserves the actress attribution."
+      },
+      {
+        "id": "wiki-0434",
+        "candidate": "X",
+        "fidelity": false,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Changes reports of a possible desire to prosecute at that time into reports of possible future action ('might seek')."
+      },
+      {
+        "id": "wiki-0434",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the date, uncertainty about the government's wishes, and conflicting reports of immunity."
+      },
+      {
+        "id": "wiki-0455",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both dates, cable ownership and destinations, recurrence, retaliation, and the two-of-five quantity."
+      },
+      {
+        "id": "wiki-0455",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive details, including the locations, dates, recurrence, and reason for retaliation."
+      }
+    ],
+    "elapsed_seconds": 21.328,
+    "usage": {
+      "input_tokens": 11295,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 687,
+      "reasoning_output_tokens": 97
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "fcd1630a2cdeb823a7952bc5fd87b19c0330fc3dcea8db8a84def7817999b46b",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "e5d467173c58649905ba81e3e1c947477a6395cf9008978f4676eb8242cb112e"
+  },
+  {
+    "name": "judge-p2-11",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "qa-4h3q63",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains the size difference through supporting hardware, parallel operation, and standardized enclosures despite equal flash capacity."
+      },
+      {
+        "id": "qa-4h3q63",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains compact flash packaging versus SSD performance hardware and form-factor requirements."
+      },
+      {
+        "id": "wiki-1633",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both pilots, ranks, date, first jet airmail transport, and the Army Air Corps demonstration purpose."
+      },
+      {
+        "id": "wiki-1633",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive details, including the first transport by jet and its demonstration purpose."
+      },
+      {
+        "id": "qa-5axpps",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 85,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains self-discharge, residual circuitry, and battery faults while correctly distinguishing sleep from shutdown; omits temperature effects."
+      },
+      {
+        "id": "qa-5axpps",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 95,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers self-discharge, residual power, heat, and battery problems, with useful charge-estimate and shutdown distinctions; does not discuss cold temperatures."
+      },
+      {
+        "id": "wiki-1105",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the video's name and its coverage of marine deployment in Iraq."
+      },
+      {
+        "id": "wiki-1105",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the video's name, subject, and Iraq location."
+      },
+      {
+        "id": "qa-2uw4nn",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Correctly explains positional powers of two and summation, with accurate integer and fractional examples."
+      },
+      {
+        "id": "qa-2uw4nn",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Provides the complete positional conversion method, a correct worked example, and a valid doubling shortcut."
+      }
+    ],
+    "elapsed_seconds": 17.65,
+    "usage": {
+      "input_tokens": 12015,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 695,
+      "reasoning_output_tokens": 80
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "d3759608968790e35a0e18e158ec3a6b119918c09f896609c4d0b7c986ad7f10",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "ea40bef648c0c38a8cd54582dc939ed8e93ec76100c0f5dbcf97fe0e3a70ec4e"
+  },
+  {
+    "name": "judge-p2-12",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "B-0101",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives 32°F with an appropriate pressure qualification."
+      },
+      {
+        "id": "B-0101",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly gives 32°F with an appropriate pressure qualification."
+      },
+      {
+        "id": "A-0007",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification of an ambiguous message."
+      },
+      {
+        "id": "A-0007",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks what assistance the user wants."
+      },
+      {
+        "id": "B-0012",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies carbon dioxide."
+      },
+      {
+        "id": "B-0012",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies carbon dioxide."
+      },
+      {
+        "id": "C-0116",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly explains strict equality and provides accurate examples and qualifications."
+      },
+      {
+        "id": "C-0116",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly explains strict equality, object identity, NaN, and signed zero."
+      },
+      {
+        "id": "C-0005",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested query selecting all users columns where age exceeds 18."
+      },
+      {
+        "id": "C-0005",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested query selecting all users columns where age exceeds 18."
+      }
+    ],
+    "elapsed_seconds": 11.474,
+    "usage": {
+      "input_tokens": 10339,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 521,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "ed041f17c89a6c49f9a93301b67bf8a2d494bb533b4924f35edee2d8e2604a7f",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "41c47b6e50b203e34fd078013cd81590aa667b5c198c8832a320a2ea9e63474f"
+  },
+  {
+    "name": "judge-p2-13",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "wiki-1311",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Timchal’s first season as head coach, NCAA final appearance, and 14-3 record."
+      },
+      {
+        "id": "wiki-1311",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves Timchal’s first season as head coach, NCAA final appearance, and 14-3 record."
+      },
+      {
+        "id": "qa-88dfjq",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains capacity versus physical size through chip density, compact packaging, stacking, and desktop board and connector requirements."
+      },
+      {
+        "id": "qa-88dfjq",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Fully explains the size difference using chip density, stacked packaging, manufacturing processes, and removable desktop RAM boards."
+      },
+      {
+        "id": "wiki-1754",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the full name, birth date, Argentine-Colombian identity, and former football-player status."
+      },
+      {
+        "id": "wiki-1754",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the full name, birth date, Argentine-Colombian identity, and former football-player status."
+      },
+      {
+        "id": "wiki-1620",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves succession from his father as 6th Baron Profumo and both men’s nonuse of the title."
+      },
+      {
+        "id": "wiki-1620",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves succession from his father as 6th Baron Profumo and both men’s nonuse of the title."
+      },
+      {
+        "id": "wiki-0558",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the name, dates, Swedish official and noble status, and relationship as a favorite of King Frederick I of Sweden."
+      },
+      {
+        "id": "wiki-0558",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts; nobleman is equivalent to noble here."
+      }
+    ],
+    "elapsed_seconds": 14.744,
+    "usage": {
+      "input_tokens": 11349,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 664,
+      "reasoning_output_tokens": 37
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "fabf9ca0f06d1d7c58ecd35472f0da1d2657b2bbf022be5ade6fa99d64bcc157",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "bd3c9ea5734ea60afec7744d5ca8286945698e9831212f0a0ff4508dfeb5f196"
+  },
+  {
+    "name": "judge-p2-14",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "qa-4votga",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains task tracking, planning, documentation, version control, reviews, and communication; does not explicitly discuss agile methodologies or daily stand-ups."
+      },
+      {
+        "id": "qa-4votga",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers shared documentation, issue tracking, version control, reviews, and cross-team coordination; omits explicit agile methodologies and daily stand-ups."
+      },
+      {
+        "id": "C-0044",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested JavaScript one-liner using JSON.parse and JSON.stringify."
+      },
+      {
+        "id": "C-0044",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested JavaScript one-liner using JSON.parse and JSON.stringify."
+      },
+      {
+        "id": "wiki-0128",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the period, university, all-undergraduate scope, test requirement, and graduation purpose."
+      },
+      {
+        "id": "wiki-0128",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts and qualifications."
+      },
+      {
+        "id": "wiki-0380",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Expresses the objective as an instruction while preserving five hourglasses, varied scenarios, and restoration of time flow."
+      },
+      {
+        "id": "wiki-0380",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the objective, quantity, varied scenarios, and purpose."
+      },
+      {
+        "id": "wiki-1264",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the sex change, year, astronomy PhD, and concurrent timing."
+      },
+      {
+        "id": "wiki-1264",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both events, their timing in 1982, and the PhD subject."
+      }
+    ],
+    "elapsed_seconds": 15.17,
+    "usage": {
+      "input_tokens": 15512,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 658,
+      "reasoning_output_tokens": 60
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "74c43b4ef11702116b64ca2741cc08b7c1d4d0e6e97c2c160bc5998053d12ace",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "07d02a2624bc1803a32b0c7d74bd4bdb30a59cf6f1505247790792917766c258"
+  },
+  {
+    "name": "judge-p2-15",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "wiki-1838",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the group's names, designation, targets, and location."
+      },
+      {
+        "id": "wiki-1838",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts; U.S. embassy is equivalent to American embassy here."
+      },
+      {
+        "id": "wiki-1599",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the Ban's role, annual summons, and Zagreb location."
+      },
+      {
+        "id": "wiki-1599",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the annual summons, responsible official, representative role, and location."
+      },
+      {
+        "id": "wiki-1615",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves attribution, actor, period, present-day location, and near-total destruction of the native population."
+      },
+      {
+        "id": "wiki-1615",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves substantive claims; indigenous San refers to the native Bushmen population."
+      },
+      {
+        "id": "C-0015",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correct curl command posts the requested JSON to the specified URL with the Content-Type header."
+      },
+      {
+        "id": "C-0015",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly specifies POST, the endpoint, JSON payload, and application/json header."
+      },
+      {
+        "id": "wiki-1242",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both named parties, title, additional acreage, surrounding-land scope, and dates."
+      },
+      {
+        "id": "wiki-1242",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the purchaser, seller and title, additional 870 surrounding acres, and 1871–1877 period."
+      }
+    ],
+    "elapsed_seconds": 15.404,
+    "usage": {
+      "input_tokens": 11131,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 698,
+      "reasoning_output_tokens": 117
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0659d1e6675b85e8d53f5efaebfd7768f63a77966f059ce37d0fa4087d823acf",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "563543a2f6aee5ba11de8c6be1192a4d23ea3dd2953d64b3185faa9a3f7d0fc4"
+  },
+  {
+    "name": "judge-p2-16",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "A-0058",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks what the user wants done with the ambiguous input."
+      },
+      {
+        "id": "A-0058",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks what the user wants done with the ambiguous input."
+      },
+      {
+        "id": "wiki-1742",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the birthplace, parentage, both parents’ names, and their occupations; abbreviates United States and omits redundant state wording."
+      },
+      {
+        "id": "wiki-1742",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts, names, locations, and occupations."
+      },
+      {
+        "id": "B-0073",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies Cairo as Egypt’s capital."
+      },
+      {
+        "id": "B-0073",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies Cairo as Egypt’s capital."
+      },
+      {
+        "id": "A-0036",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification of what needs explaining."
+      },
+      {
+        "id": "A-0036",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately asks for the missing subject of the question."
+      },
+      {
+        "id": "wiki-0452",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the first parliamentary discussion in 1818 and the delayed start of formal metrication policy in 1965."
+      },
+      {
+        "id": "wiki-0452",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves both dates, Parliament’s role, and the distinction between discussion and formal policy."
+      }
+    ],
+    "elapsed_seconds": 16.198,
+    "usage": {
+      "input_tokens": 10498,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 667,
+      "reasoning_output_tokens": 105
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "db3b21070d54ff4afa44a8f2e76c34691243f5cc7f78935cf6fd68662f30408c",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "bf02c04307d511bfbbb13305c5392e3d3a89ae5b6586aca4d7d4876174e8f8d4"
+  },
+  {
+    "name": "judge-p2-17",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "B-0089",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies chlorophyll."
+      },
+      {
+        "id": "B-0089",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Correctly identifies chlorophyll."
+      },
+      {
+        "id": "wiki-1028",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves cabinet membership, vehicle safety responsibility, and enforcement of both vehicle-law categories."
+      },
+      {
+        "id": "wiki-1028",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves cabinet membership, vehicle safety responsibility, and enforcement of both vehicle-law categories."
+      },
+      {
+        "id": "A-0053",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Appropriately requests clarification of the ambiguous input."
+      },
+      {
+        "id": "A-0053",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": false,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Merely repeats the input without clarification or meaningful acknowledgment."
+      },
+      {
+        "id": "qa-5v7kib",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Thoroughly explains practical limits on game AI accuracy and distinguishes AI opponents from cheating players."
+      },
+      {
+        "id": "qa-5v7kib",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Directly explains perception, reaction, tracking, aim error, weapon constraints, and difficulty tuning for AI opponents."
+      },
+      {
+        "id": "wiki-1768",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source details while correcting punctuation and hyphenation."
+      },
+      {
+        "id": "wiki-1768",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the scene and arrival; the indoor setting remains implicit in being behind blind-covered windows."
+      }
+    ],
+    "elapsed_seconds": 14.331,
+    "usage": {
+      "input_tokens": 11184,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 666,
+      "reasoning_output_tokens": 110
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "deaca2c753df15704ed9b118e5a73c1c43661169dbe3ce1427c2e00f1d50409e",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "7b941a731b362ee45fca7f985be0a0a061bba74febed0a1ec609e90da0a93d94"
+  },
+  {
+    "name": "judge-p2-18",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "qa-1d81zc",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains relay routing, layered encryption, privacy benefits, slower browsing, and anonymity risks accurately."
+      },
+      {
+        "id": "qa-1d81zc",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers how Tor routes and encrypts traffic, browser privacy defenses, performance costs, and important limitations."
+      },
+      {
+        "id": "C-0008",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested Java one-liner using String.join with a comma delimiter and list."
+      },
+      {
+        "id": "C-0008",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested Java one-liner using String.join with a comma delimiter and list."
+      },
+      {
+        "id": "wiki-0227",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the war against Napoleon, commanders, Lübeck’s neutrality, occupation after battle, and date."
+      },
+      {
+        "id": "wiki-0227",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive details, including the date and occupation following battle against Blücher."
+      },
+      {
+        "id": "wiki-1770",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains the unknown age, lower bound of 28,500 years, and evidence from Three Kings ash covering the scoria cone."
+      },
+      {
+        "id": "wiki-1770",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the unknown exact age, age threshold, and supporting ash evidence."
+      },
+      {
+        "id": "wiki-0236",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves timing, imprisonment by Vaati, transformation into the king, and orders to find the Light Force for him."
+      },
+      {
+        "id": "wiki-0236",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Retains all source actions, participants, timing, and the purpose of the soldiers’ search."
+      }
+    ],
+    "elapsed_seconds": 11.942,
+    "usage": {
+      "input_tokens": 15324,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 610,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "9152c5509fd3cdbaa01cfa795e1592feb76f567286a09584935e67ff4f57a586",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "4b02e526425fdf2b358e295ae62a216486645a34cf9300a512e7e33582fd1297"
+  },
+  {
+    "name": "judge-p2-19",
+    "pass_id": 2,
+    "ratings": [
+      {
+        "id": "qa-7z536z",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Explains cores, threads, cache, and work per cycle, with useful qualifications about models and workloads."
+      },
+      {
+        "id": "qa-7z536z",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 100,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers the key performance differences beyond clock speed and correctly qualifies comparisons across models."
+      },
+      {
+        "id": "wiki-1603",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves limited revenue, required reinvestment, subcontractor payments, and operating costs including hosting."
+      },
+      {
+        "id": "wiki-1603",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all substantive facts without unsupported additions."
+      },
+      {
+        "id": "wiki-1900",
+        "candidate": "X",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves the team, season, ongoing status, league, season counts, and geographic scope."
+      },
+      {
+        "id": "wiki-1900",
+        "candidate": "Y",
+        "fidelity": true,
+        "sufficient": null,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Preserves all source facts, including ongoing status and both season counts."
+      },
+      {
+        "id": "C-0092",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested one-liner using sort and localeCompare on name."
+      },
+      {
+        "id": "C-0092",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": true,
+        "completeness": null,
+        "relevance": null,
+        "correctness": null,
+        "reason": "Provides the requested one-liner using sort and localeCompare on name."
+      },
+      {
+        "id": "qa-7wa9ed",
+        "candidate": "X",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 88,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Covers access restrictions, encryption, legal safeguards, and obfuscation limits; omits watermarking and separate encryption-key storage."
+      },
+      {
+        "id": "qa-7wa9ed",
+        "candidate": "Y",
+        "fidelity": null,
+        "sufficient": null,
+        "completeness": 90,
+        "relevance": 100,
+        "correctness": true,
+        "reason": "Thoroughly explains technical and organizational controls and distribution limits; omits watermarking and separate encryption-key storage."
+      }
+    ],
+    "elapsed_seconds": 12.423,
+    "usage": {
+      "input_tokens": 11809,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 648,
+      "reasoning_output_tokens": 54
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "abb66eb2f71b5b6c995aae00d708aa6ddbb06f48598799f967fc3c066ab8d86e",
+    "system_sha256": "b570eec8561df3423628ff8901f2ce4944bc75e23e6c05612400b10b83d6ca49",
+    "events_sha256": "34b9c37ff0ee475ae305c67378f1c1a52107d83056741f134c54f93c63b348d0"
+  }
+]
