@@ -1,0 +1,95 @@
+{
+  "checked_on": "2026-10-18",
+  "status": "Published source data downloaded and inspected; no new writing-skill benchmark run or score is claimed. Raw datasets are cached outside the repository, not redistributed here.",
+  "datasets": [
+    {
+      "id": "wiki-conciseness",
+      "paper": "https://aclanthology.org/2022.tsar-1.5/",
+      "repository": "https://github.com/google-research-datasets/wiki-conciseness-dataset",
+      "revision": "68e74f3d820f63e2fe23fa28175bf4065592a7e9",
+      "license": "CC-BY-4.0, per upstream README and LICENSE",
+      "unique_source_sentences": 2000,
+      "artifacts": [
+        {
+          "url": "https://raw.githubusercontent.com/google-research-datasets/wiki-conciseness-dataset/68e74f3d820f63e2fe23fa28175bf4065592a7e9/concise_lite.tsv",
+          "sha256": "409f4c8fe22703f64cfe0ae2f428b8716ab505561cfe1f5e1421ce0bb585525d",
+          "downloaded_bytes": 921572,
+          "verified_rows": 2000,
+          "shape": "source, 2 human references, Wikipedia URL; tab-separated, no header"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research-datasets/wiki-conciseness-dataset/68e74f3d820f63e2fe23fa28175bf4065592a7e9/concise_full.tsv",
+          "sha256": "da472037e5cc830c0b5b0584dd42cf340d6430db0161b0b214bfd80f20563fd3",
+          "downloaded_bytes": 1675300,
+          "verified_rows": 2000,
+          "shape": "source, 5 human references, Wikipedia URL; tab-separated, no header"
+        }
+      ],
+      "upstream_evaluation": "ERRANT span-edit precision, recall, F0.5 against released M2 annotations; valid rewrites can differ from finite references."
+    },
+    {
+      "id": "yapbench",
+      "paper": "https://arxiv.org/html/2601.00624v1",
+      "repository": "https://huggingface.co/datasets/tabularisai/yapbench_dataset",
+      "revision": "be8427ddf7780201b73676c1563bc3ea6d0a71ca",
+      "license": "No dataset license field or LICENSE file found in the inspected release. The associated leaderboard Space has Apache-2.0 metadata; this is not assumed to license the dataset.",
+      "artifacts": [
+        {
+          "url": "https://huggingface.co/datasets/tabularisai/yapbench_dataset/resolve/be8427ddf7780201b73676c1563bc3ea6d0a71ca/data/train-00000-of-00001.parquet",
+          "sha256": "6bf58b51cef6b26e78cf462ff78d43d1b80d1162268be6019918036212430d5e",
+          "downloaded_bytes": 24703,
+          "verified_rows": null,
+          "shape": "Parquet file downloaded; PAR1 header/footer verified. Row count and schema inspected separately through the dataset viewer API."
+        }
+      ],
+      "viewer_verified_rows": 304,
+      "category_counts": {
+        "A": 60,
+        "B": 126,
+        "C": 118
+      },
+      "columns": [
+        "id",
+        "category",
+        "prompt",
+        "baseline",
+        "baseline_type",
+        "domain",
+        "notes"
+      ],
+      "upstream_evaluation": "Excess visible answer characters over curated baseline, aggregated using category medians. Paper v0.1 does not apply an explicit correctness gate.",
+      "viewer_provenance": "All 304 rows retrieved from datasets-server.huggingface.co/rows at offsets 0,100,200,300. Viewer API is not revision-pinned; do not assume byte identity with the pinned Parquet without parsing it."
+    },
+    {
+      "id": "qa-completeness-relevance",
+      "paper": "https://link.springer.com/article/10.1007/s10579-026-09936-6",
+      "repository": "https://github.com/eduardogc8/QA-CompletenessRelevance",
+      "revision": "fa9fc9587b8f29fbf34e04cda6713f91651b9a55",
+      "license": "Repository LICENSE is MIT. Upstream README separately attributes the Reddit-derived human answers to their authors; do not assume repository code licensing settles all text rights.",
+      "verified_questions": 106,
+      "answer_sources": {
+        "gpt4": 106,
+        "human": 106
+      },
+      "artifacts": [
+        {
+          "url": "https://raw.githubusercontent.com/eduardogc8/QA-CompletenessRelevance/fa9fc9587b8f29fbf34e04cda6713f91651b9a55/data/answers.csv",
+          "sha256": "4a3b64e808e2ebf7d6b7832155702a3ce054afb979c72d7cb4b30f89c8e9283e",
+          "downloaded_bytes": 363408,
+          "verified_rows": 212,
+          "shape": [
+            "question_id",
+            "question",
+            "answer",
+            "answer_source",
+            "completeness",
+            "relevance",
+            "reference_answer"
+          ]
+        }
+      ],
+      "annotation": "Completeness and relevance scores, each 0\u2013100, averaged over 4 human annotators; expert reference answer per question.",
+      "upstream_evaluation": "Correlation with human scores and pairwise preference accuracy. Original answer ratings do not transfer to new or edited answers."
+    }
+  ]
+}

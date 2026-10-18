@@ -78,7 +78,7 @@ Judge outcomes: task correctness, evidence support, preserved constraints, appro
 Before merging: check frontmatter and names against the specification, resolve local links, run changed scripts, and review actual outputs. Distinguish format validation from behavioral evaluation. Record the request, configuration, observations, and limitations; never label an unrun case “passed.”
 
 See [the writing smoke test](evals/writing/README.md) for the first recorded comparison and its limitations.
-The [concision ablation](evals/writing/concision/README.md) found no incremental quality benefit from two extra brevity instructions on its six drafts; the writing skill was left unchanged.
+Use the [published conciseness studies and benchmark data](evals/writing/benchmarks/README.md) to select external evaluation data. Keep source revisions, references, and human annotations separate from generation inputs; use measures appropriate to each dataset's task.
 
 ## Initial skill design
 
