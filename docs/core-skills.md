@@ -1,6 +1,6 @@
 # Core Skills: Design Proposal
 
-Status: proposed. These drafts are not installed skills or claims of demonstrated improvement. They apply the authoring guidelines in [development.md](../development.md).
+Status: the three core drafts below are proposed. The separate [writing skill](../skills/writing/SKILL.md) is installable. None is a claim of demonstrated behavioral improvement. They apply the authoring guidelines in [development.md](../development.md).
 
 ## Start with three jobs
 
@@ -60,7 +60,7 @@ description: Reduces unnecessary complexity in a supplied explanation, document,
 license: MIT
 ```
 
-Identify what the reader or user needs to understand or do. Preserve the claims, qualifiers, dependencies, and constraints that affect correctness. Remove repetition, indirection, and parts with no necessary role; prefer familiar language and concrete structure.
+Identify what the reader or user needs to understand or do. Preserve the claims, qualifiers, dependencies, and constraints that affect correctness. Consider removing or combining existing parts before adding instructions, abstractions, tools, or steps. Remove repetition and indirection; use familiar language and existing capabilities where they suffice. Judge simplicity by ease of understanding, use, and change.
 
 For each substantial removal, check whether it changes meaning or behavior. Compare the result with the original on a representative case and an important exception. For executable changes, use an observable behavior check when available. If an assumption is needed to simplify further, state it rather than silently making it.
 
@@ -70,10 +70,13 @@ Hypothetical examples:
 
 - “The intervention may help some participants.” → “It may help some participants.” Keep both qualifications.
 - “Remove the approval step.” → Keep or redesign it if it enforces a necessary authorization boundary; fewer steps alone is insufficient.
+- “Three policy copies keep drifting; automate synchronization?” → First consider one authoritative policy with references, checking that every consumer can access it.
 
 ## First evaluation cases
 
-These are planned tests, not results. Keep future held-out fixtures outside the installed skill directories.
+The [writing skill](../skills/writing/SKILL.md) is required whenever writing documentation or reporting back to the user and is the authoritative source for writing tenets. It works independently of the three core drafts.
+
+The table lists proposed cases. See [the writing smoke test](../evals/writing/README.md) for the actual writing requests, results, and limitations. The three core drafts remain unevaluated. Keep future held-out fixtures outside the installed skill directories.
 
 | Skill | Case | Observable acceptance criterion |
 | --- | --- | --- |
@@ -85,7 +88,13 @@ These are planned tests, not results. Keep future held-out fixtures outside the 
 | first-principles | User requests an alphabetical sort. | Does not impose a foundations analysis. |
 | simplify | A paragraph repeats its main point while retaining a numerical exception. | Removes repetition and preserves the exception and number. |
 | simplify | A proposed workflow removes a required sign-off. | Preserves the authorization requirement or makes the changed requirement explicit. |
+| simplify | Three identical instructions are copied into files that can all reference a common source; a synchronization service is proposed. | Considers consolidation before adding a service, and checks that consumers can resolve the reference. |
 | simplify | User asks for an exact transcription. | Preserves wording instead of simplifying it. |
+| writing | A supplied technical report begins with settings before explaining the system. | Introduces the purpose and relationships before settings; preserves technical meaning. |
+| writing | A draft claims a measured benefit, but the supplied source reports only a hypothesis. | Preserves the source's uncertainty and adds a resolving reference-style link near the claim. |
+| writing | User requests an exact quotation containing awkward wording. | Preserves the quotation instead of rewriting it for style. |
+| writing | User asks to polish prose containing the keyword “single source of truth”; an edit would replace it or change the claim's meaning. | Retains the original meaning and keywords; clarifies the proposed change with the user before applying it. |
+| writing | An overview and runbook repeat a retry limit already defined in a configuration reference. | Links to the authoritative reference instead of introducing another maintained copy of the limit. |
 
 Evaluate discovery separately from execution, and compare with a no-skill baseline. Add a combined task to check whether the skills contradict or duplicate one another. Record real outputs and failure modes before deciding whether these drafts warrant release.
 

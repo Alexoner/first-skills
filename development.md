@@ -2,6 +2,10 @@
 
 Write the smallest instruction set that measurably improves a real task. Depth belongs in the method; length must earn its place.
 
+## Writing requirements
+
+Load [the writing skill](skills/writing/SKILL.md) whenever writing documentation or reporting back to the user. Keep the writing tenets there and link to them instead of maintaining duplicate rule sets here.
+
 ## What the evidence supports
 
 Reviewed 2026-10-17. These sources answer different questions; their findings are not interchangeable.
@@ -14,8 +18,20 @@ Reviewed 2026-10-17. These sources answer different questions; their findings ar
 | [Evaluating AGENTS.md, v1, §§4–6][agents-study] | Generated repository instructions marginally hurt success; developer instructions marginally helped. Instructions increased exploration and cost. | Always-loaded repository context differs from task-selected skills. Avoid concluding that all instructions hurt. |
 | [AGENTS.md efficiency study, v1, §§3–5][efficiency-study] | A paired study of 124 tasks found lower median runtime and output-token use with context files. | It did not comprehensively evaluate correctness. Faster execution alone does not establish better work. |
 | [The Prompt Report, v6, §2.2.1][prompt-report] | Example selection and ordering affect few-shot performance; effects depend on the task. | A prompting survey, not a skill-specific trial or proof that more examples help. |
+| [Anthropic context engineering][context-engineering] | Keep context useful and focused; redundant tools and exhaustive instructions can burden the agent. | Engineering guidance, not a controlled comparison establishing an optimal instruction length. |
+| [Adams et al., Nature (2021)][subtraction] | Across eight human experiments, participants overlooked useful removals; cues to consider subtraction helped surface them. | Reviewed the publisher's abstract and extended-data descriptions; full text was subscription-only. Human behavior does not establish an LLM effect. |
 
 Our conclusion: prefer focused guidance and check its contribution. Neither “shorter always wins” nor “more instructions make agents reliable” follows from this evidence.
+
+## Simplify by removing what has no necessary role
+
+Before adding an instruction, component, dependency, or process step, consider whether removing or combining something already present would solve the problem. Judge simplicity by how easy the result is to understand, use, and change while preserving correctness. A shorter artifact can still hide complexity.
+
+For skill instructions, delete repeated rules and generic advice; keep details that change decisions. For documents, remove repetition while preserving qualifications and evidence. For systems and workflows, prefer existing capabilities before adding wrappers, configuration, or coordination. Retain parts that enforce real constraints.
+
+Example: three copies of a policy drift apart. First consider one authoritative policy and references to it, before building a synchronization system. Check that every consumer can still access the policy.
+
+This is our design heuristic, informed by [subtraction research][subtraction] and [context engineering guidance][context-engineering]. Its value for these skills still requires evaluation. A failure should lead to the smallest effective correction; adding another rule is only one possible response.
 
 ## Authoring rules
 
@@ -61,9 +77,11 @@ Judge outcomes: task correctness, evidence support, preserved constraints, appro
 
 Before merging: check frontmatter and names against the specification, resolve local links, run changed scripts, and review actual outputs. Distinguish format validation from behavioral evaluation. Record the request, configuration, observations, and limitations; never label an unrun case “passed.”
 
+See [the writing smoke test](evals/writing/README.md) for the first recorded comparison and its limitations.
+
 ## Initial skill design
 
-See [the core skill proposal](docs/core-skills.md) for three separate jobs, compact instruction drafts, examples, and evaluation cases. The drafts are proposals; the installed starter has not yet been behaviorally validated.
+See [the core skill proposal](docs/core-skills.md) for three separate jobs, compact instruction drafts, examples, and evaluation cases, plus the installable writing skill. The three core drafts remain unevaluated; the writing skill has an initial smoke test.
 
 ## References
 
@@ -73,6 +91,9 @@ See [the core skill proposal](docs/core-skills.md) for three separate jobs, comp
 [agents-study]: https://arxiv.org/html/2602.11988v1 "Gloaguen et al. (2026): Evaluating AGENTS.md, v1"
 [efficiency-study]: https://arxiv.org/html/2601.20404v1 "Lulla et al. (2026): On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents, v1"
 [prompt-report]: https://arxiv.org/html/2406.06608v6 "Schulhoff et al.: The Prompt Report, v6"
+[context-engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents "Anthropic (2025): Effective context engineering for AI agents"
+[subtraction]: https://www.nature.com/articles/s41586-021-03380-y "Adams et al. (2021): People systematically overlook subtractive changes"
+[ste]: https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf "ASD-STE100 Issue 9, 2025-01-15"
 
 - [Agent Skills specification][spec]. Format and progressive disclosure.
 - [Anthropic: Skill authoring best practices][authoring]. Practical authoring and evaluation guidance.
@@ -80,3 +101,6 @@ See [the core skill proposal](docs/core-skills.md) for three separate jobs, comp
 - [Gloaguen et al.: Evaluating AGENTS.md (2026), v1][agents-study]. Repository context evaluation; especially §§4–6.
 - [Lulla et al.: AGENTS.md efficiency study (2026), v1][efficiency-study]. Efficiency results and correctness limitations.
 - [Schulhoff et al.: The Prompt Report, v6][prompt-report]. Example design; especially §2.2.1.
+- [Anthropic: Effective context engineering for AI agents (2025)][context-engineering]. Focused context, instructions, and tools.
+- [Adams et al.: People systematically overlook subtractive changes (2021)][subtraction]. Human experiments; abstract and extended-data descriptions reviewed.
+- [ASD-STE100 Issue 9 (2025)][ste]. Technical language rules; selected Part 1 rules checked against the official PDF.
