@@ -6,7 +6,7 @@ license: MIT
 
 # Writing
 
-Preserve the user's key words, named principles, and technical terms. Do not replace them with loose paraphrases.
+**Preserve the original meaning and keywords.** Polishing or rewording must not change the user's meaning, keywords, named principles, technical terms, or qualifications. If an edit would change meaning or keywords, or the intended meaning is unclear, explain the proposed change and clarify with the user before applying it. Keep the original wording until the user confirms. This requirement takes precedence over stylistic improvements.
 
 **Linear reading structure: from high-level big picture to low-level details.** Start with purpose and the main conclusion or overview. Explain relationships before implementation details and exceptions. Define unfamiliar terms before using them; connect each focused paragraph to the preceding idea.
 
@@ -23,7 +23,7 @@ Preserve the user's key words, named principles, and technical terms. Do not rep
 Examples:
 
 - Order: purpose of a queue → how jobs move through it → retry rules and configuration.
-- Reuse: keep retry limits in the configuration reference; link there from the overview and runbook.
+- Preservation: keep “single source of truth” when polishing. Clarify with the user before replacing it with “shared guidance.”
 - Citation syntax:
 
   ```markdown

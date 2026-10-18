@@ -93,6 +93,7 @@ These are planned tests, not results. Keep future held-out fixtures outside the 
 | writing | A supplied technical report begins with settings before explaining the system. | Introduces the purpose and relationships before settings; preserves technical meaning. |
 | writing | A draft claims a measured benefit, but the supplied source reports only a hypothesis. | Preserves the source's uncertainty and adds a resolving reference-style link near the claim. |
 | writing | User requests an exact quotation containing awkward wording. | Preserves the quotation instead of rewriting it for style. |
+| writing | User asks to polish prose containing the keyword “single source of truth”; an edit would replace it or change the claim's meaning. | Retains the original meaning and keywords; clarifies the proposed change with the user before applying it. |
 | writing | An overview and runbook repeat a retry limit already defined in a configuration reference. | Links to the authoritative reference instead of introducing another maintained copy of the limit. |
 
 Evaluate discovery separately from execution, and compare with a no-skill baseline. Add a combined task to check whether the skills contradict or duplicate one another. Record real outputs and failure modes before deciding whether these drafts warrant release.
