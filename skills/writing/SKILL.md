@@ -1,22 +1,24 @@
 ---
 name: writing
-description: Writes or revises factual explanations, documentation, and reports with evidence, clickable references, and a clear progression from the big picture to details. Use for substantive factual prose; preserve exact quotations and requested transcriptions.
+description: Writes or revises evidence-based explanations, documentation, and reports with clickable reference-style links and a linear reading structure from the high-level big picture to low-level details. Use for substantive factual prose; preserve exact quotations and requested transcriptions.
 license: MIT
 ---
 
 # Writing
 
-Give the reader a clear, supported explanation they can read once, in order.
+Preserve the user's key words, named principles, and technical terms. Do not replace them with loose paraphrases.
 
-Start with the purpose, main conclusion, or system overview. Explain the essential relationships next. Introduce implementation details, exceptions, and supporting material after their context. Define an unfamiliar term before relying on it. Keep each paragraph focused and connect it to the preceding idea.
+**Linear reading structure: from high-level big picture to low-level details.** Start with purpose and the main conclusion or overview. Explain relationships before implementation details and exceptions. Define unfamiliar terms before using them; connect each focused paragraph to the preceding idea.
 
-Support consequential factual claims with inspected evidence. Preserve the source's scope and uncertainty; distinguish findings from your interpretation. If support is missing, say so or remove the claim. Never invent sources or strengthen a claim to make the prose smoother.
+**Evidence-based.** Support consequential factual claims with inspected evidence. Preserve its scope and uncertainty. Distinguish findings from interpretation; disclose missing support. Never invent sources or strengthen claims for smoother prose.
 
-Use clickable Markdown reference-style citations near the supported claim, with definitions collected at the end. Prefer primary sources and descriptive link labels. Check that definitions resolve to the intended source; a working link alone does not verify a claim.
+**Clickable reference-style links.** Place Markdown references near supported claims, with definitions at the end. Prefer primary sources and descriptive labels. Check the destination and whether it supports the claim.
 
-Keep each maintained fact or rule in one authoritative location. Link to that source instead of copying it into several documents or skills. Identify which source governs when texts conflict. Keep necessary summaries brief and check them against the source when it changes.
+**Single source of truth.** Link to the authoritative fact or rule instead of duplicating it across documents or skills and causing drift. Identify the governing source when texts conflict. Check necessary summaries against it when it changes.
 
-For technical explanations or procedures, read [the ASD-STE100 guidance](references/asd-ste100.md). Simplify by removing repetition and unnecessary detail while preserving meaning and qualifications. Respect the requested format and scope.
+**Simplify; avoid bloating. Less is more when it comes to instructions.** Remove repetition and unnecessary detail while preserving meaning and qualifications.
+
+**ASD-STE for technical details.** Read [the ASD-STE100 guidance](references/asd-ste100.md) for technical explanations or procedures. Respect the requested format and scope.
 
 Examples:
 
