@@ -1,0 +1,35 @@
+{
+  "answers": [
+    {
+      "id": "keywords",
+      "answer": "We use a single source of truth. The new workflow may reduce drift."
+    },
+    {
+      "id": "meaning",
+      "answer": "Preliminary results suggest that the method may benefit some users."
+    },
+    {
+      "id": "ambiguity",
+      "answer": "What does “it” refer to, and what should stop before the valve is closed?"
+    },
+    {
+      "id": "structure",
+      "answer": "Workers process queued jobs. Failed jobs return to the queue, which prevents temporary worker failures from causing jobs to be lost. The configuration setting is `retry_limit=3`."
+    },
+    {
+      "id": "evidence",
+      "answer": "Ten volunteers used the tool for one week, and six reported finding it useful. The pilot did not measure error rates or include a comparison with a control group. [Pilot report][pilot]\n\n[pilot]: https://example.org/pilot-report"
+    },
+    {
+      "id": "source_of_truth",
+      "answer": "**Overview:** Jobs are retried up to the configured retry limit. See the [maintained retry-limit setting](https://example.org/config#retry-limit) for the current limit.\n\n**Runbook:** Retry jobs up to the configured retry limit. Check the [maintained retry-limit setting](https://example.org/config#retry-limit) for the current limit."
+    },
+    {
+      "id": "routine_technical",
+      "answer": "Take a backup, enable maintenance mode, restart the worker, and then disable maintenance mode."
+    }
+  ],
+  "retrievals": [
+    "/tmp/first-skills-writing-eval/cases.json"
+  ]
+}

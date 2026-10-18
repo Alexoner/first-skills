@@ -74,9 +74,9 @@ Hypothetical examples:
 
 ## First evaluation cases
 
-The [writing skill](../skills/writing/SKILL.md) is required for repository documentation and is the authoritative source for writing tenets. It works independently of the three core drafts.
+The [writing skill](../skills/writing/SKILL.md) is required whenever writing documentation or reporting back to the user and is the authoritative source for writing tenets. It works independently of the three core drafts.
 
-These are planned tests, not results. Keep future held-out fixtures outside the installed skill directories.
+The table lists proposed cases. See [the writing smoke test](../evals/writing/README.md) for the actual writing requests, results, and limitations. The three core drafts remain unevaluated. Keep future held-out fixtures outside the installed skill directories.
 
 | Skill | Case | Observable acceptance criterion |
 | --- | --- | --- |

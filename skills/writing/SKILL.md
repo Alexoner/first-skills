@@ -1,6 +1,6 @@
 ---
 name: writing
-description: Writes or revises evidence-based explanations, documentation, and reports with clickable reference-style links and a linear reading structure from the high-level big picture to low-level details. Use for substantive factual prose; preserve exact quotations and requested transcriptions.
+description: Must be loaded whenever writing documentation or reporting back to the user. Produces evidence-based writing with clickable reference-style links and a linear reading structure from the high-level big picture to low-level details. Preserves original meaning, keywords, exact quotations, and requested transcriptions.
 license: MIT
 ---
 
@@ -18,7 +18,7 @@ license: MIT
 
 **Simplify; avoid bloating. Less is more when it comes to instructions.** Remove repetition and unnecessary detail while preserving meaning and qualifications.
 
-**ASD-STE for technical details.** Read [the ASD-STE100 guidance](references/asd-ste100.md) for technical explanations or procedures. Respect the requested format and scope.
+**ASD-STE for technical details.** Use [the short local guidance](references/asd-ste100.md) for technical explanations or procedures. Respect the requested format and scope.
 
 Examples:
 

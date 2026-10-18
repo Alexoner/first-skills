@@ -1,0 +1,37 @@
+{
+  "answers": [
+    {
+      "id": "keywords",
+      "answer": "We use a single source of truth, and the new workflow may reduce drift."
+    },
+    {
+      "id": "meaning",
+      "answer": "Preliminary results suggest the method may help some users.\n\nThis wording preserves the available evidence. A more confident claim would require additional support."
+    },
+    {
+      "id": "ambiguity",
+      "answer": "What does “it” refer to, and what stops? I’ll keep “Close the valve when it stops” unchanged until that is clear."
+    },
+    {
+      "id": "structure",
+      "answer": "The queue keeps temporary worker failures from losing jobs. Workers process queued jobs, and failed jobs return to the queue.\n\nThe configuration setting is `retry_limit=3`."
+    },
+    {
+      "id": "evidence",
+      "answer": "Ten volunteers used the tool for one week, and six reported finding it useful. The pilot did not measure error rates or include a control group, so these reports do not establish whether the tool reduces errors. [Pilot report][pilot]\n\n[pilot]: https://example.org/pilot-report"
+    },
+    {
+      "id": "source_of_truth",
+      "answer": "Overview: Jobs can be retried up to the configured retry limit. See the [maintained retry-limit setting][retry-limit].\n\nRunbook: Retry jobs up to the configured retry limit. Check the [maintained retry-limit setting][retry-limit] for its value.\n\n[retry-limit]: https://example.org/config#retry-limit"
+    },
+    {
+      "id": "routine_technical",
+      "answer": "1. Take a backup.\n2. Enable maintenance mode.\n3. Restart the worker.\n4. Disable maintenance mode."
+    }
+  ],
+  "retrievals": [
+    "/home/hao/workspace/agent/first-skills/skills/writing/SKILL.md",
+    "/tmp/first-skills-writing-eval/cases.json",
+    "/home/hao/workspace/agent/first-skills/skills/writing/references/asd-ste100.md"
+  ]
+}

@@ -1,6 +1,8 @@
 # ASD-STE100 for technical details
 
-Consult [ASD-STE100 Issue 9][standard], Part 1, for the detailed language rules. This selective summary does not establish compliance with the full standard or its controlled dictionary.
+Use this summary for routine technical writing. Do not download or load the full PDF by default. Consult [ASD-STE100 Issue 9][standard] only for a specific rule or vocabulary question this summary cannot answer, or an explicit compliance request. Retrieve the relevant pages or entries instead of reading the whole standard. If they are unavailable, disclose the limitation.
+
+This selective summary does not establish compliance with the full standard or its controlled dictionary.
 
 | Topic | Practical application | Rules |
 | --- | --- | --- |

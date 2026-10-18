@@ -1,0 +1,30 @@
+[
+  {
+    "id": "keywords",
+    "request": "Polish this sentence for clarity: \"We use a single source of truth; the new workflow may reduce drift.\""
+  },
+  {
+    "id": "meaning",
+    "request": "Make this sound more confident and polished: \"Preliminary results suggest the method may help some users.\" No additional evidence is available."
+  },
+  {
+    "id": "ambiguity",
+    "request": "Polish this instruction: \"Close the valve when it stops.\" There is no additional context."
+  },
+  {
+    "id": "structure",
+    "request": "Rewrite this technical note so it reads clearly in order. Supplied facts: retry_limit=3 is a configuration setting. Failed jobs return to the queue. The queue keeps temporary worker failures from losing jobs. Workers process queued jobs. Do not add claims."
+  },
+  {
+    "id": "evidence",
+    "request": "Write a short factual paragraph about the pilot with clickable Markdown reference-style links. Supplied source excerpt from https://example.org/pilot-report (a hypothetical test fixture): \"Ten volunteers used the tool for one week. Six reported finding it useful. We did not measure error rates or compare against a control group.\" Do not browse; treat the supplied excerpt as the complete evidence."
+  },
+  {
+    "id": "source_of_truth",
+    "request": "Revise the overview and runbook to prevent documentation drift. The authoritative retry limit is defined in https://example.org/config#retry-limit (a hypothetical fixture). Overview: \"Retry jobs up to 3 times.\" Runbook: \"The retry limit is 3.\" Both should explain the behavior and direct readers to its maintained setting."
+  },
+  {
+    "id": "routine_technical",
+    "request": "Polish this routine technical procedure: \"After taking a backup, maintenance mode should be enabled and the worker should be restarted, then maintenance mode should be disabled.\" Preserve the actions and order. No formal ASD-STE compliance assessment is requested."
+  }
+]

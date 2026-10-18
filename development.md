@@ -4,7 +4,7 @@ Write the smallest instruction set that measurably improves a real task. Depth b
 
 ## Writing requirements
 
-Load [the writing skill](skills/writing/SKILL.md) before drafting or revising documentation. Keep the writing tenets there and link to them instead of maintaining duplicate rule sets here.
+Load [the writing skill](skills/writing/SKILL.md) whenever writing documentation or reporting back to the user. Keep the writing tenets there and link to them instead of maintaining duplicate rule sets here.
 
 ## What the evidence supports
 
@@ -77,9 +77,11 @@ Judge outcomes: task correctness, evidence support, preserved constraints, appro
 
 Before merging: check frontmatter and names against the specification, resolve local links, run changed scripts, and review actual outputs. Distinguish format validation from behavioral evaluation. Record the request, configuration, observations, and limitations; never label an unrun case “passed.”
 
+See [the writing smoke test](evals/writing/README.md) for the first recorded comparison and its limitations.
+
 ## Initial skill design
 
-See [the core skill proposal](docs/core-skills.md) for three separate jobs, compact instruction drafts, examples, and evaluation cases, plus the installable writing skill. Behavioral evaluation remains pending.
+See [the core skill proposal](docs/core-skills.md) for three separate jobs, compact instruction drafts, examples, and evaluation cases, plus the installable writing skill. The three core drafts remain unevaluated; the writing skill has an initial smoke test.
 
 ## References
 

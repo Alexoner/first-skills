@@ -3,7 +3,7 @@
 This repository distributes portable Agent Skills for documents, research, code, and other work.
 
 Read `development.md` before authoring or substantially revising a skill.
-Before drafting or revising documentation, load `skills/writing/SKILL.md` and apply its guidance.
+Before writing documentation or reporting back to the user, load `skills/writing/SKILL.md` and apply its guidance.
 
 - Keep installable skills in `skills/<name>/SKILL.md`, following the Agent Skills specification.
 - Preserve the focus on foundational understanding, simplicity, and evidence. Do not replace judgment with elaborate universal procedures.
