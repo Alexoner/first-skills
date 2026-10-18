@@ -2,6 +2,8 @@
 
 Propose skills that turn deep understanding into clear, reliable practice across documents, research, code, and other domains.
 
+Read [development.md](development.md) for research-backed authoring guidance, examples, and the evaluation approach.
+
 ## Add or change a skill
 
 1. Identify a concrete task and the decisions the skill should improve.

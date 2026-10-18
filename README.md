@@ -44,7 +44,7 @@ Skills follow the open [Agent Skills specification](https://agentskills.io/speci
 
 ## Contribute
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). This collection starts small and grows from demonstrated needs.
+See [development.md](development.md) for authoring guidance and research references, [the core skill proposal](docs/core-skills.md) for the initial design, and [CONTRIBUTING.md](CONTRIBUTING.md) to contribute. This collection starts small and grows from demonstrated needs.
 
 ## License
 
