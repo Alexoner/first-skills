@@ -1,0 +1,32 @@
+[
+  {
+    "id": "status",
+    "request": "Polish this status report. Return only the revised report. The draft contains all available work facts.",
+    "draft": "The targeted test passed. We ran the targeted test and it passed. The full suite was not run. Only the targeted test was run, so the full suite was not run. Broader test coverage is unknown."
+  },
+  {
+    "id": "keywords",
+    "request": "Polish this paragraph. Preserve the keywords \"single source of truth\" and \"drift\", and keep the original meaning. Return only the revised paragraph.",
+    "draft": "We keep the retry policy in a single source of truth. The single source of truth is the configuration reference. Keeping one maintained retry policy may reduce drift. In other words, having the retry policy in one maintained place may reduce drift between documents."
+  },
+  {
+    "id": "concise",
+    "request": "Polish this sentence if needed. Preserve meaning and the keywords \"pilot\" and \"control group\". Return only the resulting sentence.",
+    "draft": "The pilot included ten volunteers and no control group; six volunteers reported that the tool was useful."
+  },
+  {
+    "id": "exception",
+    "request": "Simplify this policy paragraph while preserving its meaning and the keywords \"approval\", \"emergency\", and \"audit log\". Return only the revised policy.",
+    "draft": "Changes require approval before deployment. Approval is required before a change can be deployed. During an emergency, deployment can precede approval only if the on-call lead authorizes it and the decision is recorded in the audit log. Emergency changes still require approval within 24 hours. Approval within 24 hours remains mandatory for emergency changes."
+  },
+  {
+    "id": "evidence",
+    "request": "Polish this paragraph and preserve its findings, uncertainty, and clickable reference-style link. The supplied citation is a hypothetical fixture; do not browse. Return only the revised paragraph and reference definition.",
+    "draft": "In the pilot, six of ten volunteers reported that the tool was useful. Six participants out of the ten volunteers found it useful. Error rates were not measured, and there was no control group. These reports do not establish that the tool reduces errors. The pilot therefore does not demonstrate a reduction in errors. [Pilot report][pilot]\n\n[pilot]: https://example.org/pilot-report"
+  },
+  {
+    "id": "standalone",
+    "request": "Polish these two standalone maintenance checklists. Each checklist will be printed separately, so it must retain its own prerequisite and all actions. Preserve the headings and action order. Return only the checklists.",
+    "draft": "Worker A\nBefore maintenance, take a backup. Enable maintenance mode. Restart worker A. Disable maintenance mode.\n\nWorker B\nBefore maintenance, take a backup. Enable maintenance mode. Restart worker B. Disable maintenance mode."
+  }
+]
