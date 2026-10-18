@@ -12,6 +12,8 @@ import pathlib
 import random
 import subprocess
 import time
+import urllib.parse
+import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 SEED = 20261018
@@ -27,7 +29,37 @@ def save(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
+def fetch(data):
+    data.mkdir(parents=True, exist_ok=True)
+    manifest = json.loads(pathlib.Path(__file__).with_name("sources.json").read_text())
+    names = {"wiki-conciseness": ["concise_lite.tsv", "concise_full.tsv"], "qa-completeness-relevance": ["qa-answers.csv"], "yapbench": ["yapbench.parquet"]}
+    for dataset in manifest["datasets"]:
+        for artifact, name in zip(dataset["artifacts"], names[dataset["id"]]):
+            content = urllib.request.urlopen(artifact["url"], timeout=60).read()
+            assert hashlib.sha256(content).hexdigest() == artifact["sha256"], f"Download checksum mismatch: {name}"
+            (data / name).write_bytes(content)
+    for offset in [0, 100, 200, 300]:
+        query = urllib.parse.urlencode(dict(dataset="tabularisai/yapbench_dataset", config="default", split="train", offset=offset, length=100))
+        content = urllib.request.urlopen("https://datasets-server.huggingface.co/rows?" + query, timeout=60).read()
+        name = "yapbench-rows" + (f"-{offset}" if offset else "") + ".json"
+        (data / name).write_bytes(content)
+    wiki = next(d for d in manifest["datasets"] if d["id"] == "wiki-conciseness")
+    base = wiki["artifacts"][0]["url"].rsplit("/", 1)[0]
+    for variant in ["full", "lite"]:
+        name = f"concise_{variant}.m2"
+        (data / name).write_bytes(urllib.request.urlopen(base + "/" + name, timeout=60).read())
+    print("Downloaded pinned releases and current Yap viewer pages; compare selected input hashes with the archived protocol.", flush=True)
+
+
 def prepare(data, run):
+    if (run / "cases-private.json").exists():
+        raise RuntimeError("Use a fresh run directory; do not overwrite a fixed sample")
+    manifest = json.loads(pathlib.Path(__file__).with_name("sources.json").read_text())
+    local_names = {"wiki-conciseness": ["concise_lite.tsv", "concise_full.tsv"], "qa-completeness-relevance": ["qa-answers.csv"]}
+    for dataset in manifest["datasets"]:
+        if dataset["id"] in local_names:
+            for artifact, name in zip(dataset["artifacts"], local_names[dataset["id"]]):
+                assert hashlib.sha256((data / name).read_bytes()).hexdigest() == artifact["sha256"], f"Source checksum mismatch: {name}"
     run.mkdir(parents=True, exist_ok=True)
     (run / "empty").mkdir(exist_ok=True)
     rng = random.Random(SEED)
@@ -94,7 +126,10 @@ def invoke(run, name, system, prompt, effort="low"):
     out = run / "native" / name
     out.parent.mkdir(exist_ok=True)
     if out.with_suffix(".record.json").exists():
-        return json.loads(out.with_suffix(".record.json").read_text())
+        cached = json.loads(out.with_suffix(".record.json").read_text())
+        assert cached["prompt_sha256"] == sha(prompt), f"Cache/input mismatch: {name}"
+        assert cached["system_sha256"] == sha(system.read_text()), f"Cache/system mismatch: {name}"
+        return cached
     cmd = ["codex", "exec", "--ignore-user-config", "--ignore-rules", "--skip-git-repo-check", "--ephemeral", "--sandbox", "read-only", "--json", "--model", MODEL,
            "-C", str(run / "empty"), "-c", 'model_instructions_file=' + json.dumps(str(system)),
            "-c", "project_doc_max_bytes=0", "-c", "skills.config=" + (run / "disabled-skills.txt").read_text(),
@@ -105,7 +140,7 @@ def invoke(run, name, system, prompt, effort="low"):
     out.with_suffix(".stderr.txt").write_text(result.stderr)
     events = [json.loads(line) for line in result.stdout.splitlines() if line.startswith("{")]
     completed = [e for e in events if e.get("type") == "turn.completed"]
-    tools = [e for e in events if e.get("item", {}).get("type") in ["command_execution", "mcp_tool_call", "web_search", "file_change"]]
+    tools = [e for e in events if e.get("item", {}).get("type") not in [None, "agent_message", "reasoning", "error"]]
     if result.returncode or not completed or tools:
         raise RuntimeError(f"{name}: failed or tool call; inspect native logs")
     answer = out.with_suffix(".answer.txt").read_text().strip()
@@ -140,10 +175,10 @@ Return ONLY JSON: {"ratings":[{"id":"...","candidate":"...","fidelity":true or n
 """
 
 
-def judge(run):
+def judge(run, calibration_only=False):
     system = run / "judge.txt"
     system.write_text(JUDGE)
-    cases = json.loads((run / "cases-private.json").read_text())
+    cases = [] if calibration_only else json.loads((run / "cases-private.json").read_text())
     outputs = {(r["id"], r["condition"]): r["answer"] for r in json.loads((run / "outputs.json").read_text())}
     rng = random.Random(SEED + 1)
     tasks, mapping = [], {}
@@ -161,9 +196,10 @@ def judge(run):
         tasks += [(f"judge-p{pass_id}-{i//5:02d}", pass_id, items[i:i+5]) for i in range(0, len(items), 5)]
     calibration = json.loads((run / "calibration-private.json").read_text())
     cal_items = [dict(id=r["question_id"]+"-"+r["answer_source"], dataset="qa", source=r["question"], references=[r["reference_answer"]], candidates={"X":r["answer"]}) for r in calibration]
-    rng.shuffle(cal_items)
+    random.Random(SEED + 1).shuffle(cal_items)
     tasks += [(f"calibration-{i//5:02d}", 0, cal_items[i:i+5]) for i in range(0, len(cal_items), 5)]
-    save(run / "judge-mapping.json", mapping)
+    if not calibration_only:
+        save(run / "judge-mapping.json", mapping)
     def job(task):
         name, pass_id, items = task
         record = invoke(run, name, system, json.dumps(items, ensure_ascii=False), "medium")
@@ -178,17 +214,23 @@ def judge(run):
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         for future in concurrent.futures.as_completed([pool.submit(job, task) for task in tasks]):
             results.append(future.result())
-            save(run / "judgments.json", sorted(results, key=lambda r:r["name"]))
+            save(run / ("calibration-judgments.json" if calibration_only else "judgments.json"), sorted(results, key=lambda r:r["name"]))
             print(f"Judged {len(results)}/{len(tasks)} batches", flush=True)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("action", choices=["prepare", "generate", "judge"])
+    parser.add_argument("action", choices=["fetch", "prepare", "generate", "judge", "calibrate"])
     parser.add_argument("--data-dir", type=pathlib.Path, required=True)
-    parser.add_argument("--run-dir", type=pathlib.Path, required=True)
+    parser.add_argument("--run-dir", type=pathlib.Path)
     args = parser.parse_args()
-    if args.action == "prepare":
+    if args.action == "fetch":
+        fetch(args.data_dir)
+    elif args.run_dir is None:
+        parser.error("--run-dir is required for this action")
+    elif args.action == "prepare":
         prepare(args.data_dir, args.run_dir)
+    elif args.action == "calibrate":
+        judge(args.run_dir, calibration_only=True)
     else:
         globals()[args.action](args.run_dir)

@@ -1,0 +1,38 @@
+{
+  "concise_lite.tsv": {
+    "sha256": "409f4c8fe22703f64cfe0ae2f428b8716ab505561cfe1f5e1421ce0bb585525d",
+    "bytes": 921572
+  },
+  "concise_full.tsv": {
+    "sha256": "da472037e5cc830c0b5b0584dd42cf340d6430db0161b0b214bfd80f20563fd3",
+    "bytes": 1675300
+  },
+  "qa-answers.csv": {
+    "sha256": "4a3b64e808e2ebf7d6b7832155702a3ce054afb979c72d7cb4b30f89c8e9283e",
+    "bytes": 363408
+  },
+  "yapbench-rows.json": {
+    "sha256": "65666377d94a48b2a64b1b813354c941a9066ce0e7b16cef7f9e8f98fd6c1d12",
+    "bytes": 21951
+  },
+  "yapbench-rows-100.json": {
+    "sha256": "d43e6312c584bf1daf123518ad42dc6fb12f87165b55c589807e1b054840f921",
+    "bytes": 24313
+  },
+  "yapbench-rows-200.json": {
+    "sha256": "6a35b6d116080fdd75716d8a66c76f97ec0a6a2fb46d516f84938476d0f56d93",
+    "bytes": 31152
+  },
+  "yapbench-rows-300.json": {
+    "sha256": "5b8d17ee65e7863bbfc87caad0d0868534898d00bdacf54a58f3ffde400d0a6a",
+    "bytes": 1642
+  },
+  "concise_full.m2": {
+    "sha256": "35c774b0fc5d60ac25d58b93354c3106aa9c6caf7f3bffb4a4a3266514e5cd67",
+    "bytes": 2065605
+  },
+  "concise_lite.m2": {
+    "sha256": "1be692345efac5e87e62d38464e2bd5d380541d1c5a0f6274416e7af98c757e8",
+    "bytes": 772803
+  }
+}

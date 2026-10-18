@@ -79,6 +79,7 @@ Before merging: check frontmatter and names against the specification, resolve l
 
 See [the writing smoke test](evals/writing/README.md) for the first recorded comparison and its limitations.
 Use the [published conciseness studies and benchmark data](evals/writing/benchmarks/README.md) to select external evaluation data. Keep source revisions, references, and human annotations separate from generation inputs; use measures appropriate to each dataset's task.
+See the [native CLI comparison on 100 published benchmark inputs](evals/writing/benchmarks/run-2026-10-18/README.md) for measured outcomes and evaluator limitations.
 
 ## Initial skill design
 

@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "A-0001",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "What would you like help with?",
+    "elapsed_seconds": 3.601,
+    "usage": {
+      "input_tokens": 13278,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7e559a2a863fa7d60c2a01fc5cc4e38208d62e0f5652d259288a09981364b21c",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "be72f95d0afa8b63ee9737ae924058986825dd6cccb9f19c74a5e50f4649d7ce"
+  },
+  {
+    "id": "A-0001",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "What would you like help with?",
+    "elapsed_seconds": 3.182,
+    "usage": {
+      "input_tokens": 14100,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7e559a2a863fa7d60c2a01fc5cc4e38208d62e0f5652d259288a09981364b21c",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "adac62ef1f01f6ec1950c66be20097e7c4a98783aa846fad896acf3f71438d8b"
+  },
+  {
+    "id": "A-0005",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "What would you like help with?",
+    "elapsed_seconds": 3.036,
+    "usage": {
+      "input_tokens": 9508,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "6412fed6d7a28d38038af2d948ba2251395470cfe2235f5a99a59636dce7352d",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "abdbd4a74cd39bebb454dfbbdd452e3191e96f15968f57ef12178889382ed709"
+  },
+  {
+    "id": "A-0005",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "What would you like help with?",
+    "elapsed_seconds": 3.094,
+    "usage": {
+      "input_tokens": 14101,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "6412fed6d7a28d38038af2d948ba2251395470cfe2235f5a99a59636dce7352d",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "ad1b8fdb57c19b6566f17ceeb3347ba578c3e54d9ed85ab5649d503465314180"
+  },
+  {
+    "id": "A-0007",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Could you clarify what you’d like help with?",
+    "elapsed_seconds": 3.899,
+    "usage": {
+      "input_tokens": 9508,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a869e6a822cb23b0c8ae4f235b7b2078c3a6713736b68e07d8c1975124a8bfad",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "6788e305f7167ecdef2c1b932db4702dccd72ce74a19daf6000fee4f427e39eb"
+  },
+  {
+    "id": "A-0007",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "What would you like help with?",
+    "elapsed_seconds": 3.12,
+    "usage": {
+      "input_tokens": 10330,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a869e6a822cb23b0c8ae4f235b7b2078c3a6713736b68e07d8c1975124a8bfad",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "ce5b3502e9cbfcc7d5976e255fc79126cf0ca5284fba3661c57fd6204db64d04"
+  },
+  {
+    "id": "A-0032",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Please share what you’d like me to fix—such as code, text, an image, or an error message.",
+    "elapsed_seconds": 3.198,
+    "usage": {
+      "input_tokens": 9510,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b4d7f981b701e801d664b2615e53b81e41ccec3b307abb4ff787a66ddc526efa",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "2b756eca69191ac24516f0d0186a074a3543731b96f7fafbb012fd1fd30a5acf"
+  },
+  {
+    "id": "A-0032",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Please paste the text, code, or error you want me to fix.",
+    "elapsed_seconds": 2.878,
+    "usage": {
+      "input_tokens": 10332,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 19,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b4d7f981b701e801d664b2615e53b81e41ccec3b307abb4ff787a66ddc526efa",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "50c91282fa92aa9d1a562106a22780e26878dfb022132f9771dd7ea2a48cf430"
+  },
+  {
+    "id": "A-0036",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "What would you like me to explain?",
+    "elapsed_seconds": 4.229,
+    "usage": {
+      "input_tokens": 13280,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 12,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "208d76f0f8e27a68ead4efb16fc0191c75eb866a743d81fdb19ed68bad87f49c",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "c4341991a13d36d528df6104d56e1ccf4a0f3a528700cd029931e245acd20e3a"
+  },
+  {
+    "id": "A-0036",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "What are you asking “why” about?",
+    "elapsed_seconds": 3.913,
+    "usage": {
+      "input_tokens": 10331,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 13,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "208d76f0f8e27a68ead4efb16fc0191c75eb866a743d81fdb19ed68bad87f49c",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "b2033f442c72151f159f00fe16501f8c4943903857e1f2921c0364484585282e"
+  },
+  {
+    "id": "A-0044",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Got it.",
+    "elapsed_seconds": 3.28,
+    "usage": {
+      "input_tokens": 9510,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "62502038b93c664eaeb8bc8acb41fba63dad1984c4b1383179244773f7641414",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "2a7a4e28a2e03579f18f3f8ce3ee08e3f080cd504003faa9d0a934641eff7cfa"
+  },
+  {
+    "id": "A-0044",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Got it. What would you like me to do next?",
+    "elapsed_seconds": 4.198,
+    "usage": {
+      "input_tokens": 14103,
+      "cached_input_tokens": 13952,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "62502038b93c664eaeb8bc8acb41fba63dad1984c4b1383179244773f7641414",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "7390eaa2e56a4f404f23ce70346df3c95c298b1cc74d5e311fe672464a4622e2"
+  },
+  {
+    "id": "A-0048",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "You’re welcome!",
+    "elapsed_seconds": 3.196,
+    "usage": {
+      "input_tokens": 13280,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 8,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "69c53a598dfcde339cdfb2bd6cf12e5b82c91ca34e82fc4f1d838780811234fd",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "5a3e6f60d33444e86f112dc8d88b44eb3ebff8e05c84f30166d5e4e4d10e33b4"
+  },
+  {
+    "id": "A-0048",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "You're welcome!",
+    "elapsed_seconds": 3.16,
+    "usage": {
+      "input_tokens": 10331,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "69c53a598dfcde339cdfb2bd6cf12e5b82c91ca34e82fc4f1d838780811234fd",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "b50d550ef204ee72fcbf291fd1540c8defa7576b19e0703fc395cee8063be050"
+  },
+  {
+    "id": "A-0053",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "4",
+    "elapsed_seconds": 3.773,
+    "usage": {
+      "input_tokens": 9509,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 17,
+      "reasoning_output_tokens": 10
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1f2426eb3a72fcfbb89f49bbf49ae32d65fb7ca6815dd8b11a904d7ce9a24457",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "6e92c2479b835fd8919dc474ede6773e90d18a6cc467104d59faa59028de6c9f"
+  },
+  {
+    "id": "A-0053",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "What would you like me to do with “4”?",
+    "elapsed_seconds": 3.483,
+    "usage": {
+      "input_tokens": 14102,
+      "cached_input_tokens": 13952,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 15,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1f2426eb3a72fcfbb89f49bbf49ae32d65fb7ca6815dd8b11a904d7ce9a24457",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "15081f1f6411db0c8887a0a0ef3831feedbeb08ca7e0cbb730326a1d2611b753"
+  },
+  {
+    "id": "A-0058",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "What would you like me to do with “9”?",
+    "elapsed_seconds": 3.688,
+    "usage": {
+      "input_tokens": 13280,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28,
+      "reasoning_output_tokens": 11
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "cfe5faca2a2e892aaa694b8688547a5fcf2a34b3143d6cd17243937369e78bbf",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "9ff3c993c350958aa0409b61eeab433916c7ef0252c8a05795e3157600061137"
+  },
+  {
+    "id": "A-0058",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "What would you like me to do with “9”?",
+    "elapsed_seconds": 3.502,
+    "usage": {
+      "input_tokens": 14102,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 25,
+      "reasoning_output_tokens": 8
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "cfe5faca2a2e892aaa694b8688547a5fcf2a34b3143d6cd17243937369e78bbf",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "f97d07255ababdde27c93625ea56a1b958ec330f57f16a512c8fd2b76fbdc662"
+  },
+  {
+    "id": "A-0059",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "0",
+    "elapsed_seconds": 3.529,
+    "usage": {
+      "input_tokens": 9509,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 9
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "13306aaa8c90498e8c88c6ea5aa66f7c64d22b458cdf619e79e3de07977fbe4a",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "9b479e8910ea4b3c4508bd844150840bffb61e72fe50dc940a0aa425808187ae"
+  },
+  {
+    "id": "A-0059",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "0",
+    "elapsed_seconds": 3.347,
+    "usage": {
+      "input_tokens": 14102,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 5,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "13306aaa8c90498e8c88c6ea5aa66f7c64d22b458cdf619e79e3de07977fbe4a",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "407f80f04d67820b9d22496110e22ad354ba7c9150a313a66329685c97198ccf"
+  },
+  {
+    "id": "B-0006",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Water freezes at **0°C** under standard atmospheric pressure.",
+    "elapsed_seconds": 3.472,
+    "usage": {
+      "input_tokens": 13288,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0356536304f6577d4ed88d9e306ab89ab17ed4f2d1c6594866acb97a34582e4e",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "e508cebd39f36cd31becd5ab2fd31e503f5f5af1016e4d0d6917fda8044bfc20"
+  },
+  {
+    "id": "B-0006",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Water freezes at **0°C** under standard atmospheric pressure.",
+    "elapsed_seconds": 3.939,
+    "usage": {
+      "input_tokens": 14110,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0356536304f6577d4ed88d9e306ab89ab17ed4f2d1c6594866acb97a34582e4e",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "c8120ed5e38095732ad7fc3bccd1cddcba50e8b21b760cf12b5b741f848a1e9b"
+  },
+  {
+    "id": "B-0012",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Plants absorb carbon dioxide (CO₂) from the atmosphere during photosynthesis.",
+    "elapsed_seconds": 3.421,
+    "usage": {
+      "input_tokens": 9519,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 19,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3cbeb544f301cc7f5e201d37fa6aac8e3a5ea9b855cab1d10061dacee4395360",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "96c984d715519ef56ce73c908a28aa7fc2c68e7f0c592be38eb5dfb5dde2b635"
+  },
+  {
+    "id": "B-0012",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Plants absorb carbon dioxide (CO₂) from the atmosphere during photosynthesis.",
+    "elapsed_seconds": 3.715,
+    "usage": {
+      "input_tokens": 10341,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 19,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3cbeb544f301cc7f5e201d37fa6aac8e3a5ea9b855cab1d10061dacee4395360",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "01befc9f3296e62f20782e7fe3a26e6422ab8890034761c8252009a885e72cde"
+  },
+  {
+    "id": "B-0022",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "There are 26 letters in the English alphabet.",
+    "elapsed_seconds": 3.682,
+    "usage": {
+      "input_tokens": 13287,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1ab41402266d463a701da5974a4791f7db5262b7b9398f27aa2a73d28b71786e",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "7ec4bcff27ce1d80d3c2beed5c851e40dca8af2a78c8adb9f152c39eb93c51dd"
+  },
+  {
+    "id": "B-0022",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "The English alphabet has 26 letters.",
+    "elapsed_seconds": 3.667,
+    "usage": {
+      "input_tokens": 10338,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 12,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1ab41402266d463a701da5974a4791f7db5262b7b9398f27aa2a73d28b71786e",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "530aaa81a477584cbac3d251748f4d5b256270b12a65bb0e98896e8717f0e886"
+  },
+  {
+    "id": "B-0073",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "The capital of Egypt is Cairo.",
+    "elapsed_seconds": 6.826,
+    "usage": {
+      "input_tokens": 9514,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "303c8e41c00e8291183295da1454b6155022883af397258806c017032c01d7fb",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "c1d0ec5d32d7823d394ad1ddac87a5f6cad5dfff718c1e6c047f7de714375089"
+  },
+  {
+    "id": "B-0073",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "The capital of Egypt is Cairo.",
+    "elapsed_seconds": 3.741,
+    "usage": {
+      "input_tokens": 14107,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "303c8e41c00e8291183295da1454b6155022883af397258806c017032c01d7fb",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "fc2f9a6fde7f169800eefc691056b341a1f65e01e0706399c0c72f1c72426703"
+  },
+  {
+    "id": "B-0075",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Oxygen is the second most abundant gas in Earth’s atmosphere, making up about 21% by volume.",
+    "elapsed_seconds": 3.884,
+    "usage": {
+      "input_tokens": 9518,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3eb2487e4cc0a941d28fc57f2e1081c3c348b37ca5c2330c64443b9956d4983c",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "7aec786bad57db69e74dad32b531ce071329796aa63f04dff8353cbb1a3d1e30"
+  },
+  {
+    "id": "B-0075",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Oxygen is the second most abundant gas in Earth’s atmosphere, making up about 21% of dry air.",
+    "elapsed_seconds": 3.733,
+    "usage": {
+      "input_tokens": 10340,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 27,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3eb2487e4cc0a941d28fc57f2e1081c3c348b37ca5c2330c64443b9956d4983c",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "8cbc5a7ee83919325e193ed7750a133a31e6e7c56d9c3fdb536b5a60bb8d2367"
+  },
+  {
+    "id": "B-0081",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "The chemical symbol for silver is **Ag**.",
+    "elapsed_seconds": 3.024,
+    "usage": {
+      "input_tokens": 9515,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "8a0c6baf5686fae0463a0ec027e0e66acb838debdf843cd7f71f0d5fa64c0f96",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d6c3d0ae2edbc35b6b84c790af503e1fd285397e9c11326d6b5d40ffbe842266"
+  },
+  {
+    "id": "B-0081",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "The chemical symbol for silver is **Ag**.",
+    "elapsed_seconds": 3.256,
+    "usage": {
+      "input_tokens": 14108,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "8a0c6baf5686fae0463a0ec027e0e66acb838debdf843cd7f71f0d5fa64c0f96",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "e083019064ddafc50aab8a83c11205bb67c84d5c71cfe0129623a63164e05b1a"
+  },
+  {
+    "id": "B-0089",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Chlorophyll is the pigment that gives plants their green color.",
+    "elapsed_seconds": 3.861,
+    "usage": {
+      "input_tokens": 9515,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 17,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "bdcfe03074ce1ab57f65dc20c19daed05a09b026c4df0e12300f285ef7a28503",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "50621b645d1f510031e217c6c5463904808f3e6b529d43c3bc6623bd46a404f3"
+  },
+  {
+    "id": "B-0089",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Chlorophyll is the pigment that gives plants their green color.",
+    "elapsed_seconds": 3.373,
+    "usage": {
+      "input_tokens": 10337,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 17,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "bdcfe03074ce1ab57f65dc20c19daed05a09b026c4df0e12300f285ef7a28503",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "69820d530f6f2a9737437abb19a2a3aa6e772e408c8b5670a387b1c44d59a9c5"
+  },
+  {
+    "id": "B-0101",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Water freezes at **32°F** under standard atmospheric pressure.",
+    "elapsed_seconds": 3.586,
+    "usage": {
+      "input_tokens": 9516,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "8d6ca1150dfe4fcfe433fb8f49eb8acc584f208fa888a8ca35eb9e4f1438e31b",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "a262c7c044b18b9c5591075f83f61488f9a44a62d6f77e48514868c73a223f8d"
+  },
+  {
+    "id": "B-0101",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Water freezes at **32°F** under standard atmospheric pressure.",
+    "elapsed_seconds": 3.402,
+    "usage": {
+      "input_tokens": 10338,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "8d6ca1150dfe4fcfe433fb8f49eb8acc584f208fa888a8ca35eb9e4f1438e31b",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "184419660a0e4f8b239da10321f05d83a43f79c6c0824626069a3aafe8aaec90"
+  },
+  {
+    "id": "B-0106",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "The **giraffe** is the tallest living animal. Adult males can reach about **5.5–6 metres (18–20 feet)** tall.",
+    "elapsed_seconds": 3.708,
+    "usage": {
+      "input_tokens": 9514,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b812a55050f6991e8b2bbe1e0dcaf2bbdede16be92dc5a32346ebbf41a80c78f",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "20922c6c599c99461c763f171c91796d8ca6d13115e75ca863500091ef775346"
+  },
+  {
+    "id": "B-0106",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "The **giraffe** is the tallest living animal. Adult males can reach about **5.5–6 metres (18–20 feet)** tall.",
+    "elapsed_seconds": 4.11,
+    "usage": {
+      "input_tokens": 14107,
+      "cached_input_tokens": 13952,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b812a55050f6991e8b2bbe1e0dcaf2bbdede16be92dc5a32346ebbf41a80c78f",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "a57ec92dee5c55abd079229966ea340cb91b20b3b66be7e2b0d3950bd8002052"
+  },
+  {
+    "id": "B-0119",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "The chemical symbol for oxygen is **O**.",
+    "elapsed_seconds": 3.068,
+    "usage": {
+      "input_tokens": 9515,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c1884f8673debb4c30119a08a8518ea6024f00c50a4d1e1d75c9fe8359e45ea5",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "a9f4ab0de64f8638ac3147cf894ceca346f75b08dbba9e1f329ae4896ee20ccf"
+  },
+  {
+    "id": "B-0119",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "The chemical symbol for oxygen is **O**.",
+    "elapsed_seconds": 3.022,
+    "usage": {
+      "input_tokens": 10337,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c1884f8673debb4c30119a08a8518ea6024f00c50a4d1e1d75c9fe8359e45ea5",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "27dfbd1b0783ebee622d222fb42a935fdd8479c922917ba7f1262381e04092ce"
+  },
+  {
+    "id": "C-0005",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```sql\nSELECT *\nFROM users\nWHERE age > 18;\n```",
+    "elapsed_seconds": 3.448,
+    "usage": {
+      "input_tokens": 13297,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 19,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3e39d437e17cae1645e799dece1cd8b4d0f7df954865e0301f13cb35d8b02375",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "7c060d994be7c384172d78ae59ef4463fb71d113ce6a362b9ba7f73d94d3a8be"
+  },
+  {
+    "id": "C-0005",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```sql\nSELECT *\nFROM users\nWHERE age > 18;\n```",
+    "elapsed_seconds": 3.276,
+    "usage": {
+      "input_tokens": 10348,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 19,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3e39d437e17cae1645e799dece1cd8b4d0f7df954865e0301f13cb35d8b02375",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "38fae39dc27836c8084b31433b80358ac517671b437b5f84e9d53a5e847737c2"
+  },
+  {
+    "id": "C-0008",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```java\nString result = String.join(\",\", list);\n```",
+    "elapsed_seconds": 3.34,
+    "usage": {
+      "input_tokens": 9530,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "94f1008d99a7533dc57eddc8c91526416597832bb9c2dd353a9ae796beb1a9ce",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d53a879275a0fdcbde3154d057e3d685d8c388dc894e6c893cae4a9f1dbb59c5"
+  },
+  {
+    "id": "C-0008",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```java\nString result = String.join(\",\", list);\n```",
+    "elapsed_seconds": 3.327,
+    "usage": {
+      "input_tokens": 14123,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "94f1008d99a7533dc57eddc8c91526416597832bb9c2dd353a9ae796beb1a9ce",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "92d03e78acb4e5fb50b87e237ed284868211c7e6aa25bdbe7807285e29dc1255"
+  },
+  {
+    "id": "C-0013",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```sql\nSELECT COUNT(*) AS total_orders\nFROM orders;\n```",
+    "elapsed_seconds": 3.54,
+    "usage": {
+      "input_tokens": 9520,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 18,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4d24801ff9a24caed059706db462cf23966ddf13fce2d19730d45747bda3fd05",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "05e6d9784c4afcec7303a267e5ee8d0734475ae9decddb68209815503d03e228"
+  },
+  {
+    "id": "C-0013",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```sql\nSELECT COUNT(*) AS total_orders\nFROM orders;\n```",
+    "elapsed_seconds": 3.372,
+    "usage": {
+      "input_tokens": 10342,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 18,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4d24801ff9a24caed059706db462cf23966ddf13fce2d19730d45747bda3fd05",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "fdcb4f95d314cf9bb5fa8414609822fc48978ebc3ef6fe007866f569cecf0885"
+  },
+  {
+    "id": "C-0015",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```bash\ncurl -X POST https://api.example.com/users \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"name\":\"test\"}'\n```",
+    "elapsed_seconds": 6.233,
+    "usage": {
+      "input_tokens": 9531,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "49ccb80b183469deb2c0c8afb127edd267310fe286ae6e279193fe7f4132ee09",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "87d49f3ec5a7d8d6283c4f2d3114e9abce4d80ff65e5dfb91c3f5b6ea1779499"
+  },
+  {
+    "id": "C-0015",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```bash\ncurl -X POST 'https://api.example.com/users' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\"name\":\"test\"}'\n```",
+    "elapsed_seconds": 3.844,
+    "usage": {
+      "input_tokens": 10353,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 41,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "49ccb80b183469deb2c0c8afb127edd267310fe286ae6e279193fe7f4132ee09",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "ebb2363c595350fd09cce6f84bd5a654be28bf7e345b84f447f569069e075b41"
+  },
+  {
+    "id": "C-0038",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```bash\ngit diff --name-only\n```\n\nLists tracked files with unstaged changes; excludes untracked files.",
+    "elapsed_seconds": 3.286,
+    "usage": {
+      "input_tokens": 9524,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b5a69e7c0e52c7b4d42416778edcc9689bf41eb2af628e260b239d021d3c653b",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "b8397648feeb1d630d6056f5787f3653f32a6181fc3e9a9c01831ea1f7618da4"
+  },
+  {
+    "id": "C-0038",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```bash\ngit diff --name-only\n```\n\nLists filenames with unstaged changes to tracked files. Does not include untracked files.",
+    "elapsed_seconds": 3.466,
+    "usage": {
+      "input_tokens": 10346,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 32,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b5a69e7c0e52c7b4d42416778edcc9689bf41eb2af628e260b239d021d3c653b",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "e64be0d7fc99211177ff86e60c079d22c8de601d27be47e21bd227ff9f71c700"
+  },
+  {
+    "id": "C-0044",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```javascript\nconst clone = JSON.parse(JSON.stringify(obj));\n```",
+    "elapsed_seconds": 3.915,
+    "usage": {
+      "input_tokens": 13301,
+      "cached_input_tokens": 13056,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 17,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "219bf2b1dbe65bccbdf209bd10a4728968df146ec2d64ebee080005bf6545610",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "20cb099cf1c873d27309906cd237ea2bdc06a2bbe1b4f93592c20d82bc29a6c4"
+  },
+  {
+    "id": "C-0044",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```javascript\nconst clone = JSON.parse(JSON.stringify(obj));\n```",
+    "elapsed_seconds": 4.1,
+    "usage": {
+      "input_tokens": 10352,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 17,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "219bf2b1dbe65bccbdf209bd10a4728968df146ec2d64ebee080005bf6545610",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "c121227cb54d7293bbb25300a74baf12d2d0edd4b4bea1150e018df69ab0717c"
+  },
+  {
+    "id": "C-0071",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```javascript\n/^\\d+$/.test(str)\n```",
+    "elapsed_seconds": 3.279,
+    "usage": {
+      "input_tokens": 9528,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "8ba819970b61b9c211fb1072ec4b268cb8b1ffcc0cb29852001748d4847b9eaf",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d58255b517123164950598d63495dab69cb38229e804f12d461ee91cdc73feb9"
+  },
+  {
+    "id": "C-0071",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```javascript\n/^[0-9]+$/.test(str)\n```\n\nReturns `true` if `str` contains one or more digits (`0–9`) and nothing else.",
+    "elapsed_seconds": 3.627,
+    "usage": {
+      "input_tokens": 10350,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 42,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "8ba819970b61b9c211fb1072ec4b268cb8b1ffcc0cb29852001748d4847b9eaf",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "df5f4b74b16fd33ab3eac98c3fecf886520558fd4b6b8604d108488c7652f8a3"
+  },
+  {
+    "id": "C-0073",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```javascript\nconst array = Array.from(nodeList);\n```",
+    "elapsed_seconds": 3.438,
+    "usage": {
+      "input_tokens": 13299,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4ef571bded35e3786cbacda28f61d74e2ee47cd5446e17b10852c95af9ead4bc",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "c3e0134b66d1b1fba7dd81c344e52c70e85f5e2bdb288696597b40aab880a696"
+  },
+  {
+    "id": "C-0073",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```javascript\nconst array = Array.from(nodeList);\n```",
+    "elapsed_seconds": 3.656,
+    "usage": {
+      "input_tokens": 10350,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4ef571bded35e3786cbacda28f61d74e2ee47cd5446e17b10852c95af9ead4bc",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "1a8da79c8f83bf51f3f802a906dbafa49527ff0497964a20544df638e7c9b026"
+  },
+  {
+    "id": "C-0092",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "```javascript\narr.sort((a, b) => a.name.localeCompare(b.name));\n```",
+    "elapsed_seconds": 3.224,
+    "usage": {
+      "input_tokens": 13304,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a15b7b85bc5274fd4363622b83e2fa679d2e5ea626f29b7d5842782121d024a9",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "75a2c46f39ce5f68168b10671eb00b8973029c98f75d2f922f3ac3e13c832633"
+  },
+  {
+    "id": "C-0092",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "```javascript\narr.sort((a, b) => a.name.localeCompare(b.name));\n```",
+    "elapsed_seconds": 3.139,
+    "usage": {
+      "input_tokens": 10355,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a15b7b85bc5274fd4363622b83e2fa679d2e5ea626f29b7d5842782121d024a9",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "cfecbbd3d2f875e0e3ce12a500e89a008c62f9cf29df4897ffea07f5cdc2f214"
+  },
+  {
+    "id": "C-0116",
+    "condition": "baseline",
+    "dataset": "yap",
+    "answer": "Yes—`===` (strict equality) compares without type conversion. Different types are always unequal:\n\n```js\n5 === 5;   // true\n5 === \"5\"; // false\n```\n\nFor objects, it compares identity, not contents:\n\n```js\n{} === {}; // false — different objects\n```\n\nTwo notable cases: `NaN === NaN` is `false`, while `+0 === -0` is `true`.",
+    "elapsed_seconds": 5.303,
+    "usage": {
+      "input_tokens": 9521,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 97,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "42dada64442561d772d22b9c4ff4ae93f12227330990e73634273305a312b1b5",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "2d5c59076ff96c03b20c2caa5613657c24e968836be9bfb14682b006fccf4924"
+  },
+  {
+    "id": "C-0116",
+    "condition": "writing",
+    "dataset": "yap",
+    "answer": "Yes—`===` (strict equality) compares values **without type conversion**. If the operands have different types, it returns `false`.\n\n```javascript\n5 === 5;   // true\n5 === \"5\"; // false\n```\n\nTwo important details:\n- Objects are equal only if they refer to the same object.\n- `NaN === NaN` is `false`.",
+    "elapsed_seconds": 4.069,
+    "usage": {
+      "input_tokens": 10343,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 84,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "42dada64442561d772d22b9c4ff4ae93f12227330990e73634273305a312b1b5",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "3926c26c219d250311dd6c282fd009ac964c6098dc1fd3e950db632174b08f3a"
+  },
+  {
+    "id": "qa-1d81zc",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "**Tor Browser helps hide who you are and where you’re browsing by routing your traffic through several servers rather than connecting directly to a website.** It’s based on Firefox and includes extra privacy protections.\n\n### How a connection works\nYour traffic usually passes through three Tor relays:\n\n1. **Entry (guard) relay:** Knows your IP address, but not the website you’re visiting.\n2. **Middle relay:** Passes traffic between the other two without knowing both endpoints.\n3. **Exit relay:** Connects to the website. It knows the destination, but not your original IP address.\n\nTor wraps traffic in layers of encryption—hence “onion routing.” Each relay removes one layer to learn only where to send the traffic next. The website sees the exit relay’s IP address instead of yours.\n\n**HTTPS still matters:** Tor’s encryption ends at the exit relay. HTTPS keeps the connection’s content encrypted all the way to the website, including against the exit relay.\n\n### What Tor Browser adds\nIt also reduces browser fingerprinting, isolates website data, and limits tracking so sites have a harder time linking your activity across visits.\n\n### What it doesn’t do\n- It doesn’t guarantee anonymity: logging into a personal account identifies you to that service.\n- Your internet provider can usually see that you’re using Tor, though not which sites you visit. Bridges can help conceal Tor use.\n- It protects browsing inside Tor Browser—not every app on your device.\n- A sufficiently powerful observer may correlate traffic entering and leaving Tor.\n- Browsing is usually slower because traffic takes multiple hops.\n\nFor **`.onion` sites**, the connection stays within Tor and doesn’t use an exit relay.",
+    "elapsed_seconds": 12.254,
+    "usage": {
+      "input_tokens": 13273,
+      "cached_input_tokens": 13056,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 346,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "9be44e4bfd90c431c663f2a4d27c009462e96e49f217039f5ee599b8ba13f58a",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d59809347c57a8d22c637f659d4e4dbe4365836cdca000b4fb231fd74edcfe47"
+  },
+  {
+    "id": "qa-1d81zc",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "**Tor Browser helps you browse while hiding your IP address from websites and reducing tracking.** It does this by sending traffic through the Tor network instead of connecting directly.\n\n### How the connection works\n\nA typical connection passes through three Tor relays:\n\n1. **Entry (guard) relay:** Knows your IP address, but not the website you visit.\n2. **Middle relay:** Passes traffic between the other relays without knowing both endpoints.\n3. **Exit relay:** Connects to the website. The website sees this relay’s IP address instead of yours.\n\nYour browser wraps traffic in multiple layers of encryption—like an onion. Each relay removes one layer to learn where to send the traffic next. This design prevents any single relay from knowing both who you are and which website you visit.\n\n### What Tor Browser adds\n\nBeyond routing traffic, Tor Browser limits tracking by isolating website data and making users’ browsers look more alike. This reduces **fingerprinting**: identifying someone through their browser’s characteristics.\n\n### What it does not hide\n\n- **Signing in identifies you** to that service, even if your IP address is hidden.\n- Your internet provider can usually see that you use Tor, though not which websites you visit.\n- **HTTPS still matters.** Without it, an exit relay could read or alter unencrypted traffic.\n- Tor protects traffic inside Tor Browser—not automatically traffic from your other apps.\n- Tor is not a guarantee of anonymity. Device compromise or an observer able to compare traffic entering and leaving the network can undermine it.\n\n**In short:** Tor separates your identity from your destination, while Tor Browser adds defenses against tracking. The extra relay hops also tend to make browsing slower.",
+    "elapsed_seconds": 13.765,
+    "usage": {
+      "input_tokens": 10324,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 346,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "9be44e4bfd90c431c663f2a4d27c009462e96e49f217039f5ee599b8ba13f58a",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "d64aff8756af0d534023c4237980d960837cd59050df9f04dd6800bc624c0bbf"
+  },
+  {
+    "id": "qa-1i1eih",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Because **computing power can test patterns, but it can’t supply missing context—or guarantee there’s a message to decode.**\n\nThe Voynich Manuscript is an illustrated book written in an unidentified script. Several problems make it unusually resistant to decipherment:\n\n- **We don’t know what kind of system it uses.** It could represent a natural language, a cipher, an abbreviated notation, an invented language, or something that doesn’t encode ordinary language at all. Each possibility requires a different approach.\n- **There’s no reliable “Rosetta Stone.”** We lack a parallel translation, a confirmed key, or securely identified passages. Even the botanical drawings aren’t reliable labels for known words.\n- **Its patterns are intriguing but ambiguous.** The text has recurring symbols and word-like structures, yet unusual repetition and positional rules. Both meaningful writing and certain text-generating processes can produce statistical regularities.\n- **The evidence is limited.** We have one book, not a large collection with known authors, languages, and historical context. Even deciding which marks are distinct characters introduces uncertainty.\n- **Plausible readings are easy; verifiable readings are hard.** With enough freedom to change symbol values, languages, or spelling rules, someone can make a few lines appear meaningful. A convincing solution must apply consistently across the manuscript and explain previously unread passages without ad hoc adjustments.\n\nAI doesn’t automatically solve that last problem. It can suggest patterns and hypotheses, but it can also generate persuasive “translations” that aren’t grounded in the text.\n\nSo the obstacle isn’t simply insufficient processing power. **It’s an underconstrained problem: many explanations fit parts of the evidence, and we lack a dependable way to choose among them.** A new historical clue could prove more valuable than a much faster computer.",
+    "elapsed_seconds": 16.719,
+    "usage": {
+      "input_tokens": 13288,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 367,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5f1061e1a9b6ff3fa510aa4053f41af523589d8afc453647781620e574bdbfd9",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "ed00c484f419c27a28a74ed74d78501a66162f68dbf31687627605601ef33311"
+  },
+  {
+    "id": "qa-1i1eih",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Because **computing power helps test a theory, but it cannot tell us which theory is right without enough evidence**. The Voynich Manuscript gives us very few reliable ways to check an answer.\n\nIts writing could represent an unknown language, a familiar language in an unusual script, an encoding system, or something that does not encode ordinary language at all. We do not yet have an accepted decipherment that settles those possibilities.\n\nSeveral obstacles reinforce one another:\n\n- **No known translation or key.** There is no confirmed bilingual text—a “Rosetta Stone”—that connects its symbols to known words.\n- **Uncertain writing rules.** We cannot confidently identify every character, abbreviation, or word boundary. Those uncertainties affect the data computers analyze.\n- **Limited material.** A single manuscript provides much less evidence than a large collection of texts, especially if its sections use different conventions.\n- **Ambiguous illustrations.** Plants, astronomical-looking diagrams, and human figures suggest possible subjects, but they do not establish what particular words mean.\n- **Too many plausible-looking answers.** A flexible decoding method can produce meaningful fragments by chance. A convincing solution must explain the manuscript consistently, not just a few selected passages.\n\nAI does not remove these problems. It can detect patterns and propose interpretations, but fluent output is not proof of a translation. Statistical structure can narrow the possibilities without uniquely identifying a language or decoding system.\n\nAlso, the familiar idea that “a powerful computer can break any code” is misleading here. Breaking a known type of cipher is very different from figuring out whether something is a cipher—and what its symbols represent—in the first place.\n\n**The bottleneck is not primarily calculation; it is finding a testable interpretation with independent confirmation.** A genuinely related document, a historical key, or a convincing identification of the underlying language could matter more than another large increase in computing power.\n\n*I haven’t checked the latest decipherment claims here; this explains the underlying difficulty rather than assessing any recent announcement.*",
+    "elapsed_seconds": 14.186,
+    "usage": {
+      "input_tokens": 10339,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 406,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5f1061e1a9b6ff3fa510aa4053f41af523589d8afc453647781620e574bdbfd9",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "995fd321f04bf68a695ef4b2d3744595090affc99b8205627d126362b39fed98"
+  },
+  {
+    "id": "qa-2ow6gv",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Account lockouts make **online brute-force attacks against one account impractical**, but attackers may use other approaches:\n\n- **Password spraying:** Trying a few common passwords across many accounts rather than many guesses against one.\n- **Credential stuffing:** Testing email/password pairs leaked from other services, relying on password reuse.\n- **Offline cracking:** If attackers steal password hashes from a breached system, they can guess locally—account lockouts don’t apply.\n- **Phishing or recovery abuse:** Getting around the need to guess the password at all.\n\nChanging IP addresses alone generally won’t defeat an account-based lockout. For a Hotmail/Microsoft account, use a unique password, enable multifactor authentication or a passkey, and review unexpected sign-in activity.",
+    "elapsed_seconds": 8.534,
+    "usage": {
+      "input_tokens": 9520,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 154,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0eb0ca40debfb57641ea026cb180bbad8ccec56831d3b98cb581f6eb4c96c7a9",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "950407cd5e2a06f08fac1d2202bac5880a625dc9b7492191ab73d47b35fe4ce4"
+  },
+  {
+    "id": "qa-2ow6gv",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Account lockouts make **rapid brute-force guessing against a single Hotmail account impractical**, but they do not prevent every password attack.\n\nAttackers may use:\n- **Password spraying:** Try a few common passwords across many accounts rather than many passwords against one account.\n- **Credential stuffing:** Try email-and-password pairs leaked from other services, relying on password reuse.\n- **Slow guessing:** Spread attempts over time, though other security controls may still detect them.\n- **Offline cracking:** Guess against stolen password hashes without contacting the login service. This requires obtaining the hashes first; it cannot be done merely by knowing an email address.\n\nSometimes an apparent “password crack” is actually phishing, malware, or abuse of account recovery—not brute force.\n\nTo protect your account, use a unique password and enable multifactor authentication or a passkey.",
+    "elapsed_seconds": 7.985,
+    "usage": {
+      "input_tokens": 14113,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 171,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0eb0ca40debfb57641ea026cb180bbad8ccec56831d3b98cb581f6eb4c96c7a9",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "6989d7e8c9ed7de71988570b54437dabcae207c24e8e7359fb8a609f8a680a5f"
+  },
+  {
+    "id": "qa-2uw4nn",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "To convert a binary number to decimal, multiply each digit by its corresponding power of 2, starting with \\(2^0\\) on the right, then add the results.\n\n**Example: \\(1011_2\\)**\n\n| Binary digit | Power of 2 | Value |\n|---|---:|---:|\n| 1 | \\(2^3 = 8\\) | 8 |\n| 0 | \\(2^2 = 4\\) | 0 |\n| 1 | \\(2^1 = 2\\) | 2 |\n| 1 | \\(2^0 = 1\\) | 1 |\n\nAdd: \\(8 + 0 + 2 + 1 = 11\\).\n\nSo, **\\(1011_2 = 11_{10}\\)**.\n\n**Shortcut:** From left to right, repeatedly double your running total and add the next digit. For `1011`: \\(1 \\rightarrow 2 \\rightarrow 5 \\rightarrow 11\\).",
+    "elapsed_seconds": 6.025,
+    "usage": {
+      "input_tokens": 9504,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 213,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "ff7450f23357061430370148aaa7c892544128f18ed2d15e6d92486a86f2f245",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "178704a784247382d5e4183c27a8aa2f816b1a3ada7c26e7efa9a95457ac24fb"
+  },
+  {
+    "id": "qa-2uw4nn",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "To convert **binary (base 2) to decimal (base 10)**, multiply each binary digit by its place value, then add the results.\n\nStarting from the right, the place values are powers of 2:\n\n| Binary digit | 1 | 0 | 1 | 1 |\n|---|---:|---:|---:|---:|\n| Place value | 8 | 4 | 2 | 1 |\n\nFor example:\n\n**1011₂ = (1 × 8) + (0 × 4) + (1 × 2) + (1 × 1) = 11₁₀**\n\n**Shortcut:** Add only the place values where the binary digit is **1**:  \n8 + 2 + 1 = **11**.\n\nFor binary fractions, the place values after the point are ½, ¼, ⅛, and so on. For example, **0.101₂ = ½ + ⅛ = 0.625₁₀**.",
+    "elapsed_seconds": 13.936,
+    "usage": {
+      "input_tokens": 14097,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 220,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "ff7450f23357061430370148aaa7c892544128f18ed2d15e6d92486a86f2f245",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "3ce36fd4dcbd45147a701a5faccd7977f53a4bb894ae555b671cd0090d9bc611"
+  },
+  {
+    "id": "qa-4h3q63",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "A 128 GB microSD card and a 128 GB SSD can hold roughly the same amount of data because **storage capacity doesn’t depend on the device’s outer size**. Both use tiny NAND flash memory chips.\n\nThe extra space inside an SSD supports things beyond capacity:\n\n- **Speed:** SSDs often access multiple memory chips in parallel.\n- **More powerful controllers:** These manage data, correct errors, and spread wear across the memory.\n- **Cooling and durability:** Higher performance produces more heat, and some SSDs have extra components for reliability.\n- **Standard shapes:** A 2.5-inch SSD is sized to fit a computer’s drive bay—even if its electronics don’t fill the case.\n\nA microSD card prioritizes **compactness and low power**, generally trading away speed and sustained-write performance. SSDs also come in much smaller forms, such as M.2 drives, though those are still larger than microSD cards.",
+    "elapsed_seconds": 8.713,
+    "usage": {
+      "input_tokens": 9516,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 194,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "e1e42b81942b8cb523a9890677ecc0403df7f9ba7e4b4bea9c6f65ea9152ff87",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "ab8c0315509805373af9ddbbbf6ba2fe4d9ca04d754535be67e3dbd97c74a3c7"
+  },
+  {
+    "id": "qa-4h3q63",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "**Storage capacity measures how much data fits—not how large the device must be.** Both devices use flash memory, but their packaging and performance goals differ.\n\nA microSD card packs flash memory and a small controller into a tiny package. A 128 GB SSD usually includes more supporting hardware and space for:\n\n- **Speed:** Multiple flash chips can work in parallel.\n- **A more capable controller:** It manages data transfers, error correction, and wear across the memory.\n- **Cooling and connections:** Faster operation needs more power and generates more heat.\n- **A standard form factor:** A 2.5-inch SSD’s case fits existing computer drive bays, even if its components do not fill the case.\n\nFlash chips can also stack memory layers and silicon dies, fitting substantial capacity into very little space.\n\nSo the SSD’s extra size generally buys **performance, supporting hardware, and compatibility—not necessarily more storage**. SSDs also come in much smaller formats than the familiar 2.5-inch enclosure.",
+    "elapsed_seconds": 10.533,
+    "usage": {
+      "input_tokens": 10338,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 205,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "e1e42b81942b8cb523a9890677ecc0403df7f9ba7e4b4bea9c6f65ea9152ff87",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "f25be25f64e84e52fc0977ae914a29b044f6299f9c2393eebd895ca2ffc48a06"
+  },
+  {
+    "id": "qa-4oudu7",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "YouTube can act quickly because it combines **automated detection, user reports, and human reviewers**:\n\n- **Scanning uploads:** Machine-learning systems analyze video, audio, text, titles, and thumbnails for signs of rule-breaking content. Some violations can be caught before many people see a video.\n- **Recognizing known content:** Digital “fingerprints” help identify copies or near-copies of certain previously identified prohibited videos—even if someone makes small edits.\n- **Reports and prioritization:** Viewers and specialist organizations flag videos. YouTube can prioritize suspected severe violations for review.\n- **Human review:** Reviewers assess flagged content, especially when context matters—for example, whether violent footage is documenting news or glorifying violence. Automated systems can also remove content when confidence is high.\n\nIt isn’t perfect: some harmful videos slip through, and legitimate videos sometimes get removed by mistake. Creators can appeal removals.\n\n**Copyright detection is a separate process:** YouTube’s Content ID matches uploads against material supplied by rights holders; a match can lead to blocking, tracking, or monetization rather than deletion.",
+    "elapsed_seconds": 9.163,
+    "usage": {
+      "input_tokens": 9512,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 225,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f7ecf80452f7cb5daea735a7508c8afd784d6cac0ad7650684e304ea4956ee25",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "39bb855a9d05873f5b21c1e863ec0e6cb6673fe6c581bb7df0fdc7222cabe02c"
+  },
+  {
+    "id": "qa-4oudu7",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "YouTube can act quickly because **software handles much of the detection, while human reviewers handle decisions that need more context**.\n\nThe process generally works like this:\n\n1. **Automated systems flag possible violations.** They look for patterns in video, audio, text, and other signals that may indicate a rule violation.\n2. **Matching systems recognize known material.** A previously identified video—or a similar copy—can be easier to catch than something entirely new.\n3. **People report videos.** Reports from viewers and specialist organizations provide another way to find content that automated systems miss.\n4. **The video is assessed.** Depending on the content and the system’s confidence, YouTube may act automatically or send it to a human reviewer.\n\nDetection can happen during upload or soon afterward, so a video may disappear before many people see it. Systems also continue checking videos after publication.\n\n**Fast doesn’t mean perfect:** context, satire, and unfamiliar material can be difficult to judge. Some violations slip through, and some legitimate videos are removed by mistake.\n\nThat’s the general mechanism, rather than a verified description of YouTube’s exact current internal systems.",
+    "elapsed_seconds": 9.963,
+    "usage": {
+      "input_tokens": 10334,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 236,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f7ecf80452f7cb5daea735a7508c8afd784d6cac0ad7650684e304ea4956ee25",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "f9a43e1ad4aa09513c54ca19ca1e47b0d8ae97dd0cff24464c12728b8a34251e"
+  },
+  {
+    "id": "qa-4votga",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Programmers at large companies don’t all keep the entire project in their heads. Instead, they use **clear boundaries, shared tools, and agreed-upon processes** to coordinate.\n\nHere’s what that usually looks like:\n\n- **Small teams own specific parts.** One team might own sign-in, another search, and another the mobile interface. Ownership makes it clear who makes decisions and fixes problems.\n- **Interfaces act as contracts.** Teams agree on how their components communicate—what inputs an API accepts, what it returns, and how errors behave. They can then work independently without knowing each other’s internal code.\n- **Version control tracks changes.** Systems such as Git let developers work separately, compare changes, and combine their work. Large companies may use one enormous repository or many smaller ones.\n- **Code reviews spread knowledge.** Other engineers review proposed changes before they’re merged, catching mistakes and checking consistency with the broader design.\n- **Automated tests check compatibility.** Build and test systems run continuously to detect when a change breaks another component. Larger projects also test performance, security, and reliability.\n- **Documents preserve decisions.** Design proposals, API documentation, and decision records explain what is being built and why. Significant changes usually involve discussion with affected teams.\n- **Planning keeps dependencies visible.** Issue trackers, project plans, brief meetings, and cross-team discussions help teams agree on priorities and identify blockers.\n- **Controlled releases limit risk.** Feature flags, staged rollouts, and monitoring allow teams to integrate code without exposing every unfinished change to every user.\n\nFor example, if a team changes the sign-in service, it typically preserves the existing interface—or coordinates a migration with teams that depend on it. Tests catch some incompatibilities, reviewers check the design, and a gradual rollout helps catch problems before everyone is affected.\n\n**The key is not that everyone knows everything; it’s that people know their responsibilities, the contracts they depend on, and how to coordinate changes.** Even then, misunderstandings and integration problems still happen—the processes make them more manageable.",
+    "elapsed_seconds": 16.567,
+    "usage": {
+      "input_tokens": 9521,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 422,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7729f5ea58a3c722a21436d01364bfe9be8f91b6862666fe159dff17afa33394",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "9f7aaf9be4025d231cfeb7b65e0b3416b62694b081ed543cb2b6b3932ea8b182"
+  },
+  {
+    "id": "qa-4votga",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Programmers at large companies stay aligned through **shared interfaces, clear ownership, automated checks, and regular communication**—not by having everyone understand the entire project.\n\nThe key is to divide a large system into smaller parts that teams can work on independently.\n\n### 1. Teams own specific parts\nOne team might own sign-in, another search, and another the mobile interface. Each team has defined responsibilities and people who review changes.\n\n### 2. They agree on how the parts connect\nTeams define **interfaces**, such as APIs: rules for how one component requests information from another. Teams can change their internal implementation as long as they preserve those agreements.\n\n### 3. Plans and decisions are written down\nRequirements, design documents, and decision records explain what is being built and why. Issue trackers record tasks, bugs, dependencies, and progress.\n\nThis gives people a shared reference instead of relying on memory or meetings alone.\n\n### 4. Code changes go through review\nProgrammers use version control, commonly Git, to track changes. Before changes enter the shared codebase, other engineers review them for correctness, maintainability, and compatibility.\n\n### 5. Automation catches conflicts early\nAutomated builds and tests check whether changes compile, behave as expected, and work with other components. **Continuous integration** means running these checks frequently as changes are combined.\n\nTests cannot catch everything, but they reduce the amount people must coordinate manually.\n\n### 6. Communication happens at different levels\nSmall teams discuss immediate work. Team leads coordinate dependencies across teams. Larger design reviews address changes that affect many systems. Shared coding conventions also make unfamiliar code easier to understand.\n\n### 7. Changes are introduced gradually\nFeature flags and staged rollouts let teams enable changes selectively, monitor results, and reverse course when necessary.\n\n**For example:** If a team changes a sign-in service, it can document the new API, coordinate with affected teams, test compatibility, and migrate users gradually rather than require every application to change simultaneously.\n\nApple, Microsoft, and Google do not each have one universal workflow; practices vary across teams. And coordination still fails sometimes. The goal is not perfect shared knowledge—it is **enough shared understanding for people to work independently without breaking one another’s work**.",
+    "elapsed_seconds": 15.125,
+    "usage": {
+      "input_tokens": 14114,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 458,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7729f5ea58a3c722a21436d01364bfe9be8f91b6862666fe159dff17afa33394",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "7df085183b72b0c985630c9fca8eac0ab166d5c5f79b51cc47642b4246c88643"
+  },
+  {
+    "id": "qa-5245sb",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Both screens have **1920 × 1080 pixels**—about 2.1 million—but those pixels are different sizes.\n\nAssuming both are 16:9:\n- **5-inch phone:** about **441 pixels per inch (PPI)**\n- **22-inch monitor:** about **100 PPI**\n\nThe phone packs the same number of pixels into a smaller area, so it shows finer detail per inch. **They don’t inherently have the same clarity just because their resolutions match.**\n\nViewing distance helps explain why both can look sharp: you usually hold a phone closer and sit farther from a monitor. Farther away, the monitor’s larger pixels become harder to distinguish.\n\nIn short: **resolution is the pixel count; perceived sharpness depends on pixel density and viewing distance.**",
+    "elapsed_seconds": 6.037,
+    "usage": {
+      "input_tokens": 9527,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 164,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0d10ba7daf23906c52fd508268ef69bf8452a7152cd88d336863047029d3af86",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "0079749829b497a4a26d8bc5503e27cf64730547029c75bb401270fe0d94256e"
+  },
+  {
+    "id": "qa-5245sb",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "They have the same **number of pixels**, but not the same **pixel density**.\n\nA resolution of 1920 × 1080 means each screen has about 2.1 million pixels. Screen size is measured diagonally, so those pixels are packed much more tightly on the phone:\n\n| Screen | Pixel density |\n|---|---:|\n| 5-inch phone | About 441 pixels per inch |\n| 22-inch monitor | About 100 pixels per inch |\n\nThe phone therefore has smaller pixels and can look sharper when viewed from the same distance.\n\n**Viewing distance is the key to why both can look clear.** You normally hold a phone closer and sit farther from a monitor. Farther away, the monitor’s larger pixels become harder to distinguish.\n\nSo they have the same resolution, but not necessarily the same perceived clarity. That depends on pixel density, viewing distance, your eyesight, and display quality.",
+    "elapsed_seconds": 7.994,
+    "usage": {
+      "input_tokens": 10349,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 190,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "0d10ba7daf23906c52fd508268ef69bf8452a7152cd88d336863047029d3af86",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "f2f41c7f4fd27784e9d3604a556a95ba8755b9717818421e12e8ec95deae6ba6"
+  },
+  {
+    "id": "qa-5axpps",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "A phone that’s turned off still loses battery for a few reasons:\n\n- **The battery slowly self-discharges.** Chemical reactions inside lithium-ion batteries consume a little stored energy even when nothing is running.\n- **Some circuitry remains powered.** Battery protection, the clock, and—on some models—features that let you locate the phone after shutdown use tiny amounts of power.\n- **“Off” may only mean the screen is off.** If the phone is asleep rather than fully shut down, apps, notifications, and cellular connections still use energy.\n\nA small drop over days or weeks is normal. Losing a large percentage overnight after a full shutdown could indicate an aging battery, a shutdown problem, or a hardware fault.",
+    "elapsed_seconds": 8.173,
+    "usage": {
+      "input_tokens": 9508,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 151,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4661e5fb3369c449aef10d01c56ef4e1436e3bc736ed413f76644c77428c5c2c",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "a6241d335e370e0fa1b30a10e50c379a4574eca82ac60e4f861dd598721bb24e"
+  },
+  {
+    "id": "qa-5axpps",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "A phone that is turned off uses **very little power, but not necessarily zero**. Its battery can lose charge for three main reasons:\n\n- **The battery slowly self-discharges.** Internal chemical reactions consume some stored energy, even when the battery is disconnected.\n- **Some circuits may stay active.** Depending on the phone, these support the clock, battery protection, or features that help locate the phone after shutdown.\n- **The battery reading can change.** After restarting, the phone may revise its charge estimate. A lower percentage does not always mean that all of that energy was used while off.\n\nHeat and an aging battery can increase the loss. A small drop over several days is usually unsurprising; a large drop overnight after a full shutdown can indicate a battery or hardware problem.\n\nAlso, **turning the screen off is not the same as shutting down**—a locked phone still runs apps, maintains network connections, and receives notifications.",
+    "elapsed_seconds": 7.766,
+    "usage": {
+      "input_tokens": 10330,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 196,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4661e5fb3369c449aef10d01c56ef4e1436e3bc736ed413f76644c77428c5c2c",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "07c06c36e2a33cf07512ee29ee317a5874d26a5b2d6909cd4c73cde46c3bc0ee"
+  },
+  {
+    "id": "qa-5ili6b",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Your computer usually doesn’t store files packed end-to-end like books on a shelf. Instead, the **filesystem** divides storage into small, fixed-size chunks called *blocks* and keeps track of which blocks belong to each file.\n\nImagine a file uses blocks **12, 13, and 14**. If it grows but block 15 belongs to another file, the filesystem can put the new data in block **80** and record that it’s the next part of the same file. To your apps, it still looks like one continuous file.\n\n- **When a file grows:** the filesystem allocates more free blocks, wherever they’re available.\n- **When it shrinks:** blocks it no longer needs become available for reuse.\n- **When it’s deleted:** its blocks are generally marked as free.\n\nHaving a file scattered across different locations is called **fragmentation**. It can slow down mechanical hard drives because their read heads must move around; it matters much less for SSDs.\n\nSo files don’t “bump into” each other because the filesystem acts like a storage manager: it tracks ownership of each block rather than requiring each file to occupy one continuous stretch.",
+    "elapsed_seconds": 8.655,
+    "usage": {
+      "input_tokens": 9512,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 241,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4177cf420ad9b12cc0099d6a86193a89edd4d235b7c925f6d2b8631c5ff9ea43",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "812fae34ef1283d58367312ab25ccb9a50412a6fbad0afe58950973f2271aa46"
+  },
+  {
+    "id": "qa-5ili6b",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Your computer usually **splits files into pieces rather than storing each file in one continuous space**. That lets a file grow without pushing another file out of the way.\n\nThink of a drive as a warehouse with numbered storage boxes:\n\n- **When you save a file,** the file system puts its contents into available boxes, called *blocks*.\n- **When the file grows,** it uses more free blocks. Those blocks do not need to be next to the original ones.\n- **When the file shrinks,** blocks it no longer needs become available for other files.\n\nThe file system keeps a map of which blocks belong to each file and their order. When you open a file, it follows that map and presents the pieces as one continuous sequence.\n\nSo two files do not “bump into” each other: the file system tracks which space is already occupied. **If there is not enough free space, the write fails instead of spilling into another file.**\n\nOne detail: blocks have a fixed size, so a file’s last block can be partly empty. That is why a file’s “size on disk” can be larger than its actual contents.",
+    "elapsed_seconds": 9.564,
+    "usage": {
+      "input_tokens": 10334,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 239,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4177cf420ad9b12cc0099d6a86193a89edd4d235b7c925f6d2b8631c5ff9ea43",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "5c7ce25ab1286d771fe51a3dc4dcd88d1b8f632a9a62efe500b2895cb97c8774"
+  },
+  {
+    "id": "qa-5k706m",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "The checkbox itself isn’t what screens out bots—it’s the visible part of a behind-the-scenes risk assessment.\n\nDepending on the CAPTCHA provider, it may consider signals such as:\n- **Browser and device characteristics:** Does this look like an ordinary browser or an automated tool?\n- **Network reputation:** Is the connection associated with spam or unusually high traffic?\n- **Interaction patterns:** Do timing, mouse movements, and other behavior look automated?\n- **Prior activity:** Cookies or previous interactions may provide additional context.\n\nClicking the checkbox triggers or completes that assessment. If the system is confident enough, you pass; if it’s uncertain, it may ask for an image puzzle or another check.\n\nSo it’s less “a bot can’t click this” and more **“does the overall request look like it came from a human?”** Bots can sometimes pass, and humans sometimes get challenged—it’s a filter, not proof.",
+    "elapsed_seconds": 9.894,
+    "usage": {
+      "input_tokens": 9513,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 188,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "27bfef4adbee7bf9f16dc9b63dedc4fef2339e8b28f2c02814eb4a2c4ab6a183",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "1190f1963c994186d2b7318c41374f997f2a6f0bf3d70ec811e4b79f3dee3055"
+  },
+  {
+    "id": "qa-5k706m",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "**The checkbox is usually the visible part of a larger risk assessment—not the test itself.** A bot can click a checkbox, so clicking alone does not prove you are human.\n\nDepending on the CAPTCHA service, it may assess signals such as:\n\n- **Browser behavior:** how you interact with the page before and during the click.\n- **Browser and session information:** cookies, browser characteristics, and signs of automated software.\n- **Traffic patterns:** whether your network address or session is making unusually frequent or suspicious requests.\n\nIf those signals look low-risk, the checkbox passes. If they look suspicious or inconclusive, the service may show an image puzzle or another challenge.\n\nAfter a successful check, the service typically issues a short-lived token that the website verifies on its server. That prevents a bot from bypassing the check simply by making the checkbox appear checked.\n\n**It is a probability judgment, not proof of humanity.** Some bots pass, and some humans get extra challenges. The exact signals and their importance vary by service and are not fully public.",
+    "elapsed_seconds": 11.476,
+    "usage": {
+      "input_tokens": 10335,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 214,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "27bfef4adbee7bf9f16dc9b63dedc4fef2339e8b28f2c02814eb4a2c4ab6a183",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "43c02dd5a110341d076da6499832cf85f701ca212d86dffb74cbe131633feee9"
+  },
+  {
+    "id": "qa-5v7kib",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Game developers usually **separate what a bot knows from how well it can aim**. Rather than letting it instantly point at a player’s exact position, they add human-like limits:\n\n- **Reaction time:** The bot waits before noticing an enemy, firing, or reacting to a change in direction.\n- **Limited perception:** It uses visibility, field of view, sound, and remembered positions—not perfect knowledge through walls.\n- **Imperfect tracking:** It aims at a slightly outdated estimate of the target’s position.\n- **Turn-speed limits:** Its aim has capped rotation speed and acceleration, preventing instant snaps.\n- **Aim error:** A slowly changing offset makes shots miss naturally. Independent random jitter every frame tends to look robotic.\n- **Imperfect prediction:** It only approximately leads moving targets or compensates for bullet drop.\n- **Weapon constraints:** Recoil, spread, movement penalties, and burst timing affect bots too.\n\nDifficulty settings tune these limits: an easier bot reacts later and tracks less accurately; a harder one reacts faster and makes smaller errors.\n\n**The key is believable mistakes, not just random misses.** A bot that instantly locks onto you but deliberately misses every third shot still feels like an aimbot. A bot that takes time to acquire you and struggles when you change direction feels much more natural.",
+    "elapsed_seconds": 11.343,
+    "usage": {
+      "input_tokens": 9509,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 268,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a7d7741c7fac55c417be73ee1d68b6f3d9c90792a7ac4cf2c8470fd26b17aec7",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "11defe6fa918aa38b70bbc79b5c402901a10719f1ac587a14e1f8284c587783e"
+  },
+  {
+    "id": "qa-5v7kib",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Game developers usually prevent **AI-controlled opponents** from feeling like aimbots by limiting what they know, how quickly they react, and how accurately they aim—not just by making shots randomly miss.\n\nCommon techniques include:\n\n- **Limited perception:** Bots must detect players through sight or sound, rather than always knowing their exact position.\n- **Reaction delays:** After spotting a target or seeing a direction change, bots wait before responding.\n- **Limited turning speed:** Their aim takes time to reach a target instead of snapping instantly.\n- **Imperfect tracking:** Bots aim at a slightly outdated or estimated position, especially against unpredictable movement.\n- **Controlled aim error:** Aim drifts smoothly around the target. This usually looks more natural than choosing a new random offset for every shot.\n- **Weapon constraints:** Bots obey recoil, spread, reload times, and projectile travel time.\n- **Difficulty tuning:** Harder bots react faster and track better; easier bots take longer to acquire targets and use less accurate movement prediction.\n\nThe key is **believable mistakes**. A bot that tracks perfectly but deliberately misses every third shot can still feel unfair. One that loses sight of you, reacts late, and struggles to follow a sudden dodge gives you understandable ways to outplay it.\n\nIf you mean **players using aimbot software**, that is a separate problem involving anti-cheat and server-side detection.",
+    "elapsed_seconds": 11.824,
+    "usage": {
+      "input_tokens": 14102,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 281,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "a7d7741c7fac55c417be73ee1d68b6f3d9c90792a7ac4cf2c8470fd26b17aec7",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "272ded39ae92d6d6915d06dfd631bda878579ff00bf50c4ed8c26cb0fd546f2b"
+  },
+  {
+    "id": "qa-7b9mjf",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Servers usually don’t detect that a game’s files are “pirated.” They check whether the connecting player has **valid authorization** to use the game or its online services.\n\nCommon checks include:\n\n- **Account ownership:** Does the Steam, PlayStation, Xbox, or publisher account own the game?\n- **Authentication tickets:** The official platform issues a signed, often short-lived ticket that the game server validates. A crack might bypass local checks without being able to produce a valid ticket.\n- **License keys:** A key may be invalid, revoked, or used by too many people.\n- **Integrity checks:** Some games check for modified executables or unexpected client versions. These can also flag legitimate mods—not just piracy.\n- **Session patterns:** Multiple simultaneous connections using one license or credential can trigger restrictions.\n\nSo a cracked game may work offline but fail online because **bypassing a check on your computer doesn’t bypass verification on the server**. And a failed check isn’t proof of piracy: outages, account issues, and unsupported modifications can cause failures too.",
+    "elapsed_seconds": 8.672,
+    "usage": {
+      "input_tokens": 9505,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 217,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "45936f613a79b39c5574c0b5ac4fa56b2a555f92c17ce470c9a4736281c480a1",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "8dfa049fbc33e7aae6367853c779f22ea3de32aa53a9b91b694c94737f962935"
+  },
+  {
+    "id": "qa-7b9mjf",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Usually, servers don’t detect a “pirated game” directly. They check whether the connecting player has valid authorization.\n\nCommon checks include:\n\n- **Account ownership:** Does the signed-in account own the game or have an active subscription?\n- **Authentication tickets:** The game presents a signed, often short-lived ticket from its platform. The server verifies it.\n- **License keys:** A key may be invalid, revoked, or used by too many players.\n- **Client integrity:** Some games check whether important files or executable code have been modified.\n- **Protocol compatibility:** An unofficial or outdated client may send messages that the server rejects.\n\nFor example, a modified game might run locally but still lack the valid account ticket needed to join official servers.\n\n**A rejection isn’t proof of piracy:** expired sessions, service outages, mods, and version mismatches can also cause these checks to fail. The exact method depends on the game and platform.",
+    "elapsed_seconds": 7.295,
+    "usage": {
+      "input_tokens": 10327,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 192,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "45936f613a79b39c5574c0b5ac4fa56b2a555f92c17ce470c9a4736281c480a1",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "15a9ba61aae7b501dd3db45af9d69d8a5d8d58eac594619348eff064ce7c6f7b"
+  },
+  {
+    "id": "qa-7bq9ll",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Hackers can access unencrypted data by gaining access to the device, network, or account handling it. Common routes include:\n\n- **Intercepting network traffic:** Reading data sent over unencrypted connections, such as HTTP or unsecured protocols.\n- **Stealing credentials:** Using phishing, reused passwords, or stolen login sessions to access accounts.\n- **Exploiting vulnerabilities:** Taking advantage of software flaws to read files or databases.\n- **Finding exposed storage:** Accessing misconfigured cloud storage, public databases, or unsecured backups.\n- **Installing malware:** Capturing keystrokes, screenshots, files, or data in memory.\n- **Physical or insider access:** Reading an unlocked device, stolen drive, or files available to an employee.\n\n**Encryption helps, but it isn’t enough on its own:** data encrypted in transit or storage can still be stolen after an authorized application decrypts it on a compromised device.\n\nTo reduce risk, use HTTPS, disk encryption, multifactor authentication, software updates, and tightly limited access permissions.",
+    "elapsed_seconds": 8.986,
+    "usage": {
+      "input_tokens": 13276,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 209,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f9861de750ddb4617fd8eed3e259dbe6c206314f7c76a9e818bbe9aed6f72d0b",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d1148377c75cc41e099d874695ad94ade655163551506bff2675cfd29eeb803e"
+  },
+  {
+    "id": "qa-7bq9ll",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Hackers can access **unencrypted data whenever they can reach the place it is stored or intercept it while it travels**. Common routes include:\n\n- **Stolen credentials:** Phishing or reused passwords let attackers sign in and read accessible files.\n- **Software vulnerabilities:** Flaws in websites, applications, or operating systems can expose data or allow unauthorized access.\n- **Misconfigured storage:** Public databases, shared folders, or cloud storage can accidentally expose information.\n- **Malware:** Malicious software on a device can read files, capture keystrokes, or copy data.\n- **Network interception:** Data sent without transport encryption can be readable to someone positioned along the network path.\n- **Physical or insider access:** A stolen drive, unlocked computer, or person with access can expose files and backups.\n\n**Unencrypted does not mean publicly accessible.** Access controls still matter. But once someone bypasses those controls, there is no encryption layer to make the data unreadable.\n\nProtect data with encryption at rest and in transit, multifactor authentication, software updates, and limited access permissions. Encryption alone does not stop attackers who control an unlocked device or an authorized account.",
+    "elapsed_seconds": 9.982,
+    "usage": {
+      "input_tokens": 14098,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 238,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f9861de750ddb4617fd8eed3e259dbe6c206314f7c76a9e818bbe9aed6f72d0b",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "98d22021e312f502c076d3c29c7a6c55bc866746081eb5870e825d1348beafa9"
+  },
+  {
+    "id": "qa-7wa9ed",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Source code is kept confidential by **restricting access rather than publishing it**. Common protections include:\n\n- **Private repositories:** Only authorized developers can view or download the code.\n- **Access controls:** Strong authentication, least-privilege permissions, and prompt removal of former employees’ access.\n- **Secure infrastructure:** Encryption, protected backups, access logs, and restricted build systems.\n- **Limited distribution:** Users receive compiled applications, while server-side code stays on the company’s servers.\n- **Legal safeguards:** Confidentiality agreements and trade-secret protections prohibit unauthorized disclosure.\n\n**Important limitation:** Code sent to a user’s device—especially browser JavaScript—can be inspected. Minification and obfuscation make it harder to understand, but don’t make it confidential. Sensitive logic and secrets should stay server-side.",
+    "elapsed_seconds": 7.832,
+    "usage": {
+      "input_tokens": 13276,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 166,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1e372c77b9c71b564e8022d99aeb1127aee7f4cdbc89fe1a77c1e1b3c2eed1d1",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "a1b6eaf72775357ecd85b035a9db5a4347975fc44b3286ab7eba26e18870f19b"
+  },
+  {
+    "id": "qa-7wa9ed",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Source code is kept confidential by **restricting access and controlling where copies can go**. A private repository helps, but it is only one layer.\n\nCommon controls include:\n\n- **Private repositories:** Only authorized people and systems can view or download the code.\n- **Access controls:** Give people only the access they need. Use multifactor authentication and remove access when they leave.\n- **Secure storage and transfer:** Encrypt code when stored and transmitted. Protect developer devices, backups, and build systems too.\n- **Sharing restrictions:** Prevent accidental publication through public repositories, shared links, logs, support tickets, or unapproved AI tools.\n- **Monitoring:** Record access and changes, scan for accidental exposure, and investigate unusual downloads.\n- **Legal agreements:** Employment contracts, confidentiality agreements, and licenses restrict disclosure. They do not technically prevent copying.\n\n**Code distributed to users has limits on confidentiality.** Browser JavaScript is accessible to users. Compiled applications can be reverse-engineered; obfuscation only makes inspection harder. Sensitive logic can remain on a server, and secrets such as private keys should not be embedded in client code.\n\nNo control guarantees secrecy once someone has legitimate access. The aim is to reduce exposure and detect misuse.",
+    "elapsed_seconds": 9.85,
+    "usage": {
+      "input_tokens": 10327,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 250,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1e372c77b9c71b564e8022d99aeb1127aee7f4cdbc89fe1a77c1e1b3c2eed1d1",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "6a1c1b4fd1f0d47a310f1a77cdf6510c39f98cef8cc08c24e56e1e8d0ad7c440"
+  },
+  {
+    "id": "qa-7z536z",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Clock speed tells you how many cycles a processor runs per second—not how much work it completes in each cycle.\n\nAn i7 can be faster than an i3 with a similar clock speed because it may have:\n\n- **More cores and threads:** It can handle more work at once, especially in video editing, compiling code, or heavy multitasking.\n- **More cache:** Fast memory inside the processor reduces time spent waiting for data.\n- **Higher boost speeds:** The advertised base clock may be similar, but the i7 may speed up more under load.\n- **A more capable design:** Different architectures can do different amounts of work per clock cycle.\n\nThink of clock speed as how fast workers move, while cores are how many workers you have.\n\n**The exact models matter:** an i7 isn’t automatically faster in every task, and a newer i3 can outperform an older i7. Compare generation, desktop versus laptop class, and benchmarks—not just GHz or the i3/i7 label.",
+    "elapsed_seconds": 8.568,
+    "usage": {
+      "input_tokens": 9516,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 204,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "bcc3f2fbf15539f5f12cd362f3147663c0772951c219d577b3b78f2cc2472d81",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "eb22a291391b420b282d2ef9bc52a7117629a999e056e6e5871a6b1395b724c9"
+  },
+  {
+    "id": "qa-7z536z",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "**Clock speed measures how many cycles a processor runs per second—not how much work it completes in each cycle.** So an i7 and an i3 running at nearly the same GHz can still perform differently.\n\nDepending on the models, an i7 may have:\n\n- **More cores and threads:** These help it handle multiple tasks at once, or finish work that can be split across cores.\n- **More cache:** This is small, fast memory inside the processor. It can reduce time spent waiting for data from RAM.\n- **Higher boost speeds:** The listed clock speed may be the *base* speed. Actual speeds can rise when power and temperature allow.\n- **A different architecture:** A processor design can do more work per cycle, even at the same clock speed.\n\nThink of GHz as how often a delivery truck makes a trip. Performance also depends on how much it carries and how many trucks are working.\n\n**The exact models matter more than the i3/i7 labels.** A newer i3 can outperform an older i7, and extra cores will not help every program equally. If you share the two model numbers, I can explain their specific differences.",
+    "elapsed_seconds": 9.387,
+    "usage": {
+      "input_tokens": 10338,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 239,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "bcc3f2fbf15539f5f12cd362f3147663c0772951c219d577b3b78f2cc2472d81",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "dd0285e165cc89698c4574d7f5636222f45ac60c7b2b2264a5ef2084534955b0"
+  },
+  {
+    "id": "qa-88dfjq",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "**RAM capacity isn’t determined by the size of the stick.** Most of a PC RAM stick is a circuit board that holds memory chips, connects them to the motherboard, and provides spacing for electrical routing and cooling.\n\nYour phone uses tiny, densely packed memory chips soldered directly onto its board—sometimes stacked with the processor. It doesn’t need the large board, connector, or removable design of desktop RAM.\n\nA few other factors help:\n- **Newer manufacturing:** More memory can fit into a smaller chip.\n- **Stacking:** Multiple layers of memory can fit inside one package.\n- **Different priorities:** Phone RAM is designed for compactness and low power; desktop RAM prioritizes performance, upgradeability, and standardized connections.\n\nThink of a RAM stick as a **shipping pallet carrying memory chips**: a bigger pallet doesn’t necessarily carry more data.",
+    "elapsed_seconds": 7.963,
+    "usage": {
+      "input_tokens": 13292,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 177,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "090f476af1b36aa863e81181005d982ecfbae166ee2fb0df16ee9fd7d7d858f4",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "6b0ca493a0b4a521e03a68c92d3320316f439a92a171bec23f1619908b23d36a"
+  },
+  {
+    "id": "qa-88dfjq",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "**RAM capacity depends on the chips inside, not the size of the board holding them.**\n\nYour PC’s RAM stick is mostly a circuit board. It holds several memory chips, electrical connections, and space for mounting and cooling. The whole stick is not memory.\n\nYour phone uses very small, densely packed memory chips soldered directly to its main board. They can contain stacked layers of silicon and may sit directly on top of the processor’s package to save space.\n\nTwo other points help explain the difference:\n\n- **Technology matters:** Newer manufacturing processes can fit more memory into a smaller area.\n- **Different priorities:** PC RAM sticks are designed to be replaceable and upgradeable. Phone RAM is designed to take up as little space and use as little power as possible.\n\nSo your phone’s 6 GB is not a miniature version of an entire PC RAM stick—it is compact memory packaging without the large, removable board.",
+    "elapsed_seconds": 10.371,
+    "usage": {
+      "input_tokens": 14114,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 189,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "090f476af1b36aa863e81181005d982ecfbae166ee2fb0df16ee9fd7d7d858f4",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "8b4aae893d362fca98dcb975b2d91a559c6d39cb725ad86513bd7b7b8124aab7"
+  },
+  {
+    "id": "qa-8hbkdr",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Megabytes and gigabytes aren’t physical objects—they’re **measurements of how much data a device stores**.\n\nAll digital data—photos, apps, music—is encoded as **bits**, each representing a `0` or `1`. Devices store those bits using different physical states:\n\n- **SSDs, USB drives, and phone storage:** trap electrical charge in tiny memory cells. The amount of charge represents bits; a single cell can encode several bits.\n- **Hard drives:** use tiny magnetized regions on spinning disks. Magnetic patterns encode the bits.\n- **RAM:** commonly stores bits as electrical charge in tiny capacitors. The charge needs refreshing, and the data disappears when power is removed.\n- **CDs and DVDs:** use microscopic features that change how laser light reflects, encoding data.\n\n**Eight bits make one byte.** In decimal units:\n- **1 megabyte (MB)** = 1 million bytes = 8 million bits.\n- **1 gigabyte (GB)** = 1 billion bytes = 8 billion bits.\n\nSo storing a 1 GB file means setting billions of tiny physical states to encode its data. Devices also store extra information for tasks such as locating data and correcting errors.",
+    "elapsed_seconds": 9.729,
+    "usage": {
+      "input_tokens": 9507,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 249,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "59753fe5c54d7a83481d305e679898bec1cedf49b2b6c1c6eb9eaaf3f7035b00",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "e889a291d9c27809c40a116e3c0359087d910b314dd66e191847c333d43bf9db"
+  },
+  {
+    "id": "qa-8hbkdr",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Megabytes and gigabytes are **amounts of data**, not physical objects. Devices store data as tiny physical states that represent **bits**: 0s and 1s.\n\n### From bits to gigabytes\n- **1 bit** is a 0 or 1.\n- **1 byte** contains 8 bits.\n- **1 megabyte (MB)** is 1 million bytes.\n- **1 gigabyte (GB)** is 1 billion bytes.\n\nSo, storing 1 GB means representing 8 billion bits. How a device represents them depends on its storage technology.\n\n### What physically holds those bits?\n\n| Technology | Physical representation |\n|---|---|\n| **SSDs, USB drives, and phone storage** | Tiny electronic cells retain electrical charge. Different charge levels represent different bit values. One cell can hold multiple bits. |\n| **Hard disk drives (HDDs)** | Small regions on spinning disks have magnetic patterns. A read head detects those patterns. |\n| **RAM** | Common RAM stores bits using electrical charge in tiny capacitors. It needs power and regular refreshing to retain data. |\n| **CDs, DVDs, and Blu-ray discs** | Physical marks or material changes affect reflected laser light, allowing the drive to read encoded data. |\n\nA photo, song, or document is converted into a pattern of bits. The device writes that pattern into its storage and reads it back when needed.\n\n**More capacity generally means more storage cells or regions, more bits per cell, or both—not physically larger bytes.** Devices also store extra information for error correction and management.",
+    "elapsed_seconds": 10.869,
+    "usage": {
+      "input_tokens": 14100,
+      "cached_input_tokens": 13952,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 330,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "59753fe5c54d7a83481d305e679898bec1cedf49b2b6c1c6eb9eaaf3f7035b00",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "36d09307a8506f3f1248a02f4efe9f1663e711dd11d64c6d6b4a77fec10c46ae"
+  },
+  {
+    "id": "qa-918s9s",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Games can save **small bits of bookkeeping separately from your actual progress**.\n\nFor example, a game might do this:\n\n1. When you start playing, write a tiny flag: **“Session in progress.”**\n2. When you save and quit properly, change it to **“Session ended safely.”**\n3. Next time you launch, check that flag. If it still says “in progress,” the previous session probably ended without saving.\n\nYour inventory, conversations, and other progress weren’t saved—but that little flag was.\n\nAnother approach is to record whether you’ve done anything since your last save. The exact method varies by game and version, but the trick is the same: **“You didn’t save” doesn’t mean “the game wrote absolutely nothing to storage.”**\n\nIt also doesn’t necessarily know *why* you left: a power outage or crash can look just like deliberately quitting without saving.",
+    "elapsed_seconds": 8.073,
+    "usage": {
+      "input_tokens": 9521,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 187,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f446798dde6934b75dd7a25509946e6abd8ebb779a7eb9c07b62ee928684c9b9",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "42ef735a1cf78acb7291ff616a108c744c4fad47949c118fcc004bc7cfd1388d"
+  },
+  {
+    "id": "qa-918s9s",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Games can keep **two separate kinds of information**: your saved progress and a tiny record of whether you quit properly.\n\nA simplified version works like this:\n\n1. **When you start playing**, the game writes a “session in progress” flag to storage.\n2. **While you play**, changes such as items collected or conversations stay in working memory until you save.\n3. **When you save and quit**, the game writes your progress and clears the flag.\n4. **If you switch off without saving**, your unsaved progress disappears, but the flag remains. Next time, the game sees it and knows the previous session did not end properly.\n\nSo it’s not remembering your whole unsaved session—just something like a sticky note saying, **“We started playing, but never finished properly.”**\n\nThat’s a common design pattern, not necessarily the exact implementation in every *Animal Crossing* game. It also cannot necessarily distinguish a deliberate reset from a crash or power failure.",
+    "elapsed_seconds": 7.946,
+    "usage": {
+      "input_tokens": 10343,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 201,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f446798dde6934b75dd7a25509946e6abd8ebb779a7eb9c07b62ee928684c9b9",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "b7c0a61ec9fc359f4b85d1f790a2258670f875f0151cc9871beef5a8fce0b733"
+  },
+  {
+    "id": "qa-mvdx3",
+    "condition": "baseline",
+    "dataset": "qa",
+    "answer": "Rooting gives you administrator-level access to Android. **The exact method depends on your phone**—using the wrong files can stop it from booting.\n\nWhat’s your phone’s **manufacturer, exact model number, Android version, and carrier**? You can usually find these under **Settings → About phone**. Don’t share your IMEI or serial number.\n\nIn general, rooting involves:\n1. Backing up your data.\n2. Unlocking the bootloader, if supported—**this usually wipes the phone**.\n3. Patching the appropriate stock firmware image with a tool such as Magisk.\n4. Flashing that patched image using model-specific instructions.\n\nRooting can affect security, updates, banking apps, and warranty coverage. Avoid “one-click root” apps and files intended for a different model.",
+    "elapsed_seconds": 7.032,
+    "usage": {
+      "input_tokens": 9503,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 169,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "381133355ecf824ec010b3f1176b0442f7051200fec97ae222ddcbbd93a227d0",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "2a7cf2d558af88759b8787d8c91b19234ea2e98e9dcab725ddcd4418799e58e5"
+  },
+  {
+    "id": "qa-mvdx3",
+    "condition": "writing",
+    "dataset": "qa",
+    "answer": "Rooting gives you administrator access to Android. **The procedure depends on your exact phone model and software version**—using the wrong instructions or image can erase your data or leave the phone unable to boot.\n\nBefore I give you steps, please share:\n- **Manufacturer and exact model number** from Settings → About phone.\n- **Android version and build number**.\n- **Carrier**, and whether the phone is carrier-branded.\n\nDon’t share your IMEI or serial number.\n\nGenerally, rooting involves backing up your data, unlocking the bootloader, and installing a modified boot image. Bootloader unlocking commonly erases the phone. Rooting can also affect security updates and banking or payment apps. Some models cannot be bootloader-unlocked.\n\nWhat phone do you have, and what do you want root access for?",
+    "elapsed_seconds": 7.935,
+    "usage": {
+      "input_tokens": 14096,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 167,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "381133355ecf824ec010b3f1176b0442f7051200fec97ae222ddcbbd93a227d0",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "a1456e07fdcbed205c50e0587e51d9219e34fda695729afb8e7f81dd62152d94"
+  },
+  {
+    "id": "wiki-0100",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Peter Gadiot trained classically at Drama Centre London and appeared in many stage productions.",
+    "elapsed_seconds": 3.337,
+    "usage": {
+      "input_tokens": 13302,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "afe6f001810c488bece66ef91ee68c4e1a73cbcc0a28c47fea82da7441cb4c47",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "915d706fb774a178277d3a98075da22d89213a4dbd821b72f3b85d51c254943c"
+  },
+  {
+    "id": "wiki-0100",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Peter Gadiot trained classically at Drama Centre London and appeared in numerous stage productions.",
+    "elapsed_seconds": 3.449,
+    "usage": {
+      "input_tokens": 10353,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "afe6f001810c488bece66ef91ee68c4e1a73cbcc0a28c47fea82da7441cb4c47",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "4f3eb07fabdd5ebbbf49d8c3f8e96a251e612693acaf9e7b19dcc5317cb3804e"
+  },
+  {
+    "id": "wiki-0114",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "They then played a brief snippet of Michael Jackson’s “Beat It,” leading fans to believe they would play “Thriller.”",
+    "elapsed_seconds": 3.342,
+    "usage": {
+      "input_tokens": 13313,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7db63c20cd55026bc82980beaa4b2226f830f0c74ed281dcfa7d032b830ff031",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "40853a1f554007db923a28753a4a80cd95bae44a9241ea003fc8df036dda1ef4"
+  },
+  {
+    "id": "wiki-0114",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "They then briefly played Michael Jackson’s “Beat It,” leading fans to believe they would play “Thriller.”",
+    "elapsed_seconds": 3.338,
+    "usage": {
+      "input_tokens": 10364,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7db63c20cd55026bc82980beaa4b2226f830f0c74ed281dcfa7d032b830ff031",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "fc7f89c1cf8d23b0591a8d08a1404ba835a2782f0006d7e3f3c8eb4dc84d5271"
+  },
+  {
+    "id": "wiki-0128",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "From the 1970s to the 1990s, all University of Ottawa undergraduates had to pass a second-language proficiency test to graduate.",
+    "elapsed_seconds": 3.978,
+    "usage": {
+      "input_tokens": 9550,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "decab5fed139bc952b954bfbdf02af9820c62e81827f9c02db63b94857353e7f",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d2d041b0fa73527feb8b1815d3bc3e9bfedfb05842810c1aae141baae418bef7"
+  },
+  {
+    "id": "wiki-0128",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "From the 1970s to the 1990s, all University of Ottawa undergraduates had to pass a second language proficiency test to graduate.",
+    "elapsed_seconds": 3.568,
+    "usage": {
+      "input_tokens": 10372,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "decab5fed139bc952b954bfbdf02af9820c62e81827f9c02db63b94857353e7f",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "1197a085159bfc3e1d0e6521945ec4e2936b5ad1eeabc37927fe8b7454153f0e"
+  },
+  {
+    "id": "wiki-0130",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Other first-class matches included the usual touring sides’ university games and end-of-season festival cricket.",
+    "elapsed_seconds": 4.034,
+    "usage": {
+      "input_tokens": 9532,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 61,
+      "reasoning_output_tokens": 36
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "2bf241425b475852c185c73de01d562b638159137454a534a50d5383037257c7",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "28229e633a1e4e22100a782b33f4d96019ae9196fddff2bdca9cbe76f2276876"
+  },
+  {
+    "id": "wiki-0130",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Other first-class matches included touring sides’ usual games with universities and end-of-season festival cricket.",
+    "elapsed_seconds": 5.534,
+    "usage": {
+      "input_tokens": 10354,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 119,
+      "reasoning_output_tokens": 94
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "2bf241425b475852c185c73de01d562b638159137454a534a50d5383037257c7",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "8f8cf4a15a108a1a66f251d632f8bc011374339cfc998249aafb3344f150fad5"
+  },
+  {
+    "id": "wiki-0155",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Though most see Character Blogging as harmless fun, some find it hard to take.",
+    "elapsed_seconds": 3.472,
+    "usage": {
+      "input_tokens": 9531,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 20,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "63b2963489e025953201a484a886b2c92451f637ff77e16dd7f7f6ed604e424b",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "456b36a0889ceb209fb157822b7c1d5c628a4b518e5a61ddc9e4f44cffdbd851"
+  },
+  {
+    "id": "wiki-0155",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "While most see Character Blogging as harmless fun, some find it hard to take.",
+    "elapsed_seconds": 4.03,
+    "usage": {
+      "input_tokens": 14124,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 15
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "63b2963489e025953201a484a886b2c92451f637ff77e16dd7f7f6ed604e424b",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "2d520a6eb2a13a3ec4734704c4a0014cba9ec220a66446f44c7ecc5342aa6d1e"
+  },
+  {
+    "id": "wiki-0227",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "On November 6, 1806, during the War of the Fourth Coalition against Napoleon, Bernadotte’s troops occupied neutral Lübeck after battling Blücher.",
+    "elapsed_seconds": 3.458,
+    "usage": {
+      "input_tokens": 13319,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "96a7b6df54a2dcafec7f211d6c978bbcbd46ed2c31790912664e12a076b0729c",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "12d3bdbcaf46105777345b7f0e554ecb31d01f19580b3fb12d92a474206d134a"
+  },
+  {
+    "id": "wiki-0227",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "During the War of the Fourth Coalition against Napoleon, Bernadotte’s troops occupied neutral Lübeck after battling Blücher on November 6, 1806.",
+    "elapsed_seconds": 3.422,
+    "usage": {
+      "input_tokens": 10370,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "96a7b6df54a2dcafec7f211d6c978bbcbd46ed2c31790912664e12a076b0729c",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "46d4453a28cdedad4e9d2863e89b535a161d34ae60d900604b3e48bc0812e507"
+  },
+  {
+    "id": "wiki-0236",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Midway through the game, Vaati imprisons him, assumes the king’s form, and orders his soldiers to find the Light Force for him.",
+    "elapsed_seconds": 3.63,
+    "usage": {
+      "input_tokens": 13313,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "abc8f6e411e73661775e2f65482c1d1bbb3fe8d0b05e2f0029b984ce6e0485b9",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "b90feccf073e2449c93a6b8cddaa9eaf0de8f77d061bf32b533d2cd599471a20"
+  },
+  {
+    "id": "wiki-0236",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Halfway through the game, Vaati imprisons him, transforms into the king, and orders his soldiers to find the Light Force for him.",
+    "elapsed_seconds": 5.346,
+    "usage": {
+      "input_tokens": 10364,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 80,
+      "reasoning_output_tokens": 45
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "abc8f6e411e73661775e2f65482c1d1bbb3fe8d0b05e2f0029b984ce6e0485b9",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "bd0ca79173b50afe07511f3c4b640b4c7acacaa64fa24c23469b51c679001536"
+  },
+  {
+    "id": "wiki-0258",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The piece is sometimes mistaken for Ramon Llull’s “Plant de la Verge.”",
+    "elapsed_seconds": 3.428,
+    "usage": {
+      "input_tokens": 9530,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 20,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "dd6a0f55a29e1c31dc68525ab1e4e73c6a862953e752e0889a557e9e6bd14c8d",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "f91e8dc896fe0fc26dba21b5a8651a0d8c9ee97b15ee5619373e1bf0529614d9"
+  },
+  {
+    "id": "wiki-0258",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The piece is sometimes mistaken for Ramon Llull’s “Plant de la Verge.”",
+    "elapsed_seconds": 3.246,
+    "usage": {
+      "input_tokens": 10352,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 20,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "dd6a0f55a29e1c31dc68525ab1e4e73c6a862953e752e0889a557e9e6bd14c8d",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "ec83193ecbdff1c3bf77b4d105151f40e5903fef94878b10309dc348424064eb"
+  },
+  {
+    "id": "wiki-0380",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Retrieve five hourglasses from varied scenarios to restore the flow of time.",
+    "elapsed_seconds": 4.442,
+    "usage": {
+      "input_tokens": 13305,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 19,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1ff4a54f8dd1bd584f3e780687089b48bdd4eeb86bf4e76ff447f31a54f65828",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "fdeaeef5da79dda82a505e7cc995b2b7ac7e3f60311eb92d0a7f5c22df7110e7"
+  },
+  {
+    "id": "wiki-0380",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The goal is to retrieve five hourglasses from diverse scenarios to restore the flow of time.",
+    "elapsed_seconds": 3.261,
+    "usage": {
+      "input_tokens": 10356,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1ff4a54f8dd1bd584f3e780687089b48bdd4eeb86bf4e76ff447f31a54f65828",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "81a2e76f1961ed9a6a129d67a196f39ebaf7f8237b52408e3d4fa7b3f5b21f7b"
+  },
+  {
+    "id": "wiki-0411",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Booth rose to fame in the melodrama “The Sporting Dutchess” alongside fellow actress and New Rochelle neighbor Cora Tanner.",
+    "elapsed_seconds": 4.238,
+    "usage": {
+      "input_tokens": 9540,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 30,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "aa4fd20c5ba2cd404d3b94968e91d061b2bb42edd02797b4a3247c8287137214",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "8462c9b80d1bf57ddb464dc26b88119db46c7595adcbb259a94886a5b0722c8b"
+  },
+  {
+    "id": "wiki-0411",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Booth gained fame in the melodrama \"The Sporting Dutchess\" alongside fellow actress and New Rochelle neighbor Cora Tanner.",
+    "elapsed_seconds": 3.788,
+    "usage": {
+      "input_tokens": 10362,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "aa4fd20c5ba2cd404d3b94968e91d061b2bb42edd02797b4a3247c8287137214",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "a1068b73724e44816acb99b5fab8b7d13b3b5bab82cc6259a96f3b40d2f7bc08"
+  },
+  {
+    "id": "wiki-0434",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "In July 2009, reports suggested the German government might seek to prosecute Faber after all, while others said he had immunity from prosecution.",
+    "elapsed_seconds": 3.736,
+    "usage": {
+      "input_tokens": 13318,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 33,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "886d9fba6016749236ad7d9192fa432dbcc644fb45b345081811543eeb3dc473",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "6c71e8ad76e28ceecebaebade93bd823ffb241950fa74c10923a3942ff949299"
+  },
+  {
+    "id": "wiki-0434",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "In July 2009, reports suggested the German government might have wanted to prosecute Faber after all, while others stated he had immunity from prosecution.",
+    "elapsed_seconds": 3.125,
+    "usage": {
+      "input_tokens": 10369,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "886d9fba6016749236ad7d9192fa432dbcc644fb45b345081811543eeb3dc473",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "7ea727c4e14e1153d0a8eb536368b7c90075c63e40af097f89b61c9a0d1323c1"
+  },
+  {
+    "id": "wiki-0452",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Although first discussed in Parliament in 1818, formal metrication policy began only in 1965.",
+    "elapsed_seconds": 4.802,
+    "usage": {
+      "input_tokens": 9538,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 25,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "da47376b8ef3b2e725400b3644cda495d08cb712b9cd6a98b1ff51be3437cf64",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "c56427c2c6f2de1176d37bd60f6221b6a8d68df1ebf76bf3325e5e7055e4d978"
+  },
+  {
+    "id": "wiki-0452",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Though first discussed in Parliament in 1818, the formal policy of metrication did not begin until 1965.",
+    "elapsed_seconds": 3.642,
+    "usage": {
+      "input_tokens": 14131,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "da47376b8ef3b2e725400b3644cda495d08cb712b9cd6a98b1ff51be3437cf64",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "3591d58150eb5757d5151b9dc3f68162ba280415761df9c84c5d570166004e90"
+  },
+  {
+    "id": "wiki-0455",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "In 1939, German-owned transatlantic cables were cut again; in 1940, Italian cables to South America and Spain were cut in retaliation for Italian action against two of the five British cables linking Gibraltar and Malta.",
+    "elapsed_seconds": 4.184,
+    "usage": {
+      "input_tokens": 9559,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 50,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "690b797783c9a430efe1b4a32516b3e9ec49f50bffce604197c4e3356ccc69f6",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "28bc95a874111e2f3373b0426c5a82299b0c5ded2743372766994a3c2a30041f"
+  },
+  {
+    "id": "wiki-0455",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "In 1939, German-owned transatlantic cables were again cut; in 1940, Italian cables to South America and Spain were cut in retaliation for Italian action against two of the five British cables linking Gibraltar and Malta.",
+    "elapsed_seconds": 4.233,
+    "usage": {
+      "input_tokens": 14152,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 50,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "690b797783c9a430efe1b4a32516b3e9ec49f50bffce604197c4e3356ccc69f6",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "2bdaecc3b2d139dfe0cd950dd12b6d7865a1db3862a82d863102645988d02163"
+  },
+  {
+    "id": "wiki-0490",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The Indian moon moth, or Indian luna moth (Actias selene), is an Asian saturniid moth.",
+    "elapsed_seconds": 3.368,
+    "usage": {
+      "input_tokens": 9536,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 27,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "765ce3ff890164c79a82b3e1aef1e7e5227a69cd5e1aae9db35ee3352f12ab41",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "ae6ed7f8d40911b7257222a92469b825546c18cf44b12a461a4a22ec9b789608"
+  },
+  {
+    "id": "wiki-0490",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The Indian moon moth or Indian luna moth (\"Actias selene\") is an Asian Saturniid moth species.",
+    "elapsed_seconds": 4.788,
+    "usage": {
+      "input_tokens": 10358,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "765ce3ff890164c79a82b3e1aef1e7e5227a69cd5e1aae9db35ee3352f12ab41",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "ddc8808144ed8e04dadb7a8a803fd94ba0a3640079d09adc7faaa82b9455bfc4"
+  },
+  {
+    "id": "wiki-0524",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The Long Island Rail Road, the nation’s busiest commuter railroad, still operates two track sections in dark territory.",
+    "elapsed_seconds": 3.877,
+    "usage": {
+      "input_tokens": 13305,
+      "cached_input_tokens": 13056,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f8e53bb12ef6841c2c9326194753235bdcb6b79101ec138c5364c55a80b72b17",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "0026b3c4768255e59aff0d6c12d5bfbc2451b58609998b4f3f9294a6ab3a2683"
+  },
+  {
+    "id": "wiki-0524",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The Long Island Rail Road, the nation’s busiest commuter railroad, still operates two track sections in dark territory.",
+    "elapsed_seconds": 3.565,
+    "usage": {
+      "input_tokens": 10356,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f8e53bb12ef6841c2c9326194753235bdcb6b79101ec138c5364c55a80b72b17",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "97bd8268e0a21b39edfd33028dfe56cd96ceb6171543bb0f63075160a3f92a60"
+  },
+  {
+    "id": "wiki-0558",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Erland Carlsson Broman (1704–19 January 1757) was a Swedish official, nobleman, and favorite of King Frederick I of Sweden.",
+    "elapsed_seconds": 3.398,
+    "usage": {
+      "input_tokens": 9545,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f2bc2400dd041c91cb645a7b6dbe60133af013fc6b7bc14f836e198d64765f2e",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "763aea7bd2902416c7d82db15317bba84f69243c69e3ce30e8eb767b812cd8be"
+  },
+  {
+    "id": "wiki-0558",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Erland Carlsson Broman (1704–19 January 1757) was a Swedish official, noble, and favorite of King Frederick I of Sweden.",
+    "elapsed_seconds": 3.95,
+    "usage": {
+      "input_tokens": 10367,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f2bc2400dd041c91cb645a7b6dbe60133af013fc6b7bc14f836e198d64765f2e",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "e081f4601f5abc82dceda3b9a3c8fa96e064f10f439bec86a4d18aa9a3ddc517"
+  },
+  {
+    "id": "wiki-0674",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The apparently related Port Gibson Battle Site was designated a National Historic Landmark and automatically added to the National Register in 2005.",
+    "elapsed_seconds": 3.316,
+    "usage": {
+      "input_tokens": 9541,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1b6b3436732d9d03c291cb2b77b4cd1c1d54c867b8c1382bc8b1fa795ff24b68",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "a06c20b689750ae49207b44789be75e8115b56f69845eaca4ffb8eae354db848"
+  },
+  {
+    "id": "wiki-0674",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The apparently related Port Gibson Battle Site was designated a National Historic Landmark and automatically listed on the National Register in 2005.",
+    "elapsed_seconds": 3.448,
+    "usage": {
+      "input_tokens": 14134,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1b6b3436732d9d03c291cb2b77b4cd1c1d54c867b8c1382bc8b1fa795ff24b68",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "51fa3d2b61cf09724f9798713e02f2d6efc94899f6805e01873e1fa69378ed8f"
+  },
+  {
+    "id": "wiki-0936",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Before becoming “Morning Live” co-host in 2005, Hamm was the station’s crime reporter and backup news anchor.",
+    "elapsed_seconds": 4.911,
+    "usage": {
+      "input_tokens": 9539,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5b5b8926edf08975f78d50864f389035a7cec005b7cebfc7ff5e6966c9751925",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "2f6be68f9b3587c8978b97ec6f12f08120a6a1a4b2485396f426cf23ce765c53"
+  },
+  {
+    "id": "wiki-0936",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Before becoming \"Morning Live\" co-host in 2005, Hamm was the station's crime reporter and backup news anchor.",
+    "elapsed_seconds": 3.723,
+    "usage": {
+      "input_tokens": 10361,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5b5b8926edf08975f78d50864f389035a7cec005b7cebfc7ff5e6966c9751925",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "5f6bdca88bb1ab5cb6708bb169de6bdbfb687ae5f4edf94efbfe63adbc82beb1"
+  },
+  {
+    "id": "wiki-1026",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "In August 2014, ISIS and its allies launched a full-scale invasion but were forced back into Syria after five days of fighting Lebanese troops.",
+    "elapsed_seconds": 4.166,
+    "usage": {
+      "input_tokens": 9544,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 46,
+      "reasoning_output_tokens": 11
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c606e65ac3a542c87befcad624df1588d52613ef76a4ed985100e7f3f5d34943",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "64062605334a60d9da464084c42b55d293069f8346ea07674115492c73201d53"
+  },
+  {
+    "id": "wiki-1026",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "In August 2014, ISIS and its allies launched a full-scale invasion and fought Lebanese troops for five days before being forced back into Syria.",
+    "elapsed_seconds": 5.148,
+    "usage": {
+      "input_tokens": 10366,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 90,
+      "reasoning_output_tokens": 55
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c606e65ac3a542c87befcad624df1588d52613ef76a4ed985100e7f3f5d34943",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "9b170c65ec2c4b9d534ab03dbae6d3d9fb3d726a81f22172bde177add0149ec3"
+  },
+  {
+    "id": "wiki-1028",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The department, part of the Justice and Public Safety Cabinet, promotes vehicle safety and enforces commercial and passenger vehicle laws.",
+    "elapsed_seconds": 3.681,
+    "usage": {
+      "input_tokens": 9542,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4ce40af21f3e8161261630869c37863cb575902b9f02e2602acb090c3c32aeaf",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "011bd8b866ed2338b632129b8e4b9cc13c0250babe09101066a7813f705ff32b"
+  },
+  {
+    "id": "wiki-1028",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The department, part of the Justice and Public Safety Cabinet, promotes vehicle safety and enforces commercial and passenger vehicle laws.",
+    "elapsed_seconds": 3.251,
+    "usage": {
+      "input_tokens": 10364,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "4ce40af21f3e8161261630869c37863cb575902b9f02e2602acb090c3c32aeaf",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "4bd0fef247d78d849b4494629fa9b4e7b14921a2a0ce8ac147d0291af8c8f771"
+  },
+  {
+    "id": "wiki-1040",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "As a teenager, Michael began playing and writing songs with his brother Chris in the band Skarotum.",
+    "elapsed_seconds": 4.103,
+    "usage": {
+      "input_tokens": 13304,
+      "cached_input_tokens": 13056,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 44,
+      "reasoning_output_tokens": 16
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "888787994f640073aa0f8014b1c2a97033e8046440bc196c0d26527d4224d7e7",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "ff9aab3a85ff503faa3492273e9e05349f9d4d00a7171f48070cee67b4691b78"
+  },
+  {
+    "id": "wiki-1040",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "As a teenager, Michael began playing and writing songs with his brother Chris in the band Skarotum.",
+    "elapsed_seconds": 4.222,
+    "usage": {
+      "input_tokens": 10355,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 70,
+      "reasoning_output_tokens": 42
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "888787994f640073aa0f8014b1c2a97033e8046440bc196c0d26527d4224d7e7",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "36143c21023c7ba0df62a3d75b2d32b5df5c8032270583f8124b85ed1edd5af4"
+  },
+  {
+    "id": "wiki-1105",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The video, called “Band of Brothers,” covered the deployment of Marines in Iraq.",
+    "elapsed_seconds": 3.152,
+    "usage": {
+      "input_tokens": 9533,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 21,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "477f089417b0629f22aa800a27099f83590e0f5b8695d3047c2ef45d4eab6ca3",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "b7aefe79cfd21dc891d0942d4222d7bb8e536aa985f8f4e84fcbdb0eeea761c8"
+  },
+  {
+    "id": "wiki-1105",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The video, referred to as \"Band of Brothers,\" covered the deployment of marines in Iraq.",
+    "elapsed_seconds": 4.199,
+    "usage": {
+      "input_tokens": 10355,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 60,
+      "reasoning_output_tokens": 34
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "477f089417b0629f22aa800a27099f83590e0f5b8695d3047c2ef45d4eab6ca3",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "0a98a84b42b202ac9c17a5d778dc7ef3b7707900fab97df4c2d44089bc4bac3e"
+  },
+  {
+    "id": "wiki-1116",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Thus, a 500 g packet of rye bread legally made in Germany could be sold in the United Kingdom, even though British law prohibited British bakers from producing an identical packet.",
+    "elapsed_seconds": 3.791,
+    "usage": {
+      "input_tokens": 9558,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 40,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "168d325f2a732d20af298d226644d6804d28834814880e2981e376be5a47a5e5",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "bccaf2c403ed8227ce852c54e935d5426b88ee5beb496834bdd2687e6eae69cd"
+  },
+  {
+    "id": "wiki-1116",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Thus, a 500 g packet of rye bread legally manufactured in Germany could be sold in the United Kingdom, although British law prohibited a British baker from producing an identical packet.",
+    "elapsed_seconds": 5.85,
+    "usage": {
+      "input_tokens": 14151,
+      "cached_input_tokens": 13952,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "168d325f2a732d20af298d226644d6804d28834814880e2981e376be5a47a5e5",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "d76ab2043b017244c29c124ff6ef3528bdeac6fde7def9aeeec48010e8c4c8fa"
+  },
+  {
+    "id": "wiki-1121",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "One minute later, explosions rocked the area as enemy 60-mm and 82-mm mortars heavily attacked the US base.",
+    "elapsed_seconds": 3.632,
+    "usage": {
+      "input_tokens": 9545,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "79ce7c2a3802ac4c15adec47f05a7c455fb63cd7caf034e0339585b381b8cb9d",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "6404a3800df68905b5189337ba74a619602c57d8da3e7368049e900678053bd7"
+  },
+  {
+    "id": "wiki-1121",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "A minute later, explosions were set off in the area as the US base came under heavy enemy 60-mm and 82-mm mortar fire.",
+    "elapsed_seconds": 5.496,
+    "usage": {
+      "input_tokens": 10367,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 153,
+      "reasoning_output_tokens": 118
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "79ce7c2a3802ac4c15adec47f05a7c455fb63cd7caf034e0339585b381b8cb9d",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "054761c69374aa0ca75f3c19095c4488c804f4c0fdaaf6c9f9165fbe9f8adb89"
+  },
+  {
+    "id": "wiki-1179",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "He last starred in the West Yorkshire Playhouse and Birmingham Rep co-production of To Kill a Mockingbird.",
+    "elapsed_seconds": 3.556,
+    "usage": {
+      "input_tokens": 9535,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1dab0abd176cf5bd53056ddf25ce734b9b283dca3edbc73826c7d18655116ac7",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "2ea8e179b2d8a4528968ce36e9e976db201fb659eb79f1ed72ce93c503ced183"
+  },
+  {
+    "id": "wiki-1179",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "He most recently starred in West Yorkshire Playhouse and Birmingham Rep’s co-production of To Kill a Mockingbird.",
+    "elapsed_seconds": 4.853,
+    "usage": {
+      "input_tokens": 10357,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 79,
+      "reasoning_output_tokens": 50
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1dab0abd176cf5bd53056ddf25ce734b9b283dca3edbc73826c7d18655116ac7",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "32e535a6bc8e5f42b08c3dde056702953f47327aa61806f480ce669fc7737fb3"
+  },
+  {
+    "id": "wiki-1205",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "It includes facilities such as the ski resort and its non-ski amenities, the Teineyama Ropeway, and the Sapporo Teine Golf Club courses.",
+    "elapsed_seconds": 3.277,
+    "usage": {
+      "input_tokens": 9551,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "abec8e2555895e6ce208e251501ecc591da3d56785883b1a3e1b775a1d15d6c8",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "addbe2a01a97ff8a7309aa7be50fc022f8f58abbcbc080a723336b72cbf5addb"
+  },
+  {
+    "id": "wiki-1205",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "It comprises many facilities, including the ski resort with its non-ski facilities, the Teineyama Ropeway, and the “Sapporo Teine Golf Club” fields.",
+    "elapsed_seconds": 4.293,
+    "usage": {
+      "input_tokens": 14144,
+      "cached_input_tokens": 13952,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 73,
+      "reasoning_output_tokens": 30
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "abec8e2555895e6ce208e251501ecc591da3d56785883b1a3e1b775a1d15d6c8",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "6ae84af198ba81bd6f64cfb0c15008b45f349dccf50ee18225b69a91deadbfe3"
+  },
+  {
+    "id": "wiki-1242",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Between 1871 and 1877, Cyril E. Marfleet Battle purchased another 870 acres of surrounding land from Matthew Cowper, Earl Melbourne.",
+    "elapsed_seconds": 4.276,
+    "usage": {
+      "input_tokens": 9545,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 35,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5ad0fec5657757e9dce38722c716f8fa00295b5c8880a046c93510e7e9ab41fa",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "194fca720f9ce264ee8f35a6d04b20c46ad20aa93d739c027368615007a2a846"
+  },
+  {
+    "id": "wiki-1242",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Cyril E. Marfleet Battle purchased another 870 acres of surrounding land from Matthew Cowper, Earl Melbourne, between 1871 and 1877.",
+    "elapsed_seconds": 5.883,
+    "usage": {
+      "input_tokens": 14138,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 59,
+      "reasoning_output_tokens": 20
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5ad0fec5657757e9dce38722c716f8fa00295b5c8880a046c93510e7e9ab41fa",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "afac460e789408ef0bdea078c1ad690bafbbb11065fdaf551c752f742f46e859"
+  },
+  {
+    "id": "wiki-1264",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "She underwent a sex change in 1982, when she received her astronomy PhD.",
+    "elapsed_seconds": 5.925,
+    "usage": {
+      "input_tokens": 9531,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 129,
+      "reasoning_output_tokens": 105
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f02f504f1f0d091713dcddf867033851be3d91c3d87e8f72b63fb5f54965d99d",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d6f06e32ff65349b58d413ef03c5f6c726820abec6804f0964d091f710d1aab7"
+  },
+  {
+    "id": "wiki-1264",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "She underwent a sex change in 1982 while receiving a PhD in astronomy.",
+    "elapsed_seconds": 5.997,
+    "usage": {
+      "input_tokens": 14124,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 78,
+      "reasoning_output_tokens": 55
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "f02f504f1f0d091713dcddf867033851be3d91c3d87e8f72b63fb5f54965d99d",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "0b328c812844836b2a9ec086846d89e7d15f9d000e73920b4b3bea32df4a903d"
+  },
+  {
+    "id": "wiki-1311",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "In her first season as head coach, Timchal led her team to an NCAA final and a 14-3 record.",
+    "elapsed_seconds": 3.128,
+    "usage": {
+      "input_tokens": 13311,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "98b10eb52bec1cef61122fb141d98691cc47384858955d43675d1aad5f189aa2",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "46e87a3081f6c16a43b652e977bd84be199a744984e634f8aad04a89866236d7"
+  },
+  {
+    "id": "wiki-1311",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "In her first season as head coach, Timchal led her team to an NCAA final and a 14-3 record.",
+    "elapsed_seconds": 4.811,
+    "usage": {
+      "input_tokens": 14133,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "98b10eb52bec1cef61122fb141d98691cc47384858955d43675d1aad5f189aa2",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "189095b6897558e87fc43a5e0fe5418fb7b9a837b320a5df40c80daa186a4f42"
+  },
+  {
+    "id": "wiki-1498",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "James Hall repeatedly lies to his wife, played by Irene Delroy, to conceal his escapades.",
+    "elapsed_seconds": 3.58,
+    "usage": {
+      "input_tokens": 9531,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 11
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "6a66133af3ad9a435b56023f1fb0e13d22bdd179e546f10792c28de7479597f3",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "0ec8259c40f8de1ca1b5365d36a460c849632c5e0876a9dea8776a3012532191"
+  },
+  {
+    "id": "wiki-1498",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "James Hall constantly lies to hide escapades from his wife, played by Irene Delroy.",
+    "elapsed_seconds": 7.305,
+    "usage": {
+      "input_tokens": 10353,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 164,
+      "reasoning_output_tokens": 140
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "6a66133af3ad9a435b56023f1fb0e13d22bdd179e546f10792c28de7479597f3",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "a35fe410e85c39a9d89f751e63dab658aa973b1b42ff08c2e33f90204c4ee1de"
+  },
+  {
+    "id": "wiki-1541",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Lübeck’s location on the inner German border cut it off from much of its hinterland, contributing significantly to this development.",
+    "elapsed_seconds": 3.811,
+    "usage": {
+      "input_tokens": 9543,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 30,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7ad3eb6dbb74658338352cde39932203f4dc2d2e72bc1d511d3502269c15f3d7",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "1981f08c686583cc6a713450ad2d4ec084b22c8668f151315752f3b9df376416"
+  },
+  {
+    "id": "wiki-1541",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Lübeck's position on the inner German border cut it off from much of its hinterland and was a key factor in this development.",
+    "elapsed_seconds": 3.862,
+    "usage": {
+      "input_tokens": 14136,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 46,
+      "reasoning_output_tokens": 12
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "7ad3eb6dbb74658338352cde39932203f4dc2d2e72bc1d511d3502269c15f3d7",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "d516311d72d1890fdfb4319c48ed61760d9043e2f516a5f57401e402aa742752"
+  },
+  {
+    "id": "wiki-1599",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The Ban, the King’s representative (commissioner), summoned parliament annually in Zagreb.",
+    "elapsed_seconds": 3.595,
+    "usage": {
+      "input_tokens": 13302,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 21,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "340a336ef2a1a2200318156fa4b64658be4d8078eb229cadcacf061250687164",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "e253be8bbfcb96b0dc405f7b0fafda3d054b7e3507aa97bd7b27e5939a4e78d3"
+  },
+  {
+    "id": "wiki-1599",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The Ban, the King's representative (commissioner), summoned parliament annually at Zagreb.",
+    "elapsed_seconds": 5.097,
+    "usage": {
+      "input_tokens": 14124,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 44,
+      "reasoning_output_tokens": 22
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "340a336ef2a1a2200318156fa4b64658be4d8078eb229cadcacf061250687164",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "78029d0e7a091c089c1b554f062906ce09302421fc5faf18c3955acb89e3c81c"
+  },
+  {
+    "id": "wiki-1603",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Avaria’s limited revenue had to be reinvested to pay subcontractors and cover operating costs such as hosting fees.",
+    "elapsed_seconds": 3.826,
+    "usage": {
+      "input_tokens": 9543,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 29,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5a6c806fc687b90ad606f3734aedff69621de51949dd94698884011d0738d342",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "551a4fd8d309573f2ecb97914a2f015485dffe5953196848dda39924783d191a"
+  },
+  {
+    "id": "wiki-1603",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "What little revenue Avaria earned had to be reinvested in the company to pay subcontractors and operating costs, including hosting fees.",
+    "elapsed_seconds": 3.536,
+    "usage": {
+      "input_tokens": 14136,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 32,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5a6c806fc687b90ad606f3734aedff69621de51949dd94698884011d0738d342",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "424e333e21344f9dcd3d6c1d70b9e7fe6d34c136626035cfec425d3365457829"
+  },
+  {
+    "id": "wiki-1615",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "According to South African history, King Shaka swept through present-day KwaZulu-Natal in the mid-1820s, killing nearly the entire indigenous San population.",
+    "elapsed_seconds": 4.401,
+    "usage": {
+      "input_tokens": 9558,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b134353346a25ec59cbb3acfd1e812bbf122c26570086f70c772b902cbdddceb",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "f57a1678431a0a2cad1e658ffb5fd97ee9ab712cef8824322cf2928343622c02"
+  },
+  {
+    "id": "wiki-1615",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "According to South African history, King Shaka swept through what is now KwaZulu-Natal in the mid-1820s, nearly killing the entire native Bushmen population.",
+    "elapsed_seconds": 5.839,
+    "usage": {
+      "input_tokens": 10380,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 129,
+      "reasoning_output_tokens": 88
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b134353346a25ec59cbb3acfd1e812bbf122c26570086f70c772b902cbdddceb",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "2a1a57fc129d1e2ba1d54c22cd4eb9900d758c119a1abec792e8489c763e1bc3"
+  },
+  {
+    "id": "wiki-1620",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "He succeeded his father as the 6th Baron Profumo but, like him, does not use the title.",
+    "elapsed_seconds": 3.322,
+    "usage": {
+      "input_tokens": 9535,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 27,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b501b393607a46d59a0670916335d186da85e8ef8df2affc5644d7f12252e2e6",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "267c03147926c2e0d9d4e790c0e72e489133115b80d44c571098a874fdf59cf1"
+  },
+  {
+    "id": "wiki-1620",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "He succeeded his father as the 6th Baron Profumo but, like his father, does not use the title.",
+    "elapsed_seconds": 3.464,
+    "usage": {
+      "input_tokens": 10357,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "b501b393607a46d59a0670916335d186da85e8ef8df2affc5644d7f12252e2e6",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "15cf1b7a876fc8b230911d56989f4716dca0e7fc3be819220e3e56bcaaa80484"
+  },
+  {
+    "id": "wiki-1633",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "On June 22, 1946, Major Chilstrom and Captain Robert Baird demonstrated the Army Air Corps’ capabilities by making the first jet aircraft transport of air mail.",
+    "elapsed_seconds": 3.978,
+    "usage": {
+      "input_tokens": 13324,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 40,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "faab3feeaa35233946cc7642ee720ea04a58b9eceac6ffe225185a52929dadc1",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "3cb33239692f63850e28938aa4cb85496647991bf2eeccc7861958dbfb48a045"
+  },
+  {
+    "id": "wiki-1633",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "On June 22, 1946, Major Chilstrom and Captain Robert Baird first transported air mail by jet aircraft to demonstrate the Army Air Corps’ capabilities.",
+    "elapsed_seconds": 3.959,
+    "usage": {
+      "input_tokens": 10375,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "faab3feeaa35233946cc7642ee720ea04a58b9eceac6ffe225185a52929dadc1",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "7cfffb5826bde3240d6e9f3bb9d9f0eff5ae4b725a2a1eb20f73e27a5769cea8"
+  },
+  {
+    "id": "wiki-1676",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The couple were also first cousins of both Charles IV of Spain and Ferdinand I of the Two Sicilies—Maria Carolina through her Spanish mother and Anthony through his father.",
+    "elapsed_seconds": 4.679,
+    "usage": {
+      "input_tokens": 9546,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 78,
+      "reasoning_output_tokens": 38
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "ee69a9dd7bd431a18cae6d44be90068541fa119e0c6af21086cf4907e05e372f",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "d1f764d88ff5c76169ed9ec2da7bb67b3b5e315d6dfd77dce214a170fe45f611"
+  },
+  {
+    "id": "wiki-1676",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The couple were also first cousins of both Charles IV of Spain and Ferdinand I of the Two Sicilies—Maria Carolina through her Spanish mother and Anthony through his father.",
+    "elapsed_seconds": 4.734,
+    "usage": {
+      "input_tokens": 10368,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 105,
+      "reasoning_output_tokens": 65
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "ee69a9dd7bd431a18cae6d44be90068541fa119e0c6af21086cf4907e05e372f",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "925548ce220bc33258c37b04bfc644691db8efac3fa6b72ac8cdb385521ccd04"
+  },
+  {
+    "id": "wiki-1705",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Nigel Faletoese Vagana (born 7 February 1975) is a former New Zealand professional rugby league footballer who played in the 1990s and 2000s.",
+    "elapsed_seconds": 4.206,
+    "usage": {
+      "input_tokens": 13324,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 44,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "dfd30a6a7fb46e92bee17ff3bd86f839c68392f89a32c7b393435bf306a89dbf",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "24c5e62a579a146c1426bc82b2cce2a0f946cf2fc1508abbc9157771a6ec4aeb"
+  },
+  {
+    "id": "wiki-1705",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Nigel Faletoese Vagana (born 7 February 1975) is a former New Zealand professional rugby league footballer who played in the 1990s and 2000s.",
+    "elapsed_seconds": 3.879,
+    "usage": {
+      "input_tokens": 14146,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 44,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "dfd30a6a7fb46e92bee17ff3bd86f839c68392f89a32c7b393435bf306a89dbf",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "ccf3ce95e3537dabaf216747933de79fd888862bcb64536f0e0fcda56e3ed205"
+  },
+  {
+    "id": "wiki-1742",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Hoffman was born in New York City, USA, to jeweler Johanna (Papiermeister) and caterer Morton Hoffman.",
+    "elapsed_seconds": 3.737,
+    "usage": {
+      "input_tokens": 9550,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 32,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c756cb1fd01e8e79293ec804a8f0948100b0ed2b870f9b3c3ee8794a25fdd025",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "5f0e875cdca07d32d75aa4f87fdf398ba3f3b7c2f034bf0d5921f900a92608eb"
+  },
+  {
+    "id": "wiki-1742",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Hoffman was born in New York City, New York, United States, the son of jeweler Johanna (Papiermeister) and caterer Morton Hoffman.",
+    "elapsed_seconds": 6.804,
+    "usage": {
+      "input_tokens": 10372,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 166,
+      "reasoning_output_tokens": 126
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c756cb1fd01e8e79293ec804a8f0948100b0ed2b870f9b3c3ee8794a25fdd025",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "7f3f75bd7962daa8ddb49898404825ebd8b9b04bedf28618dba787e315b2a6d5"
+  },
+  {
+    "id": "wiki-1754",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Sergio Alejandro Galván Rey (born 9 June 1973) is an Argentine-Colombian former footballer.",
+    "elapsed_seconds": 4.015,
+    "usage": {
+      "input_tokens": 13309,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 30,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5be050aaff5268e859d623a8a971bbc2f58cfa6e4230490945203f15975ae378",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "b11959514e01939f68cfaceea09924264a898280d36953f7205282305f153090"
+  },
+  {
+    "id": "wiki-1754",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Sergio Alejandro Galván Rey (born 9 June 1973) is an Argentine-Colombian former footballer.",
+    "elapsed_seconds": 3.566,
+    "usage": {
+      "input_tokens": 10360,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 30,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "5be050aaff5268e859d623a8a971bbc2f58cfa6e4230490945203f15975ae378",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "c3184f20c5b71df8946e61471f86542487de6925747a0e13ebd3908b6d6f6a3d"
+  },
+  {
+    "id": "wiki-1768",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "A teenage boy plays video games indoors behind blind-covered windows when his mother arrives with a box.",
+    "elapsed_seconds": 3.361,
+    "usage": {
+      "input_tokens": 9532,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3ff28ffb2cf9c8b4eeacb6eead5935458b165449abe38cdfb011e500cc7a3dfd",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "de6ee27dcf6b7f95d1d06bb60e36cabf123cbb32c72de6ce3a59b99ab98e5384"
+  },
+  {
+    "id": "wiki-1768",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "A teenage boy plays video games behind blind-covered windows when his mother arrives with a box.",
+    "elapsed_seconds": 6.431,
+    "usage": {
+      "input_tokens": 10354,
+      "cached_input_tokens": 10112,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 156,
+      "reasoning_output_tokens": 132
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3ff28ffb2cf9c8b4eeacb6eead5935458b165449abe38cdfb011e500cc7a3dfd",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "8e2dcc67962149940f9481b1324dfe3366fd0f627c8d09b3cd75ff06ac6c8f07"
+  },
+  {
+    "id": "wiki-1770",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Mt St John’s exact age is unknown, but ash from Three Kings volcano mantling its scoria cone indicates it is over 28,500 years old.",
+    "elapsed_seconds": 3.528,
+    "usage": {
+      "input_tokens": 9546,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3030bac6b44f3c117d325ec41e6f3ff8b67c1699d00552eba36858617b8f1b74",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "68723c5bd4492fefd34c3cc273114522b74e1a01173515f331d224f3e419daa3"
+  },
+  {
+    "id": "wiki-1770",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Mt St John’s age is currently unknown, but it is more than 28,500 years old because ash from Three Kings volcano mantles its scoria cone.",
+    "elapsed_seconds": 3.707,
+    "usage": {
+      "input_tokens": 10368,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3030bac6b44f3c117d325ec41e6f3ff8b67c1699d00552eba36858617b8f1b74",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "5919b7867946d5bdc33a79567062c5ca83e9585f90bd47c3dd363ab2922f0402"
+  },
+  {
+    "id": "wiki-1793",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Caught off guard by the ambush, several soldiers were killed, but the survivors took cover and returned fire.",
+    "elapsed_seconds": 3.984,
+    "usage": {
+      "input_tokens": 9536,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "09783010f3c24f2430480b46007ce00a1f95f422dcf220f999103fa2d58e132a",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "eb3129a58d2df0aa4314e2801a5775a2c41289b4a9c277fd6701f5c634a6f6c5"
+  },
+  {
+    "id": "wiki-1793",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The ambush surprised the soldiers, killing some before the survivors took cover and returned fire.",
+    "elapsed_seconds": 6.666,
+    "usage": {
+      "input_tokens": 14129,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 127,
+      "reasoning_output_tokens": 103
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "09783010f3c24f2430480b46007ce00a1f95f422dcf220f999103fa2d58e132a",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "6468619a5059c646d4b6b437cabefdd8a38bb760728561f16599e5fb3565b1c4"
+  },
+  {
+    "id": "wiki-1794",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "During the 2006 Lebanon conflict, she played a key role in supplying the Royal Navy and providing air support with Merlin MK1 helicopters from 814 Squadron.",
+    "elapsed_seconds": 3.832,
+    "usage": {
+      "input_tokens": 13325,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "cd30983e141f9c248dccb40d5340be174a5c9a539c4ae3fedf49f9c3fb162cd0",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "4abb1aaaa5defc8b78aa1cb21c14eeade52d2e2078921ead97e09888ad8d26cf"
+  },
+  {
+    "id": "wiki-1794",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "During the 2006 Lebanon conflict, she played a key role in supplying the Royal Navy and providing air support with a flight of Merlin MK1 helicopters from 814 Squadron.",
+    "elapsed_seconds": 4.233,
+    "usage": {
+      "input_tokens": 14147,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "cd30983e141f9c248dccb40d5340be174a5c9a539c4ae3fedf49f9c3fb162cd0",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "d4ce4ded9b0130680fccacaeca2b93eff6eb99038cb677c1ef57a6046d07c53f"
+  },
+  {
+    "id": "wiki-1803",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Afterward, it served as the official residence of Church Presidents, then as Latter-day Saint University’s home economics wing, and finally as a dormitory for young women.",
+    "elapsed_seconds": 3.661,
+    "usage": {
+      "input_tokens": 9547,
+      "cached_input_tokens": 9344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "79ac4128934b16955da095920a1f96779c2c37182c9090f5925e8a52d901e665",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "3b72178dd567828d9958cb2c090e86906c4794a7a173a0ca8f59929c57be9726"
+  },
+  {
+    "id": "wiki-1803",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Afterward, it served as the official home of Church Presidents, then as Latter-day Saint University’s home economics wing, and finally as a dormitory for young women.",
+    "elapsed_seconds": 4.065,
+    "usage": {
+      "input_tokens": 14140,
+      "cached_input_tokens": 7168,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "79ac4128934b16955da095920a1f96779c2c37182c9090f5925e8a52d901e665",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "f42f8f880744f22de0e19287447a694083872f3975e0e44a6babb813a57932e7"
+  },
+  {
+    "id": "wiki-1838",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Revolutionary Struggle (Greek: Επαναστατικός Αγώνας, Epanastatikos Agonas, EA) is a Greek terrorist group known for attacking Greek government buildings and the U.S. embassy in Athens.",
+    "elapsed_seconds": 5.503,
+    "usage": {
+      "input_tokens": 9561,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 51,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "949d4128fd48d6edc765e06b1087121ce04e8e0303dd936c39147ef6755931b4",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "2c47318402ad7ced9b71925d3cda9de0544088959b0b121ea6488a3d33f36bb4"
+  },
+  {
+    "id": "wiki-1838",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Revolutionary Struggle (Greek: Επαναστατικός Αγώνας, “Epanastatikos Agonas,” EA) is a Greek terrorist group known for attacking Greek government buildings and the American embassy in Athens.",
+    "elapsed_seconds": 3.636,
+    "usage": {
+      "input_tokens": 10383,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 50,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "949d4128fd48d6edc765e06b1087121ce04e8e0303dd936c39147ef6755931b4",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "4b5dc38cec9412c31c6082d8f97cb1216a561b7fc0134397f1633831a8ebb471"
+  },
+  {
+    "id": "wiki-1889",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The conference’s top eight regular-season teams, regardless of division, competed in a double-elimination tournament at All Pro Freight Stadium in Avon, Ohio.",
+    "elapsed_seconds": 3.827,
+    "usage": {
+      "input_tokens": 13320,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "399f6aa7d615978093d2ac167860df6ff358a81c0633633b67dc913480cd2863",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "c1e374eb7e844ae56bd594b818b52f96d2fd86e32dcd1e40d560a0ea5e09a3ad"
+  },
+  {
+    "id": "wiki-1889",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The conference’s top eight regular-season finishers, regardless of division, competed in a double-elimination tournament at All Pro Freight Stadium in Avon, Ohio.",
+    "elapsed_seconds": 4.44,
+    "usage": {
+      "input_tokens": 10371,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 35,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "399f6aa7d615978093d2ac167860df6ff358a81c0633633b67dc913480cd2863",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "bfa298b20000fc701fe7d5a7c3e51b54da7e2c63452a54e1b093409f32e79673"
+  },
+  {
+    "id": "wiki-1893",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Her first solo show at The Minories, Colchester, in 1968 was followed by exhibitions at New Arts Centre, London, and a retrospective at Warwick Arts Trust.",
+    "elapsed_seconds": 3.638,
+    "usage": {
+      "input_tokens": 9547,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c5c7ad5f6ff2f32db283adf9823ed3a162fdc6708fc9ba64828798b46ecb1a32",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "c9ee9b4014bfa1f8e70a7702800f472f071408f7cd9b4a73c4fce40d773fc427"
+  },
+  {
+    "id": "wiki-1893",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Her first solo show at The Minories, Colchester, in 1968 was followed by exhibitions at New Arts Centre, London, and a retrospective at Warwick Arts Trust.",
+    "elapsed_seconds": 3.623,
+    "usage": {
+      "input_tokens": 10369,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "c5c7ad5f6ff2f32db283adf9823ed3a162fdc6708fc9ba64828798b46ecb1a32",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "a33ed7c2af2d04f72a0dcc6f119de76a77cbb298de8b4c455d0506c98ffae7d0"
+  },
+  {
+    "id": "wiki-1900",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "The 2015–16 season is the Washington Wizards’ ongoing 55th NBA season and 43rd in the Washington, D.C. area.",
+    "elapsed_seconds": 3.727,
+    "usage": {
+      "input_tokens": 9552,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 35,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3b14b12584ed6a0658786a569976384adf07e03fef3d6a0de44f17c18f5fba50",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "a6fd9ab116c802a08848d684cf82850537c8c89d3f6e163d4b8dc5ff293edbcd"
+  },
+  {
+    "id": "wiki-1900",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "The 2015–16 Washington Wizards season is the franchise’s ongoing 55th NBA season and 43rd in the Washington, D.C. area.",
+    "elapsed_seconds": 3.405,
+    "usage": {
+      "input_tokens": 10374,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "3b14b12584ed6a0658786a569976384adf07e03fef3d6a0de44f17c18f5fba50",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "e9e85683d239cf6041a01c43e1060e19bfd0f61686989b709d907720d2e46051"
+  },
+  {
+    "id": "wiki-1950",
+    "condition": "baseline",
+    "dataset": "wiki",
+    "answer": "Elected a Pennsylvania state senator in 1860, Clymer adamantly opposed legislation supporting the state Republican Party’s war effort.",
+    "elapsed_seconds": 4.166,
+    "usage": {
+      "input_tokens": 9540,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 31,
+      "reasoning_output_tokens": 0
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1e64e775f836c718b02253b3f5d8b8c02a200174b0c0a53e91db5e9d185e6ed8",
+    "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3",
+    "events_sha256": "4c1874c5625309e05685dc600b94b41ecd1715fe13ccf0dea05bb8beea2c52f9"
+  },
+  {
+    "id": "wiki-1950",
+    "condition": "writing",
+    "dataset": "wiki",
+    "answer": "Elected a Pennsylvania state senator in 1860, Clymer adamantly opposed legislation supporting the state Republican Party's war effort.",
+    "elapsed_seconds": 4.772,
+    "usage": {
+      "input_tokens": 14133,
+      "cached_input_tokens": 8064,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 87,
+      "reasoning_output_tokens": 54
+    },
+    "tool_calls": 0,
+    "prompt_sha256": "1e64e775f836c718b02253b3f5d8b8c02a200174b0c0a53e91db5e9d185e6ed8",
+    "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28",
+    "events_sha256": "8a5f3c500771abc5db88c72ac4491c85d966db2a74311d6c4ca3400488f74676"
+  }
+]

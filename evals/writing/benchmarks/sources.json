@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-10-18",
-  "status": "Published source data downloaded and inspected; no new writing-skill benchmark run or score is claimed. Raw datasets are cached outside the repository, not redistributed here.",
+  "status": "Source provenance only; evaluation results are recorded separately. Raw datasets are cached outside the repository, not redistributed here.",
   "datasets": [
     {
       "id": "wiki-conciseness",

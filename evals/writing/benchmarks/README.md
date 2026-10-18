@@ -2,7 +2,7 @@
 
 **Use external benchmark data before drawing conclusions about the writing skill.** The relevant tasks are concise rewriting, avoiding excess output, and retaining necessary information in longer answers. They need different data and measures.
 
-Checked 2026-10-18. Three releases below were downloaded and their actual records inspected. [sources.json](sources.json) records revisions, download URLs, checksums, schemas, and licensing notes. No new skill evaluation or improvement is claimed.
+Checked 2026-10-18. Three releases below were downloaded and their actual records inspected. [sources.json](sources.json) records revisions, download URLs, checksums, schemas, and licensing notes. The [100-case native CLI comparison](run-2026-10-18/README.md) reports actual outputs and scores: reference-edit agreement improved, but the current skill did not reduce verbosity on these subsets.
 
 ## Directly useful releases
 
