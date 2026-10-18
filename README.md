@@ -25,12 +25,14 @@ Add `-g` to install for your user across projects. Preview available skills with
 | Skill | Use it for |
 | --- | --- |
 | [first-principles](skills/first-principles/SKILL.md) | Unpacking complex ideas, testing assumptions, and finding the simplest explanation or approach supported by evidence. |
+| [writing](skills/writing/SKILL.md) | Evidence-based explanations and documents, with clickable references and a progression from the big picture to technical details. |
 
 Example requests:
 
 - “Use first-principles to explain why this process is slow.”
 - “Use first-principles to simplify this proposal while preserving its assumptions and caveats.”
 - “Use first-principles to assess the argument in this report.”
+- “Use writing to revise this report: explain the big picture first, support claims, and link the references.”
 
 ## Principles
 

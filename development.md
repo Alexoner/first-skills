@@ -2,6 +2,10 @@
 
 Write the smallest instruction set that measurably improves a real task. Depth belongs in the method; length must earn its place.
 
+## Writing requirements
+
+Load [the writing skill](skills/writing/SKILL.md) before drafting or revising documentation. Keep the writing tenets there and link to them instead of maintaining duplicate rule sets here.
+
 ## What the evidence supports
 
 Reviewed 2026-10-17. These sources answer different questions; their findings are not interchangeable.
@@ -75,7 +79,7 @@ Before merging: check frontmatter and names against the specification, resolve l
 
 ## Initial skill design
 
-See [the core skill proposal](docs/core-skills.md) for three separate jobs, compact instruction drafts, examples, and evaluation cases. The drafts are proposals; the installed starter has not yet been behaviorally validated.
+See [the core skill proposal](docs/core-skills.md) for three separate jobs, compact instruction drafts, examples, and evaluation cases, plus the installable writing skill. Behavioral evaluation remains pending.
 
 ## References
 
@@ -87,6 +91,7 @@ See [the core skill proposal](docs/core-skills.md) for three separate jobs, comp
 [prompt-report]: https://arxiv.org/html/2406.06608v6 "Schulhoff et al.: The Prompt Report, v6"
 [context-engineering]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents "Anthropic (2025): Effective context engineering for AI agents"
 [subtraction]: https://www.nature.com/articles/s41586-021-03380-y "Adams et al. (2021): People systematically overlook subtractive changes"
+[ste]: https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf "ASD-STE100 Issue 9, 2025-01-15"
 
 - [Agent Skills specification][spec]. Format and progressive disclosure.
 - [Anthropic: Skill authoring best practices][authoring]. Practical authoring and evaluation guidance.
@@ -96,3 +101,4 @@ See [the core skill proposal](docs/core-skills.md) for three separate jobs, comp
 - [Schulhoff et al.: The Prompt Report, v6][prompt-report]. Example design; especially §2.2.1.
 - [Anthropic: Effective context engineering for AI agents (2025)][context-engineering]. Focused context, instructions, and tools.
 - [Adams et al.: People systematically overlook subtractive changes (2021)][subtraction]. Human experiments; abstract and extended-data descriptions reviewed.
+- [ASD-STE100 Issue 9 (2025)][ste]. Technical language rules; selected Part 1 rules checked against the official PDF.
