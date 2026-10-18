@@ -133,7 +133,7 @@ def main(data, run):
         scores[condition]={}
         for variant in ['full','lite']:
             result=subprocess.run([str(tool/'errant_compare'),'-hyp',str(scoring/f'{condition}.m2'),'-ref',str(scoring/f'{variant}.m2')],check=True,capture_output=True,text=True)
-            (scoring/f'{condition}-{variant}.log').write_text(result.stdout)
+            (scoring/f'{condition}-{variant}.log').write_text(result.stdout.rstrip()+'\n')
             line=next(line for line in result.stdout.splitlines() if re.match(r'^\d+\s+\d+\s+\d+\s',line))
             values=line.split()
             scores[condition][variant]=dict(zip(['TP','FP','FN','precision','recall','F0.5'],[int(x) for x in values[:3]]+[float(x) for x in values[3:6]]))
