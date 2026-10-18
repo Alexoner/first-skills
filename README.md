@@ -39,6 +39,7 @@ Example requests:
 - **Earn confidence.** Separate evidence, inference, assumptions, and unknowns.
 - **Be honest about limits.** Never invent sources, measurements, verification, or certainty.
 - **Keep skills focused.** Add guidance that improves decisions; remove unnecessary ceremony.
+- **Simplify before expanding.** Consider removal or consolidation before adding instructions, abstractions, tools, or process steps. Preserve the constraints that matter.
 
 Skills follow the open [Agent Skills specification](https://agentskills.io/specification). The Skills CLI handles installation for supported agents; discovery and activation depend on the agent. Skills provide task instructions, not an always-active system prompt or a guarantee of correct output.
 

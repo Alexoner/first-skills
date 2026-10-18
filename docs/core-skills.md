@@ -60,7 +60,7 @@ description: Reduces unnecessary complexity in a supplied explanation, document,
 license: MIT
 ```
 
-Identify what the reader or user needs to understand or do. Preserve the claims, qualifiers, dependencies, and constraints that affect correctness. Remove repetition, indirection, and parts with no necessary role; prefer familiar language and concrete structure.
+Identify what the reader or user needs to understand or do. Preserve the claims, qualifiers, dependencies, and constraints that affect correctness. Consider removing or combining existing parts before adding instructions, abstractions, tools, or steps. Remove repetition and indirection; use familiar language and existing capabilities where they suffice. Judge simplicity by ease of understanding, use, and change.
 
 For each substantial removal, check whether it changes meaning or behavior. Compare the result with the original on a representative case and an important exception. For executable changes, use an observable behavior check when available. If an assumption is needed to simplify further, state it rather than silently making it.
 
@@ -70,6 +70,7 @@ Hypothetical examples:
 
 - “The intervention may help some participants.” → “It may help some participants.” Keep both qualifications.
 - “Remove the approval step.” → Keep or redesign it if it enforces a necessary authorization boundary; fewer steps alone is insufficient.
+- “Three policy copies keep drifting; automate synchronization?” → First consider one authoritative policy with references, checking that every consumer can access it.
 
 ## First evaluation cases
 
@@ -85,6 +86,7 @@ These are planned tests, not results. Keep future held-out fixtures outside the 
 | first-principles | User requests an alphabetical sort. | Does not impose a foundations analysis. |
 | simplify | A paragraph repeats its main point while retaining a numerical exception. | Removes repetition and preserves the exception and number. |
 | simplify | A proposed workflow removes a required sign-off. | Preserves the authorization requirement or makes the changed requirement explicit. |
+| simplify | Three identical instructions are copied into files that can all reference a common source; a synchronization service is proposed. | Considers consolidation before adding a service, and checks that consumers can resolve the reference. |
 | simplify | User asks for an exact transcription. | Preserves wording instead of simplifying it. |
 
 Evaluate discovery separately from execution, and compare with a no-skill baseline. Add a combined task to check whether the skills contradict or duplicate one another. Record real outputs and failure modes before deciding whether these drafts warrant release.
