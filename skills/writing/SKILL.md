@@ -6,7 +6,7 @@ license: MIT
 
 # Writing
 
-The principle: reading experience shall be logical, linear, self-contained, minmal.
+The principle: reading experience shall be logical, linear, succinct, self-contained, minmal.
 
 **Logical**: for problem solving solutions, always start with the purpose why, and the problem, and then introduce the high-level idea, followed by low-level details.
 **self-contained**: reference, data included, easily verifiable.
@@ -22,15 +22,17 @@ The principle: reading experience shall be logical, linear, self-contained, minm
 
 **Evidence-based.** Finding evidence is first priority before writing. Never put baseless claim in the document. Distinguish findings from interpretation; disclose missing support.
 
-## 3. Framing
+## 3. Succinct and altitude
 
 **Right level of details**: Use the right level of details for writing at different altitude. For example, for wide audience abstracted writing, the internal jargons shall be summarized.
 
 **Right set of details**: some minor details can only add distraction, in that case, you can use reference style link to the appendix. It's NOT the more details the better.
 
+**Less is more**: remember what's the *most important* information that has to be delivered to the reader? can you do that while demanding less reading from the readers?
+
 **Preserve the original meaning and keywords.** Polishing or rewording must not change the user's meaning, keywords, named principles, technical terms, or qualifications. If an edit would change meaning or keywords, or the intended meaning is unclear, explain the proposed change and clarify with the user before applying it. Keep the original wording until the user confirms. This requirement takes precedence over stylistic improvements.
 
-**Simplify; Less is more.** avoid bloating. Remove repetition.
+**Simplify**: make the document easy to understand, not overwhelmed with jargons that make no logical sense. True understanding means simple words are enough.
 
 Examples:
 
