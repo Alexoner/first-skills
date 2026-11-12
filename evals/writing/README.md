@@ -37,3 +37,18 @@ This checks discovery from supplied metadata in this session harness. It does no
 One run per condition provides little evidence about stochastic failures. Tool retrievals are agent-recorded, not independently instrumented network traces. There is no token or latency comparison, formal STE assessment, or native-agent discovery test. The seven cases do not prove that every proposed meaning change will trigger clarification.
 
 For a rerun, use fresh sessions with the same cases and tools. Give one condition the skill and keep the other free of it. Hide the rubric and previous answers until outputs are saved. Judge meaning, citations, and ordering from the outputs; inspect actual tool traces when available. Add held-out cases and native-agent runs before making stronger claims.
+
+## Preservation regressions
+
+The four added cases (`subsection_altitude`, `local_correction_preserves_method`,
+`authorized_redesign`, `full_diff_review`) respond to [the observed scope and
+preservation failure][incident]. They are hypothetical fixtures, not new
+observations about trading methods. They check parent-document altitude, local
+corrections, authorized restructuring and review of the entire change.
+
+The earlier seven-case outputs remain historical results. The four new cases
+have **not been run** in paired fresh model sessions. JSON/format checks do not
+establish improved behavior. For a rerun, keep the rubric and prior answers out
+of the evaluated agent's context and use the comparison procedure above.
+
+[incident]: https://github.com/Alexoner/first-skills/issues/7
