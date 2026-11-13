@@ -9,59 +9,51 @@ Portable agent skills built around first principles, clarity, and evidence—for
 Install into the current project with the [Skills CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add Alexoner/first-skills
+npx skills add HaoTheOnly/first-skills
 ```
 
 Choose a skill and agents explicitly:
 
 ```sh
-npx skills add Alexoner/first-skills --skill first-principles -a claude-code -a codex
+npx skills add HaoTheOnly/first-skills --skill first-principles -a claude-code -a codex
 ```
 
 Add `-g` to install for your user across projects. Preview available skills with `--list`.
 
-## Codex in remote repositories
+## Codex in reusable remote environments
 
-Codex discovers repository skills under `.agents/skills`. Install `writing` in
-the target repository, then commit the installed skill and its supporting files
-so a remote checkout has them without a sibling clone or a network download:
+Install both skills globally with npm during reusable-environment preparation.
+Keep skill bodies in this authoritative repository; do not vendor them into
+projects or add project submodules.
 
-```sh
-npx skills add Alexoner/first-skills --skill writing -a codex
-```
+Run the [preparation bootstrap](scripts/remote-codex-skills-setup.sh) as the user
+who runs Codex. It installs both skills through the npm Skills CLI and adds a
+managed loading block to `~/.codex/AGENTS.md` (or `$CODEX_HOME/AGENTS.md`), preserving
+other instructions. The CLI version is pinned; the skill source follows this
+repository's default branch at preparation time.
 
-Add this short loading instruction to that repository's root `AGENTS.md`:
+To avoid depending on a temporary `/workspace` file, store the bootstrap contents
+in the reusable environment's preparation settings, or fetch it from a reviewed
+commit of this repository during preparation. Then save and publish the reusable
+environment. A script executed only in the current container does not establish
+persistence across new threads. Future threads must select the published environment.
 
-```md
-Before editing documentation or reporting results, read and apply
-`.agents/skills/writing/SKILL.md`. Preserve the existing document's purpose,
-conceptual altitude and authorized scope; review the complete diff for lost meaning.
-```
+After publication, start a fresh thread in that environment. Check that both
+`writing` and `first-principles` appear in skill discovery and that the global
+loading block is present. Ask for a small documentation task and foundational
+analysis, and verify that Codex actually reads the applicable `SKILL.md` files.
+`codex debug prompt-input` can check discovery and loading instructions locally;
+it does not prove that a new cloud thread inherited the published configuration.
 
-For reproducible deployment, install from a reviewed checkout and record its
-commit and file hashes alongside the deployed copy. Keep this repository as the
-authoritative source; update the copy deliberately. Repository-local paths work
-in remote checkouts; a symlink to a sibling clone does not unless its target is
-also provisioned. Check the installed files before committing them.
-
-Discovery and activation are different: the catalog exposes metadata, while an
-explicit instruction directs the agent to read the full skill. Check the skill's
-presence in `/skills` or a startup trace, then evaluate behavior on a preservation
-case. A loaded skill is not proof of compliance. The failure reported in
-[issue 7][preservation-incident] occurred after the skill had been read.
-
-For user-wide CLI defaults, install with `-g` on the machine running Codex and
-put the loading instruction in `~/.codex/AGENTS.md` using the installed user path.
-A local installation does not configure a separate cloud container. Repository
-files apply when the remote environment checks out the branch containing them;
-cloud setup scripts are an alternative when installation cannot be checked in.
-See the official [skill discovery][codex-skills], [AGENTS.md loading][codex-agents]
-and [cloud environment][codex-cloud] documentation.
+Discovery, explicit loading, and behavior are separate checks. [Issue 7][preservation-incident]
+records a failure after the skill had been read. See the official
+[skill discovery][codex-skills], [AGENTS.md loading][codex-agents], and
+[cloud environment][codex-cloud] documentation.
 
 [codex-skills]: https://developers.openai.com/codex/skills/
 [codex-agents]: https://developers.openai.com/codex/guides/agents-md/
 [codex-cloud]: https://developers.openai.com/codex/cloud/environments/
-[preservation-incident]: https://github.com/Alexoner/first-skills/issues/7
+[preservation-incident]: https://github.com/HaoTheOnly/first-skills/issues/7
 
 ## Skills
 
