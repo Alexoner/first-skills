@@ -1,0 +1,605 @@
+{
+  "fixed_before_generation": true,
+  "seed": 20261018,
+  "model_requested": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.163.0",
+  "conditions": {
+    "baseline": {
+      "system_sha256": "494da61a93f9c06a87bf86096ff9f5f520cd9e14466a8e1d63571aae9317f9d3"
+    },
+    "writing": {
+      "system_sha256": "f51d52394c7866a9ec98a77b3a9cf3e89762aa9a53af811bfc319e9fe404bc28"
+    }
+  },
+  "skill_sha256": "1f2210128675df08b3bd64b24973b639b13e9b80dde952fbfb15c91ce930de82",
+  "short_reference_sha256": "b734ccebb93950bc1af0ca663490e2127f06da5c1e1628dc1e15be2e7258816b",
+  "generation": "One fresh ephemeral native CLI session per case/condition; low reasoning; provider sampling defaults (CLI exposes no temperature/seed); no output-selected retries; random interleaving, four concurrent calls.",
+  "isolation": "Neutral replacement base instructions; user config/rules ignored; project documents disabled; discovered user/system skills disabled. Tool calls are prohibited by instruction and audited in event logs. Both conditions share the remaining CLI harness/tool schemas. Explicit skill injection tests execution, not discovery.",
+  "inputs": "50 Wiki Full source sentences, 10 Yap prompts per A/B/C category, 20 QA questions. References/annotations withheld from generation. Yap requests have identical XML wrapper in both conditions, so results are a subset adaptation, not the official leaderboard protocol.",
+  "qa_calibration": "40 original rated answers from 20 disjoint question IDs; judge completeness/relevance compared to human scores. Labels withheld from judge; no tuning on this calibration.",
+  "judge": "Same requested model, medium reasoning; no skill; condition labels removed; two independently prompted passes with reversed candidate order; five cases per session. Score answer quality without using length as a quality proxy. Report disagreement and calibration; LLM judgments are not human verification.",
+  "metrics": "Wiki: official ERRANT span edit F0.5 against published Full/Lite M2, plus word counts and blinded fidelity judgments. Yap: category medians of max(0,visible characters-baseline characters), with markdown marker removal stated explicitly; correctness/sufficiency separately judged. QA: word counts and blinded completeness/relevance against expert reference; original human labels are not transferred to new answers. Paired bootstrap confidence intervals resample cases, not judge votes.",
+  "decision": "Report shorter output only alongside quality. No universal efficacy claim, no tuning/revision after seeing these results, no full-document/discovery/cross-model claim.",
+  "cases": [
+    {
+      "id": "wiki-0100",
+      "dataset": "wiki",
+      "source_index": 100,
+      "prompt_sha256": "afe6f001810c488bece66ef91ee68c4e1a73cbcc0a28c47fea82da7441cb4c47"
+    },
+    {
+      "id": "wiki-0114",
+      "dataset": "wiki",
+      "source_index": 114,
+      "prompt_sha256": "7db63c20cd55026bc82980beaa4b2226f830f0c74ed281dcfa7d032b830ff031"
+    },
+    {
+      "id": "wiki-0128",
+      "dataset": "wiki",
+      "source_index": 128,
+      "prompt_sha256": "decab5fed139bc952b954bfbdf02af9820c62e81827f9c02db63b94857353e7f"
+    },
+    {
+      "id": "wiki-0130",
+      "dataset": "wiki",
+      "source_index": 130,
+      "prompt_sha256": "2bf241425b475852c185c73de01d562b638159137454a534a50d5383037257c7"
+    },
+    {
+      "id": "wiki-0155",
+      "dataset": "wiki",
+      "source_index": 155,
+      "prompt_sha256": "63b2963489e025953201a484a886b2c92451f637ff77e16dd7f7f6ed604e424b"
+    },
+    {
+      "id": "wiki-0227",
+      "dataset": "wiki",
+      "source_index": 227,
+      "prompt_sha256": "96a7b6df54a2dcafec7f211d6c978bbcbd46ed2c31790912664e12a076b0729c"
+    },
+    {
+      "id": "wiki-0236",
+      "dataset": "wiki",
+      "source_index": 236,
+      "prompt_sha256": "abc8f6e411e73661775e2f65482c1d1bbb3fe8d0b05e2f0029b984ce6e0485b9"
+    },
+    {
+      "id": "wiki-0258",
+      "dataset": "wiki",
+      "source_index": 258,
+      "prompt_sha256": "dd6a0f55a29e1c31dc68525ab1e4e73c6a862953e752e0889a557e9e6bd14c8d"
+    },
+    {
+      "id": "wiki-0380",
+      "dataset": "wiki",
+      "source_index": 380,
+      "prompt_sha256": "1ff4a54f8dd1bd584f3e780687089b48bdd4eeb86bf4e76ff447f31a54f65828"
+    },
+    {
+      "id": "wiki-0411",
+      "dataset": "wiki",
+      "source_index": 411,
+      "prompt_sha256": "aa4fd20c5ba2cd404d3b94968e91d061b2bb42edd02797b4a3247c8287137214"
+    },
+    {
+      "id": "wiki-0434",
+      "dataset": "wiki",
+      "source_index": 434,
+      "prompt_sha256": "886d9fba6016749236ad7d9192fa432dbcc644fb45b345081811543eeb3dc473"
+    },
+    {
+      "id": "wiki-0452",
+      "dataset": "wiki",
+      "source_index": 452,
+      "prompt_sha256": "da47376b8ef3b2e725400b3644cda495d08cb712b9cd6a98b1ff51be3437cf64"
+    },
+    {
+      "id": "wiki-0455",
+      "dataset": "wiki",
+      "source_index": 455,
+      "prompt_sha256": "690b797783c9a430efe1b4a32516b3e9ec49f50bffce604197c4e3356ccc69f6"
+    },
+    {
+      "id": "wiki-0490",
+      "dataset": "wiki",
+      "source_index": 490,
+      "prompt_sha256": "765ce3ff890164c79a82b3e1aef1e7e5227a69cd5e1aae9db35ee3352f12ab41"
+    },
+    {
+      "id": "wiki-0524",
+      "dataset": "wiki",
+      "source_index": 524,
+      "prompt_sha256": "f8e53bb12ef6841c2c9326194753235bdcb6b79101ec138c5364c55a80b72b17"
+    },
+    {
+      "id": "wiki-0558",
+      "dataset": "wiki",
+      "source_index": 558,
+      "prompt_sha256": "f2bc2400dd041c91cb645a7b6dbe60133af013fc6b7bc14f836e198d64765f2e"
+    },
+    {
+      "id": "wiki-0674",
+      "dataset": "wiki",
+      "source_index": 674,
+      "prompt_sha256": "1b6b3436732d9d03c291cb2b77b4cd1c1d54c867b8c1382bc8b1fa795ff24b68"
+    },
+    {
+      "id": "wiki-0936",
+      "dataset": "wiki",
+      "source_index": 936,
+      "prompt_sha256": "5b5b8926edf08975f78d50864f389035a7cec005b7cebfc7ff5e6966c9751925"
+    },
+    {
+      "id": "wiki-1026",
+      "dataset": "wiki",
+      "source_index": 1026,
+      "prompt_sha256": "c606e65ac3a542c87befcad624df1588d52613ef76a4ed985100e7f3f5d34943"
+    },
+    {
+      "id": "wiki-1028",
+      "dataset": "wiki",
+      "source_index": 1028,
+      "prompt_sha256": "4ce40af21f3e8161261630869c37863cb575902b9f02e2602acb090c3c32aeaf"
+    },
+    {
+      "id": "wiki-1040",
+      "dataset": "wiki",
+      "source_index": 1040,
+      "prompt_sha256": "888787994f640073aa0f8014b1c2a97033e8046440bc196c0d26527d4224d7e7"
+    },
+    {
+      "id": "wiki-1105",
+      "dataset": "wiki",
+      "source_index": 1105,
+      "prompt_sha256": "477f089417b0629f22aa800a27099f83590e0f5b8695d3047c2ef45d4eab6ca3"
+    },
+    {
+      "id": "wiki-1116",
+      "dataset": "wiki",
+      "source_index": 1116,
+      "prompt_sha256": "168d325f2a732d20af298d226644d6804d28834814880e2981e376be5a47a5e5"
+    },
+    {
+      "id": "wiki-1121",
+      "dataset": "wiki",
+      "source_index": 1121,
+      "prompt_sha256": "79ce7c2a3802ac4c15adec47f05a7c455fb63cd7caf034e0339585b381b8cb9d"
+    },
+    {
+      "id": "wiki-1179",
+      "dataset": "wiki",
+      "source_index": 1179,
+      "prompt_sha256": "1dab0abd176cf5bd53056ddf25ce734b9b283dca3edbc73826c7d18655116ac7"
+    },
+    {
+      "id": "wiki-1205",
+      "dataset": "wiki",
+      "source_index": 1205,
+      "prompt_sha256": "abec8e2555895e6ce208e251501ecc591da3d56785883b1a3e1b775a1d15d6c8"
+    },
+    {
+      "id": "wiki-1242",
+      "dataset": "wiki",
+      "source_index": 1242,
+      "prompt_sha256": "5ad0fec5657757e9dce38722c716f8fa00295b5c8880a046c93510e7e9ab41fa"
+    },
+    {
+      "id": "wiki-1264",
+      "dataset": "wiki",
+      "source_index": 1264,
+      "prompt_sha256": "f02f504f1f0d091713dcddf867033851be3d91c3d87e8f72b63fb5f54965d99d"
+    },
+    {
+      "id": "wiki-1311",
+      "dataset": "wiki",
+      "source_index": 1311,
+      "prompt_sha256": "98b10eb52bec1cef61122fb141d98691cc47384858955d43675d1aad5f189aa2"
+    },
+    {
+      "id": "wiki-1498",
+      "dataset": "wiki",
+      "source_index": 1498,
+      "prompt_sha256": "6a66133af3ad9a435b56023f1fb0e13d22bdd179e546f10792c28de7479597f3"
+    },
+    {
+      "id": "wiki-1541",
+      "dataset": "wiki",
+      "source_index": 1541,
+      "prompt_sha256": "7ad3eb6dbb74658338352cde39932203f4dc2d2e72bc1d511d3502269c15f3d7"
+    },
+    {
+      "id": "wiki-1599",
+      "dataset": "wiki",
+      "source_index": 1599,
+      "prompt_sha256": "340a336ef2a1a2200318156fa4b64658be4d8078eb229cadcacf061250687164"
+    },
+    {
+      "id": "wiki-1603",
+      "dataset": "wiki",
+      "source_index": 1603,
+      "prompt_sha256": "5a6c806fc687b90ad606f3734aedff69621de51949dd94698884011d0738d342"
+    },
+    {
+      "id": "wiki-1615",
+      "dataset": "wiki",
+      "source_index": 1615,
+      "prompt_sha256": "b134353346a25ec59cbb3acfd1e812bbf122c26570086f70c772b902cbdddceb"
+    },
+    {
+      "id": "wiki-1620",
+      "dataset": "wiki",
+      "source_index": 1620,
+      "prompt_sha256": "b501b393607a46d59a0670916335d186da85e8ef8df2affc5644d7f12252e2e6"
+    },
+    {
+      "id": "wiki-1633",
+      "dataset": "wiki",
+      "source_index": 1633,
+      "prompt_sha256": "faab3feeaa35233946cc7642ee720ea04a58b9eceac6ffe225185a52929dadc1"
+    },
+    {
+      "id": "wiki-1676",
+      "dataset": "wiki",
+      "source_index": 1676,
+      "prompt_sha256": "ee69a9dd7bd431a18cae6d44be90068541fa119e0c6af21086cf4907e05e372f"
+    },
+    {
+      "id": "wiki-1705",
+      "dataset": "wiki",
+      "source_index": 1705,
+      "prompt_sha256": "dfd30a6a7fb46e92bee17ff3bd86f839c68392f89a32c7b393435bf306a89dbf"
+    },
+    {
+      "id": "wiki-1742",
+      "dataset": "wiki",
+      "source_index": 1742,
+      "prompt_sha256": "c756cb1fd01e8e79293ec804a8f0948100b0ed2b870f9b3c3ee8794a25fdd025"
+    },
+    {
+      "id": "wiki-1754",
+      "dataset": "wiki",
+      "source_index": 1754,
+      "prompt_sha256": "5be050aaff5268e859d623a8a971bbc2f58cfa6e4230490945203f15975ae378"
+    },
+    {
+      "id": "wiki-1768",
+      "dataset": "wiki",
+      "source_index": 1768,
+      "prompt_sha256": "3ff28ffb2cf9c8b4eeacb6eead5935458b165449abe38cdfb011e500cc7a3dfd"
+    },
+    {
+      "id": "wiki-1770",
+      "dataset": "wiki",
+      "source_index": 1770,
+      "prompt_sha256": "3030bac6b44f3c117d325ec41e6f3ff8b67c1699d00552eba36858617b8f1b74"
+    },
+    {
+      "id": "wiki-1793",
+      "dataset": "wiki",
+      "source_index": 1793,
+      "prompt_sha256": "09783010f3c24f2430480b46007ce00a1f95f422dcf220f999103fa2d58e132a"
+    },
+    {
+      "id": "wiki-1794",
+      "dataset": "wiki",
+      "source_index": 1794,
+      "prompt_sha256": "cd30983e141f9c248dccb40d5340be174a5c9a539c4ae3fedf49f9c3fb162cd0"
+    },
+    {
+      "id": "wiki-1803",
+      "dataset": "wiki",
+      "source_index": 1803,
+      "prompt_sha256": "79ac4128934b16955da095920a1f96779c2c37182c9090f5925e8a52d901e665"
+    },
+    {
+      "id": "wiki-1838",
+      "dataset": "wiki",
+      "source_index": 1838,
+      "prompt_sha256": "949d4128fd48d6edc765e06b1087121ce04e8e0303dd936c39147ef6755931b4"
+    },
+    {
+      "id": "wiki-1889",
+      "dataset": "wiki",
+      "source_index": 1889,
+      "prompt_sha256": "399f6aa7d615978093d2ac167860df6ff358a81c0633633b67dc913480cd2863"
+    },
+    {
+      "id": "wiki-1893",
+      "dataset": "wiki",
+      "source_index": 1893,
+      "prompt_sha256": "c5c7ad5f6ff2f32db283adf9823ed3a162fdc6708fc9ba64828798b46ecb1a32"
+    },
+    {
+      "id": "wiki-1900",
+      "dataset": "wiki",
+      "source_index": 1900,
+      "prompt_sha256": "3b14b12584ed6a0658786a569976384adf07e03fef3d6a0de44f17c18f5fba50"
+    },
+    {
+      "id": "wiki-1950",
+      "dataset": "wiki",
+      "source_index": 1950,
+      "prompt_sha256": "1e64e775f836c718b02253b3f5d8b8c02a200174b0c0a53e91db5e9d185e6ed8"
+    },
+    {
+      "id": "A-0001",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "7e559a2a863fa7d60c2a01fc5cc4e38208d62e0f5652d259288a09981364b21c"
+    },
+    {
+      "id": "A-0005",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "6412fed6d7a28d38038af2d948ba2251395470cfe2235f5a99a59636dce7352d"
+    },
+    {
+      "id": "A-0007",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "a869e6a822cb23b0c8ae4f235b7b2078c3a6713736b68e07d8c1975124a8bfad"
+    },
+    {
+      "id": "A-0032",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "b4d7f981b701e801d664b2615e53b81e41ccec3b307abb4ff787a66ddc526efa"
+    },
+    {
+      "id": "A-0036",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "208d76f0f8e27a68ead4efb16fc0191c75eb866a743d81fdb19ed68bad87f49c"
+    },
+    {
+      "id": "A-0044",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "62502038b93c664eaeb8bc8acb41fba63dad1984c4b1383179244773f7641414"
+    },
+    {
+      "id": "A-0048",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "69c53a598dfcde339cdfb2bd6cf12e5b82c91ca34e82fc4f1d838780811234fd"
+    },
+    {
+      "id": "A-0053",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "1f2426eb3a72fcfbb89f49bbf49ae32d65fb7ca6815dd8b11a904d7ce9a24457"
+    },
+    {
+      "id": "A-0058",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "cfe5faca2a2e892aaa694b8688547a5fcf2a34b3143d6cd17243937369e78bbf"
+    },
+    {
+      "id": "A-0059",
+      "dataset": "yap",
+      "category": "A",
+      "prompt_sha256": "13306aaa8c90498e8c88c6ea5aa66f7c64d22b458cdf619e79e3de07977fbe4a"
+    },
+    {
+      "id": "B-0006",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "0356536304f6577d4ed88d9e306ab89ab17ed4f2d1c6594866acb97a34582e4e"
+    },
+    {
+      "id": "B-0012",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "3cbeb544f301cc7f5e201d37fa6aac8e3a5ea9b855cab1d10061dacee4395360"
+    },
+    {
+      "id": "B-0022",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "1ab41402266d463a701da5974a4791f7db5262b7b9398f27aa2a73d28b71786e"
+    },
+    {
+      "id": "B-0073",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "303c8e41c00e8291183295da1454b6155022883af397258806c017032c01d7fb"
+    },
+    {
+      "id": "B-0075",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "3eb2487e4cc0a941d28fc57f2e1081c3c348b37ca5c2330c64443b9956d4983c"
+    },
+    {
+      "id": "B-0081",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "8a0c6baf5686fae0463a0ec027e0e66acb838debdf843cd7f71f0d5fa64c0f96"
+    },
+    {
+      "id": "B-0089",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "bdcfe03074ce1ab57f65dc20c19daed05a09b026c4df0e12300f285ef7a28503"
+    },
+    {
+      "id": "B-0101",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "8d6ca1150dfe4fcfe433fb8f49eb8acc584f208fa888a8ca35eb9e4f1438e31b"
+    },
+    {
+      "id": "B-0106",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "b812a55050f6991e8b2bbe1e0dcaf2bbdede16be92dc5a32346ebbf41a80c78f"
+    },
+    {
+      "id": "B-0119",
+      "dataset": "yap",
+      "category": "B",
+      "prompt_sha256": "c1884f8673debb4c30119a08a8518ea6024f00c50a4d1e1d75c9fe8359e45ea5"
+    },
+    {
+      "id": "C-0005",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "3e39d437e17cae1645e799dece1cd8b4d0f7df954865e0301f13cb35d8b02375"
+    },
+    {
+      "id": "C-0008",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "94f1008d99a7533dc57eddc8c91526416597832bb9c2dd353a9ae796beb1a9ce"
+    },
+    {
+      "id": "C-0013",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "4d24801ff9a24caed059706db462cf23966ddf13fce2d19730d45747bda3fd05"
+    },
+    {
+      "id": "C-0015",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "49ccb80b183469deb2c0c8afb127edd267310fe286ae6e279193fe7f4132ee09"
+    },
+    {
+      "id": "C-0038",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "b5a69e7c0e52c7b4d42416778edcc9689bf41eb2af628e260b239d021d3c653b"
+    },
+    {
+      "id": "C-0044",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "219bf2b1dbe65bccbdf209bd10a4728968df146ec2d64ebee080005bf6545610"
+    },
+    {
+      "id": "C-0071",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "8ba819970b61b9c211fb1072ec4b268cb8b1ffcc0cb29852001748d4847b9eaf"
+    },
+    {
+      "id": "C-0073",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "4ef571bded35e3786cbacda28f61d74e2ee47cd5446e17b10852c95af9ead4bc"
+    },
+    {
+      "id": "C-0092",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "a15b7b85bc5274fd4363622b83e2fa679d2e5ea626f29b7d5842782121d024a9"
+    },
+    {
+      "id": "C-0116",
+      "dataset": "yap",
+      "category": "C",
+      "prompt_sha256": "42dada64442561d772d22b9c4ff4ae93f12227330990e73634273305a312b1b5"
+    },
+    {
+      "id": "qa-1d81zc",
+      "dataset": "qa",
+      "prompt_sha256": "9be44e4bfd90c431c663f2a4d27c009462e96e49f217039f5ee599b8ba13f58a"
+    },
+    {
+      "id": "qa-1i1eih",
+      "dataset": "qa",
+      "prompt_sha256": "5f1061e1a9b6ff3fa510aa4053f41af523589d8afc453647781620e574bdbfd9"
+    },
+    {
+      "id": "qa-2ow6gv",
+      "dataset": "qa",
+      "prompt_sha256": "0eb0ca40debfb57641ea026cb180bbad8ccec56831d3b98cb581f6eb4c96c7a9"
+    },
+    {
+      "id": "qa-2uw4nn",
+      "dataset": "qa",
+      "prompt_sha256": "ff7450f23357061430370148aaa7c892544128f18ed2d15e6d92486a86f2f245"
+    },
+    {
+      "id": "qa-4h3q63",
+      "dataset": "qa",
+      "prompt_sha256": "e1e42b81942b8cb523a9890677ecc0403df7f9ba7e4b4bea9c6f65ea9152ff87"
+    },
+    {
+      "id": "qa-4oudu7",
+      "dataset": "qa",
+      "prompt_sha256": "f7ecf80452f7cb5daea735a7508c8afd784d6cac0ad7650684e304ea4956ee25"
+    },
+    {
+      "id": "qa-4votga",
+      "dataset": "qa",
+      "prompt_sha256": "7729f5ea58a3c722a21436d01364bfe9be8f91b6862666fe159dff17afa33394"
+    },
+    {
+      "id": "qa-5245sb",
+      "dataset": "qa",
+      "prompt_sha256": "0d10ba7daf23906c52fd508268ef69bf8452a7152cd88d336863047029d3af86"
+    },
+    {
+      "id": "qa-5axpps",
+      "dataset": "qa",
+      "prompt_sha256": "4661e5fb3369c449aef10d01c56ef4e1436e3bc736ed413f76644c77428c5c2c"
+    },
+    {
+      "id": "qa-5ili6b",
+      "dataset": "qa",
+      "prompt_sha256": "4177cf420ad9b12cc0099d6a86193a89edd4d235b7c925f6d2b8631c5ff9ea43"
+    },
+    {
+      "id": "qa-5k706m",
+      "dataset": "qa",
+      "prompt_sha256": "27bfef4adbee7bf9f16dc9b63dedc4fef2339e8b28f2c02814eb4a2c4ab6a183"
+    },
+    {
+      "id": "qa-5v7kib",
+      "dataset": "qa",
+      "prompt_sha256": "a7d7741c7fac55c417be73ee1d68b6f3d9c90792a7ac4cf2c8470fd26b17aec7"
+    },
+    {
+      "id": "qa-7b9mjf",
+      "dataset": "qa",
+      "prompt_sha256": "45936f613a79b39c5574c0b5ac4fa56b2a555f92c17ce470c9a4736281c480a1"
+    },
+    {
+      "id": "qa-7bq9ll",
+      "dataset": "qa",
+      "prompt_sha256": "f9861de750ddb4617fd8eed3e259dbe6c206314f7c76a9e818bbe9aed6f72d0b"
+    },
+    {
+      "id": "qa-7wa9ed",
+      "dataset": "qa",
+      "prompt_sha256": "1e372c77b9c71b564e8022d99aeb1127aee7f4cdbc89fe1a77c1e1b3c2eed1d1"
+    },
+    {
+      "id": "qa-7z536z",
+      "dataset": "qa",
+      "prompt_sha256": "bcc3f2fbf15539f5f12cd362f3147663c0772951c219d577b3b78f2cc2472d81"
+    },
+    {
+      "id": "qa-88dfjq",
+      "dataset": "qa",
+      "prompt_sha256": "090f476af1b36aa863e81181005d982ecfbae166ee2fb0df16ee9fd7d7d858f4"
+    },
+    {
+      "id": "qa-8hbkdr",
+      "dataset": "qa",
+      "prompt_sha256": "59753fe5c54d7a83481d305e679898bec1cedf49b2b6c1c6eb9eaaf3f7035b00"
+    },
+    {
+      "id": "qa-918s9s",
+      "dataset": "qa",
+      "prompt_sha256": "f446798dde6934b75dd7a25509946e6abd8ebb779a7eb9c07b62ee928684c9b9"
+    },
+    {
+      "id": "qa-mvdx3",
+      "dataset": "qa",
+      "prompt_sha256": "381133355ecf824ec010b3f1176b0442f7051200fec97ae222ddcbbd93a227d0"
+    }
+  ]
+}

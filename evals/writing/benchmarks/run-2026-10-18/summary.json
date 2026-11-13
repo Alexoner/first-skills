@@ -1,0 +1,176 @@
+{
+  "model_requested": "gpt-6.1-sol",
+  "generation_calls": 200,
+  "judge_calls": 48,
+  "tool_calls": 0,
+  "sampling": "Fixed subsets, one generation per condition/case; confidence intervals reflect case resampling only, not repeated-generation variability.",
+  "datasets": {
+    "wiki": {
+      "n": 50,
+      "mean_words": {
+        "baseline": 19.46,
+        "writing": 19.96
+      },
+      "word_change_percent": 2.569,
+      "paired_mean_word_delta_ci95": [
+        0.06,
+        0.94
+      ],
+      "both_judge_passes_accept": {
+        "baseline": 44,
+        "writing": 47
+      },
+      "judge_pass_disagreements": {
+        "baseline": 3,
+        "writing": 2
+      },
+      "ERRANT": {
+        "baseline": {
+          "full": {
+            "TP": 65,
+            "FP": 219,
+            "FN": 87,
+            "precision": 0.2289,
+            "recall": 0.4276,
+            "F0.5": 0.2523
+          },
+          "lite": {
+            "TP": 37,
+            "FP": 247,
+            "FN": 62,
+            "precision": 0.1303,
+            "recall": 0.3737,
+            "F0.5": 0.1498
+          }
+        },
+        "writing": {
+          "full": {
+            "TP": 71,
+            "FP": 179,
+            "FN": 98,
+            "precision": 0.284,
+            "recall": 0.4201,
+            "F0.5": 0.3037
+          },
+          "lite": {
+            "TP": 40,
+            "FP": 210,
+            "FN": 64,
+            "precision": 0.16,
+            "recall": 0.3846,
+            "F0.5": 0.1812
+          }
+        }
+      }
+    },
+    "yap": {
+      "n": 30,
+      "mean_words": {
+        "baseline": 9.467,
+        "writing": 10.1
+      },
+      "word_change_percent": 6.69,
+      "paired_mean_word_delta_ci95": [
+        -0.4667,
+        1.9667
+      ],
+      "both_judge_passes_accept": {
+        "baseline": 28,
+        "writing": 29
+      },
+      "judge_pass_disagreements": {
+        "baseline": 0,
+        "writing": 0
+      },
+      "yap_style_category_medians_excess_characters": {
+        "baseline": {
+          "A": 5.5,
+          "B": 53.0,
+          "C": 15.0
+        },
+        "writing": {
+          "A": 9.5,
+          "B": 53.0,
+          "C": 15.5
+        }
+      },
+      "yap_style_index": {
+        "baseline": 24.5,
+        "writing": 26.0
+      },
+      "yap_style_index_delta_ci95": [
+        -2.5,
+        15.833
+      ]
+    },
+    "qa": {
+      "n": 20,
+      "mean_words": {
+        "baseline": 165.2,
+        "writing": 190.4
+      },
+      "word_change_percent": 15.254,
+      "paired_mean_word_delta_ci95": [
+        16.3,
+        35.05
+      ],
+      "completeness": {
+        "baseline": 95.675,
+        "writing": 95.975,
+        "paired_delta_ci95": [
+          -2.25,
+          2.35
+        ],
+        "mean_absolute_pass_disagreement": {
+          "baseline": 1.85,
+          "writing": 1.95
+        }
+      },
+      "relevance": {
+        "baseline": 99.125,
+        "writing": 99.275,
+        "paired_delta_ci95": [
+          -0.2,
+          0.625
+        ],
+        "mean_absolute_pass_disagreement": {
+          "baseline": 0.75,
+          "writing": 0.25
+        }
+      },
+      "both_passes_find_no_apparent_factual_error": {
+        "baseline": 20,
+        "writing": 20
+      }
+    }
+  },
+  "judge_calibration": {
+    "answers": 40,
+    "disjoint_questions": 20,
+    "completeness": {
+      "spearman_rho": 0.6569,
+      "mean_absolute_error": 16.094
+    },
+    "relevance": {
+      "spearman_rho": 0.3084,
+      "mean_absolute_error": 17.706
+    }
+  },
+  "ERRANT_versions": {
+    "errant": "3.0.2",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "ERRANT_tokenization": {
+    "source": "Published M2 source tokens, verified to match TSV content ignoring whitespace",
+    "target": "en_core_web_sm 3.8.0 tokenization, newlines replaced with spaces",
+    "modern_source_tokenizer_mismatch_ids": [
+      "wiki-1121"
+    ],
+    "limit": "Modern tokenizer differs from published source segmentation on these cases; do not compare subset scores to published full-set leaderboard values."
+  },
+  "gold_m2_sha256": {
+    "full": "35c774b0fc5d60ac25d58b93354c3106aa9c6caf7f3bffb4a4a3266514e5cd67",
+    "lite": "1be692345efac5e87e62d38464e2bd5d380541d1c5a0f6274416e7af98c757e8"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "benchmark_native_calls": 248,
+  "item_type_counts": {
+    "error": 1488,
+    "agent_message": 248
+  },
+  "warnings": "Nonfatal malformed local agent-role definitions were ignored. All 248 benchmark calls completed. No tool item types occurred.",
+  "warnings_per_call": 6.0,
+  "no_pdf_or_web_retrieval": true,
+  "generation_inputs_and_system_hashes_checked_against_protocol": true,
+  "fresh_downloads_reproduced_all_selected_input_hashes": true,
+  "calibration_question_ids_disjoint_from_generation": true,
+  "cache_validation": "Prompt/system hashes are checked before reuse. Calibration batch shuffle was separated from generation-judge shuffle after assembly detected an ID mismatch; all original 48 judge calls were reused with exact input hash checks, without rerating or discarding outcomes.",
+  "artifact_checks": {
+    "json_files_parsed": 14,
+    "local_links_resolved": 35,
+    "output_identity_input_system_and_native_event_hashes_verified": 200,
+    "word_count_means_independently_recomputed": true,
+    "cache_only_reassembly_matched_archived_outputs": true,
+    "changed_python_scripts_compiled": true
+  }
+}

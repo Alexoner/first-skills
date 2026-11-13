@@ -1,0 +1,442 @@
+[
+  {
+    "id": "160k4f-gpt4",
+    "human": {
+      "completeness": 78.5,
+      "relevance": 74.0
+    },
+    "judge": {
+      "completeness": 85,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "160k4f-human",
+    "human": {
+      "completeness": 60.25,
+      "relevance": 42.0
+    },
+    "judge": {
+      "completeness": 20,
+      "relevance": 85
+    }
+  },
+  {
+    "id": "19jhvd-gpt4",
+    "human": {
+      "completeness": 53.0,
+      "relevance": 62.25
+    },
+    "judge": {
+      "completeness": 75,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "19jhvd-human",
+    "human": {
+      "completeness": 57.0,
+      "relevance": 82.0
+    },
+    "judge": {
+      "completeness": 45,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "1e1lyn-gpt4",
+    "human": {
+      "completeness": 89.0,
+      "relevance": 85.0
+    },
+    "judge": {
+      "completeness": 100,
+      "relevance": 95
+    }
+  },
+  {
+    "id": "1e1lyn-human",
+    "human": {
+      "completeness": 89.25,
+      "relevance": 100.0
+    },
+    "judge": {
+      "completeness": 100,
+      "relevance": 80
+    }
+  },
+  {
+    "id": "1gzcfn-gpt4",
+    "human": {
+      "completeness": 61.25,
+      "relevance": 99.0
+    },
+    "judge": {
+      "completeness": 90,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "1gzcfn-human",
+    "human": {
+      "completeness": 42.75,
+      "relevance": 87.5
+    },
+    "judge": {
+      "completeness": 25,
+      "relevance": 90
+    }
+  },
+  {
+    "id": "1onfp1-gpt4",
+    "human": {
+      "completeness": 62.5,
+      "relevance": 92.0
+    },
+    "judge": {
+      "completeness": 95,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "1onfp1-human",
+    "human": {
+      "completeness": 44.75,
+      "relevance": 58.75
+    },
+    "judge": {
+      "completeness": 65,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "1swmt3-gpt4",
+    "human": {
+      "completeness": 69.5,
+      "relevance": 100.0
+    },
+    "judge": {
+      "completeness": 100,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "1swmt3-human",
+    "human": {
+      "completeness": 42.5,
+      "relevance": 64.5
+    },
+    "judge": {
+      "completeness": 65,
+      "relevance": 75
+    }
+  },
+  {
+    "id": "1xl8a5-gpt4",
+    "human": {
+      "completeness": 80.0,
+      "relevance": 86.75
+    },
+    "judge": {
+      "completeness": 85,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "1xl8a5-human",
+    "human": {
+      "completeness": 55.5,
+      "relevance": 61.0
+    },
+    "judge": {
+      "completeness": 40,
+      "relevance": 85
+    }
+  },
+  {
+    "id": "2461yr-gpt4",
+    "human": {
+      "completeness": 61.75,
+      "relevance": 93.0
+    },
+    "judge": {
+      "completeness": 75,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "2461yr-human",
+    "human": {
+      "completeness": 24.0,
+      "relevance": 28.0
+    },
+    "judge": {
+      "completeness": 15,
+      "relevance": 75
+    }
+  },
+  {
+    "id": "2jznkm-gpt4",
+    "human": {
+      "completeness": 83.75,
+      "relevance": 83.0
+    },
+    "judge": {
+      "completeness": 95,
+      "relevance": 98
+    }
+  },
+  {
+    "id": "2jznkm-human",
+    "human": {
+      "completeness": 75.0,
+      "relevance": 100.0
+    },
+    "judge": {
+      "completeness": 45,
+      "relevance": 85
+    }
+  },
+  {
+    "id": "2ox4o8-gpt4",
+    "human": {
+      "completeness": 41.5,
+      "relevance": 94.5
+    },
+    "judge": {
+      "completeness": 90,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "2ox4o8-human",
+    "human": {
+      "completeness": 34.75,
+      "relevance": 82.75
+    },
+    "judge": {
+      "completeness": 45,
+      "relevance": 95
+    }
+  },
+  {
+    "id": "3ftjne-gpt4",
+    "human": {
+      "completeness": 85.0,
+      "relevance": 81.5
+    },
+    "judge": {
+      "completeness": 95,
+      "relevance": 95
+    }
+  },
+  {
+    "id": "3ftjne-human",
+    "human": {
+      "completeness": 49.5,
+      "relevance": 67.5
+    },
+    "judge": {
+      "completeness": 80,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "3zd7zs-gpt4",
+    "human": {
+      "completeness": 73.75,
+      "relevance": 95.5
+    },
+    "judge": {
+      "completeness": 95,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "3zd7zs-human",
+    "human": {
+      "completeness": 73.5,
+      "relevance": 73.75
+    },
+    "judge": {
+      "completeness": 80,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "48rwha-gpt4",
+    "human": {
+      "completeness": 82.5,
+      "relevance": 86.5
+    },
+    "judge": {
+      "completeness": 85,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "48rwha-human",
+    "human": {
+      "completeness": 56.75,
+      "relevance": 59.25
+    },
+    "judge": {
+      "completeness": 55,
+      "relevance": 90
+    }
+  },
+  {
+    "id": "4n8v3i-gpt4",
+    "human": {
+      "completeness": 93.25,
+      "relevance": 96.0
+    },
+    "judge": {
+      "completeness": 95,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "4n8v3i-human",
+    "human": {
+      "completeness": 58.5,
+      "relevance": 54.0
+    },
+    "judge": {
+      "completeness": 80,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "5fzx74-gpt4",
+    "human": {
+      "completeness": 59.0,
+      "relevance": 88.0
+    },
+    "judge": {
+      "completeness": 100,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "5fzx74-human",
+    "human": {
+      "completeness": 52.25,
+      "relevance": 57.5
+    },
+    "judge": {
+      "completeness": 65,
+      "relevance": 90
+    }
+  },
+  {
+    "id": "5kmt92-gpt4",
+    "human": {
+      "completeness": 25.0,
+      "relevance": 82.5
+    },
+    "judge": {
+      "completeness": 35,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "5kmt92-human",
+    "human": {
+      "completeness": 28.5,
+      "relevance": 97.0
+    },
+    "judge": {
+      "completeness": 30,
+      "relevance": 100
+    }
+  },
+  {
+    "id": "62r062-gpt4",
+    "human": {
+      "completeness": 85.75,
+      "relevance": 76.0
+    },
+    "judge": {
+      "completeness": 100,
+      "relevance": 90
+    }
+  },
+  {
+    "id": "62r062-human",
+    "human": {
+      "completeness": 73.5,
+      "relevance": 80.25
+    },
+    "judge": {
+      "completeness": 85,
+      "relevance": 90
+    }
+  },
+  {
+    "id": "7f76xa-gpt4",
+    "human": {
+      "completeness": 91.75,
+      "relevance": 97.0
+    },
+    "judge": {
+      "completeness": 80,
+      "relevance": 95
+    }
+  },
+  {
+    "id": "7f76xa-human",
+    "human": {
+      "completeness": 85.25,
+      "relevance": 100.0
+    },
+    "judge": {
+      "completeness": 70,
+      "relevance": 95
+    }
+  },
+  {
+    "id": "kyihe-gpt4",
+    "human": {
+      "completeness": 77.25,
+      "relevance": 76.5
+    },
+    "judge": {
+      "completeness": 100,
+      "relevance": 96
+    }
+  },
+  {
+    "id": "kyihe-human",
+    "human": {
+      "completeness": 54.5,
+      "relevance": 69.5
+    },
+    "judge": {
+      "completeness": 50,
+      "relevance": 85
+    }
+  },
+  {
+    "id": "zobe7-gpt4",
+    "human": {
+      "completeness": 73.0,
+      "relevance": 47.5
+    },
+    "judge": {
+      "completeness": 70,
+      "relevance": 85
+    }
+  },
+  {
+    "id": "zobe7-human",
+    "human": {
+      "completeness": 82.25,
+      "relevance": 78.0
+    },
+    "judge": {
+      "completeness": 80,
+      "relevance": 90
+    }
+  }
+]
