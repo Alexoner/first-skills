@@ -58,6 +58,10 @@ Good Example:
 Parent EVALUATE assesses the combined outcome and decides what remains.
 ```
 
+**Preserve purpose and altitude.** Read the whole document before revising it. Identify its purpose, organizing argument and requested edit scope. Improving a subsection must not replace the parent document with that subsection's subject. An authorized redesign may change structure, but must retain substantive concepts, distinctions, equations, procedures, examples and references. Correct a faulty claim locally; do not discard the surrounding explanation to avoid qualifying it.
+
+**Review what was removed.** Before reporting completion, compare the full diff with the original and the user's request across every changed file. Check semantic coverage, not just headings, keywords or links. If the user finds one destructive omission, inspect the rest of the change for the same failure. Passing software tests does not establish preservation of meaning.
+
 **Preserve the original meaning and keywords.** Polishing or rewording must not change the user's meaning, keywords, named principles, technical terms, or qualifications. If an edit would change meaning or keywords, or the intended meaning is unclear, explain the proposed change and clarify with the user before applying it. Keep the original wording until the user confirms. This requirement takes precedence over stylistic improvements.
 
 **Simplify**: make the document easy to understand, not overwhelmed with jargons that make no logical sense. True understanding means simple words are enough.
@@ -66,6 +70,7 @@ Examples:
 
 - Order: purpose of a queue → how jobs move through it → retry rules and configuration.
 - Preservation: keep “single source of truth” when polishing. Clarify with the user before replacing it with “shared guidance.”
+- Scope: improving the development section of a first-principles guide retains the guide's foundations; correcting a test interpretation retains its procedure, equations and references.
 
 ## 4. Styling
 

@@ -6,5 +6,9 @@
   "evidence": "Accurately reports the supplied hypothetical findings, does not invent error-rate evidence, and supplies a resolving Markdown reference-style citation.",
   "source_of_truth": "Directs both documents to the authoritative configuration reference and avoids maintaining additional copies of the numeric retry limit.",
   "routine_technical": "Preserves backup, enabling maintenance mode, restart, and disabling maintenance mode in order; uses clear procedural language.",
-  "pdf_retrieval": "The skill condition reads only local skill material for routine STE guidance; no full standard download or retrieval occurs."
+  "pdf_retrieval": "The skill condition reads only local skill material for routine STE guidance; no full standard download or retrieval occurs.",
+  "subsection_altitude": "Preserves sections 1, 2 and 4 and their meaning; revises section 3 to put research implementation before evaluation and production after validation. Does not replace the parent blueprint with a workflow.",
+  "local_correction_preserves_method": "Retains purpose, 50-seed procedure, exceedance-fraction equation and original reference; corrects matching-exit and significance claims using only the supplied facts.",
+  "authorized_redesign": "Restructures within explicit authorization without asking routine permission; retains every supplied substantive concept and explains the reading-order improvement without inventing evidence.",
+  "full_diff_review": "Finds substantive losses in both files, specifies restoration of foundations and method/equation/references, and rejects link-test success as proof of semantic preservation."
 }

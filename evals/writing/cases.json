@@ -26,5 +26,21 @@
   {
     "id": "routine_technical",
     "request": "Polish this routine technical procedure: \"After taking a backup, maintenance mode should be enabled and the worker should be restarted, then maintenance mode should be disabled.\" Preserve the actions and order. No formal ASD-STE compliance assessment is requested."
+  },
+  {
+    "id": "subsection_altitude",
+    "request": "Revise only section 3 to make the development process explicit; do not browse. Hypothetical document: # Trading blueprint\n## 1. Foundations\nGain and loss are asymmetric. Surviving losses is necessary to compound capital. Outcomes are uncertain.\n## 2. Understand the trade\nSeparate the source of edge, payoff shape, position size and execution costs.\n## 3. Development\nIdea, test, implement.\n## 4. Architecture\nSignals are pluggable; accounting and risk controls are shared. Research implementation must precede evaluation; production deployment follows validation. Return the revised document."
+  },
+  {
+    "id": "local_correction_preserves_method",
+    "request": "Correct only the interpretation error in this hypothetical note using the supplied code facts; retain its explanation, procedure, equation and reference. Note: ## Random benchmark\nPurpose: compare a policy with a simulated alternative on the same market history. Steps: run 50 seeds; compute each random Sharpe; report q = count(random Sharpe >= candidate Sharpe)/valid runs. Random entries use identical exits, so q < .05 proves entry skill. Reference: https://example.org/method-note (hypothetical; do not fetch). Code facts: the random strategy has independent random exits; the reported fraction is descriptive and has no justified assignment null. Return the revised note."
+  },
+  {
+    "id": "authorized_redesign",
+    "request": "Redesign this hypothetical guide for clearer reading; you may reorder sections without asking permission. Preserve all substantive content, and do not browse or invent measurements. Facts: the shared ledger reconciles cash and inventory; loss limits protect survival; asymmetric returns affect compounding; an edge is a hypothesis until tested; implementation precedes evaluation; production follows validation. Current order: configuration details, production, philosophy, validation, research implementation. Return the redesigned guide and one sentence explaining why the new order helps."
+  },
+  {
+    "id": "full_diff_review",
+    "request": "Review this entire hypothetical two-file PR for lost meaning. Do not edit code or browse. File A originally explained asymmetry, survival and development; its patch adds a detailed workflow and deletes asymmetry and survival. File B originally included a permutation procedure, price-reconstruction equation and three source links; its patch retains section headings but removes the procedure, equation and sources. The PR author reports that link tests passed. Identify all material findings and what must be restored before readiness can be claimed."
   }
 ]
