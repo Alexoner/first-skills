@@ -22,41 +22,40 @@ Add `-g` to install for your user across projects. Preview available skills with
 
 ## Codex in remote repositories
 
-Codex discovers repository skills under `.agents/skills`. Install `writing` in
-the target repository, then commit the installed skill and its supporting files
-so a remote checkout has them without a sibling clone or a network download:
+Keep this repository authoritative; do not copy skill bodies into another
+repository's tracked source. A remote project can reference a reviewed commit
+as a Git submodule and expose its writing skill through a relative symlink:
 
 ```sh
-npx skills add Alexoner/first-skills --skill writing -a codex
+git submodule add https://github.com/Alexoner/first-skills.git .agents/first-skills
+git -C .agents/first-skills checkout REVIEWED_COMMIT
+mkdir -p .agents/skills
+ln -s ../first-skills/skills/writing .agents/skills/writing
+git add .gitmodules .agents/first-skills .agents/skills/writing
 ```
 
-Add this short loading instruction to that repository's root `AGENTS.md`:
+Replace `REVIEWED_COMMIT` with the chosen commit. Commit the dependency reference
+and link, not copies of `SKILL.md`, its references or license. Update by reviewing
+a new upstream revision and advancing the submodule pointer.
 
-```md
-Before editing documentation or reporting results, read and apply
-`.agents/skills/writing/SKILL.md`. Preserve the existing document's purpose,
-conceptual altitude and authorized scope; review the complete diff for lost meaning.
+In the remote environment's setup script, initialize the dependency:
+
+```sh
+git submodule update --init --recursive .agents/first-skills
 ```
 
-For reproducible deployment, install from a reviewed checkout and record its
-commit and file hashes alongside the deployed copy. Keep this repository as the
-authoritative source; update the copy deliberately. Repository-local paths work
-in remote checkouts; a symlink to a sibling clone does not unless its target is
-also provisioned. Check the installed files before committing them.
+Add a root `AGENTS.md` instruction to read and apply
+`.agents/skills/writing/SKILL.md` before documentation work or reporting. If the
+file is missing, initialize the submodule before proceeding. Codex supports
+symlinked skill directories; the checkout and symlink must exist in the machine
+running it. Verify platform symlink support when provisioning a different host.
 
-Discovery and activation are different: the catalog exposes metadata, while an
-explicit instruction directs the agent to read the full skill. Check the skill's
-presence in `/skills` or a startup trace, then evaluate behavior on a preservation
-case. A loaded skill is not proof of compliance. The failure reported in
-[issue 7][preservation-incident] occurred after the skill had been read.
-
-For user-wide CLI defaults, install with `-g` on the machine running Codex and
-put the loading instruction in `~/.codex/AGENTS.md` using the installed user path.
-A local installation does not configure a separate cloud container. Repository
-files apply when the remote environment checks out the branch containing them;
-cloud setup scripts are an alternative when installation cannot be checked in.
-See the official [skill discovery][codex-skills], [AGENTS.md loading][codex-agents]
-and [cloud environment][codex-cloud] documentation.
+Check `/skills` or startup context for discovery, then evaluate actual behavior.
+Discovery and explicit loading do not guarantee compliance: [issue 7][preservation-incident]
+records a failure after the skill had been read. See the official
+[skill discovery][codex-skills], [AGENTS.md loading][codex-agents] and
+[cloud environment][codex-cloud] documentation. A user-wide CLI installation
+with `-g` applies to that machine; it does not configure another cloud container.
 
 [codex-skills]: https://developers.openai.com/codex/skills/
 [codex-agents]: https://developers.openai.com/codex/guides/agents-md/
