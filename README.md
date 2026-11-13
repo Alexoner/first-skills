@@ -9,58 +9,51 @@ Portable agent skills built around first principles, clarity, and evidence—for
 Install into the current project with the [Skills CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add Alexoner/first-skills
+npx skills add HaoTheOnly/first-skills
 ```
 
 Choose a skill and agents explicitly:
 
 ```sh
-npx skills add Alexoner/first-skills --skill first-principles -a claude-code -a codex
+npx skills add HaoTheOnly/first-skills --skill first-principles -a claude-code -a codex
 ```
 
 Add `-g` to install for your user across projects. Preview available skills with `--list`.
 
-## Codex in remote repositories
+## Codex in reusable remote environments
 
-Keep this repository authoritative; do not copy skill bodies into another
-repository's tracked source. A remote project can reference a reviewed commit
-as a Git submodule and expose its writing skill through a relative symlink:
+Install both skills globally with npm during reusable-environment preparation.
+Keep skill bodies in this authoritative repository; do not vendor them into
+projects or add project submodules.
 
-```sh
-git submodule add https://github.com/Alexoner/first-skills.git .agents/first-skills
-git -C .agents/first-skills checkout REVIEWED_COMMIT
-mkdir -p .agents/skills
-ln -s ../first-skills/skills/writing .agents/skills/writing
-git add .gitmodules .agents/first-skills .agents/skills/writing
-```
+Run the [preparation bootstrap](scripts/remote-codex-skills-setup.sh) as the user
+who runs Codex. It installs both skills through the npm Skills CLI and adds a
+managed loading block to `~/.codex/AGENTS.md` (or `$CODEX_HOME/AGENTS.md`), preserving
+other instructions. The CLI version is pinned; the skill source follows this
+repository's default branch at preparation time.
 
-Replace `REVIEWED_COMMIT` with the chosen commit. Commit the dependency reference
-and link, not copies of `SKILL.md`, its references or license. Update by reviewing
-a new upstream revision and advancing the submodule pointer.
+To avoid depending on a temporary `/workspace` file, store the bootstrap contents
+in the reusable environment's preparation settings, or fetch it from a reviewed
+commit of this repository during preparation. Then save and publish the reusable
+environment. A script executed only in the current container does not establish
+persistence across new threads. Future threads must select the published environment.
 
-In the remote environment's setup script, initialize the dependency:
+After publication, start a fresh thread in that environment. Check that both
+`writing` and `first-principles` appear in skill discovery and that the global
+loading block is present. Ask for a small documentation task and foundational
+analysis, and verify that Codex actually reads the applicable `SKILL.md` files.
+`codex debug prompt-input` can check discovery and loading instructions locally;
+it does not prove that a new cloud thread inherited the published configuration.
 
-```sh
-git submodule update --init --recursive .agents/first-skills
-```
-
-Add a root `AGENTS.md` instruction to read and apply
-`.agents/skills/writing/SKILL.md` before documentation work or reporting. If the
-file is missing, initialize the submodule before proceeding. Codex supports
-symlinked skill directories; the checkout and symlink must exist in the machine
-running it. Verify platform symlink support when provisioning a different host.
-
-Check `/skills` or startup context for discovery, then evaluate actual behavior.
-Discovery and explicit loading do not guarantee compliance: [issue 7][preservation-incident]
+Discovery, explicit loading, and behavior are separate checks. [Issue 7][preservation-incident]
 records a failure after the skill had been read. See the official
-[skill discovery][codex-skills], [AGENTS.md loading][codex-agents] and
-[cloud environment][codex-cloud] documentation. A user-wide CLI installation
-with `-g` applies to that machine; it does not configure another cloud container.
+[skill discovery][codex-skills], [AGENTS.md loading][codex-agents], and
+[cloud environment][codex-cloud] documentation.
 
 [codex-skills]: https://developers.openai.com/codex/skills/
 [codex-agents]: https://developers.openai.com/codex/guides/agents-md/
 [codex-cloud]: https://developers.openai.com/codex/cloud/environments/
-[preservation-incident]: https://github.com/Alexoner/first-skills/issues/7
+[preservation-incident]: https://github.com/HaoTheOnly/first-skills/issues/7
 
 ## Skills
 
